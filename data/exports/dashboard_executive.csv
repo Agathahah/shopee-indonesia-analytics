@@ -1,0 +1,2 @@
+total_orders,completed_orders,cancelled_orders,cancellation_rate_pct,total_customers,total_products,total_revenue,avg_order_value,total_items_sold,total_discounts,first_order_date,last_order_date
+18868,16045,2573,13.64,418,640,947847915,59074,39990,6366850,2023-12-01,2025-11-30

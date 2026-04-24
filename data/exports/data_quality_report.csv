@@ -1,0 +1,36 @@
+check_type,table_name,metric_value,details
+date_range,max_order_date,2025-11-30 23:17:00,
+date_range,min_order_date,2023-12-01 00:33:00,
+duplicate_check,orders.order_id,0,Duplicate order_ids
+null_check,orders.customer_id,0,Rows with NULL customer_id
+null_check,orders.order_timestamp,0,Rows with NULL order_timestamp
+null_check,orders.status,0,Rows with NULL or empty status
+null_check,payments.payment_method,0,Rows with NULL or empty payment_method
+null_check,payments.total_payment,0,Rows with NULL total_payment
+orphan_check,orders.customer_id,0,Orders with non-existent customer_id
+orphan_check,orders.product_id,0,Orders with non-existent product_id
+orphan_check,orders.shipping_id,0,Orders with non-existent shipping_id
+orphan_check,payments.order_id,0,Payments with non-existent order_id
+status_distribution,Batal,2573,13.64%
+status_distribution,"Pesanan diterima, namun Pembeli masih dapat mengajukan pengembalian hingga 2025-12-05.",25,0.13%
+status_distribution,"Pesanan diterima, namun Pembeli masih dapat mengajukan pengembalian hingga 2025-12-06.",34,0.18%
+status_distribution,"Pesanan diterima, namun Pembeli masih dapat mengajukan pengembalian hingga 2025-12-07.",34,0.18%
+status_distribution,"Pesanan diterima, namun Pembeli masih dapat mengajukan pengembalian hingga 2025-12-08.",38,0.20%
+status_distribution,"Pesanan diterima, namun Pembeli masih dapat mengajukan pengembalian hingga 2025-12-09.",22,0.12%
+status_distribution,"Pesanan diterima, namun Pembeli masih dapat mengajukan pengembalian hingga 2025-12-10.",6,0.03%
+status_distribution,"Pesanan diterima, namun Pembeli masih dapat mengajukan pengembalian hingga 2025-12-11.",2,0.01%
+status_distribution,Sedang Dikirim,59,0.31%
+status_distribution,Selesai,16045,85.04%
+status_distribution,Telah Dikirim,30,0.16%
+summary_stats,avg_order_value,59074.35,
+summary_stats,completion_rate,85.04%,
+summary_stats,median_order_value,26808.00,
+summary_stats,total_revenue,947847915.00,
+table_counts,customers,424,
+table_counts,orders,18868,
+table_counts,payments,18868,
+table_counts,products,679,
+table_counts,shipping_methods,45,
+value_range,total_payment_negative,0,Payments with negative total_payment
+value_range,total_payment_zero_completed,56,Completed orders with zero payment
+value_range,total_qty_negative,0,Orders with negative total_qty
