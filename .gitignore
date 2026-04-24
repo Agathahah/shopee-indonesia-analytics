@@ -6,5 +6,6 @@ __pycache__/
 *.xlsx
 data/raw/*
 !data/raw/.gitkeep
+!data/exports/*.csv
 .DS_Store
 *.ipynb_checkpoints
