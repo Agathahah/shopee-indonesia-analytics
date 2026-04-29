@@ -1,6 +1,11 @@
 # NusaCommerce Analytics 🇮🇩
 
-> End-to-end Data Analytics portfolio project — dari raw e-commerce data ke dua dashboard publik dan insight deck McKinsey-style, menggunakan PostgreSQL, Python, Tableau Public, dan Looker Studio.
+**56% revenue e-commerce Indonesia hanya berasal dari 3 provinsi.**
+Dari 20.000+ transaksi: 29% pelanggan sudah churn, COD masih 38% risiko margin,
+dan revenue sangat bergantung pada segmen Champions yang kecil.
+
+Project ini membangun end-to-end analytics pipeline untuk mengidentifikasi
+revenue leakage dan growth opportunity di pasar e-commerce Indonesia.
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -9,74 +14,81 @@
 ![SQL](https://img.shields.io/badge/SQL-Advanced-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-2.x-150458?style=flat-square&logo=pandas&logoColor=white)
 
-**Status: COMPLETED ✅**
-
 ---
 
 ## 📊 Live Dashboards
 
-| Dashboard | Platform | Audience | Link |
-|-----------|----------|----------|------|
-| Executive Dashboard | Tableau Public | C-Level / Decision Maker | [🔗 View](https://public.tableau.com/app/profile/agatha.silalahi/viz/NusaCommerceExecutiveDashboard/Dashboard1) |
-| Operational Dashboard | Looker Studio | Tim Operasional | [🔗 View](https://datastudio.google.com/reporting/617f29b4-3925-4943-8729-68fd4bfff227) |
+| Dashboard | Platform | Link |
+|-----------|----------|------|
+| Executive Dashboard | Tableau Public | [🔗 View](https://public.tableau.com/app/profile/agatha.silalahi/viz/NusaCommerceExecutiveDashboard/Dashboard1) |
+| Operational Dashboard | Looker Studio | [🔗 View](https://datastudio.google.com/reporting/617f29b4-3925-4943-8729-68fd4bfff227) |
+
+### Executive Dashboard Preview
+
+![NusaCommerce Executive Dashboard](dashboard/tableau_executive_dashboard.png)
 
 ---
 
-## 🔍 Key Findings
+## 🔍 Key Insights
 
-- **Revenue Rp948M** selama 24 bulan (Des 2023–Nov 2025), CAGR +23% YoY — peak Agustus 2024 Rp71M
-- **Jawa Barat 25.7%** total revenue; 3 provinsi teratas (Jabar, Banten, DKI) = 56% revenue nasional
-- **29% pelanggan** kategori Hibernating + Lost membutuhkan win-back campaign; 35% Champions + Loyal menghasilkan mayoritas revenue
+> Temuan ini muncul dari analisis 20.848 transaksi e-commerce Indonesia simulasi 2023–2025.
+
+**Geografis — Revenue sangat terkonsentrasi:**
+- Jawa Barat: Rp244M (25.7% total revenue)
+- Top 3 provinsi (Jabar + Banten + DKI): **56% revenue nasional**
+- 30 provinsi lainnya berbagi 44% — potensi ekspansi besar yang belum digarap
+
+**Customer — Revenue bocor diam-diam:**
+- 86 Champions menghasilkan revenue tidak proporsional dibanding segmen lain
+- **29% pelanggan (117 orang) sudah Hibernating/Lost** — tanpa program reaktivasi
+- 35% Champions + Loyal = mayoritas revenue dari basis pelanggan kecil
+
+**Payment — Sinyal masalah margin:**
+- **COD masih 38%** dari total transaksi → risiko retur tinggi, menekan unit economics
+- Digital payment 62% — potensi dorong ke 75% dengan insentif cashless
 
 ---
 
-## 📈 Key Metrics
+## 💡 Business Recommendations
 
-| Metric | Value |
-|--------|-------|
-| Total Revenue | Rp 948M |
-| Total Orders (Selesai) | 16,045 |
-| Total Orders (Semua Status) | 18,868 |
-| Average Order Value | Rp 59K |
-| Total Customers | 424 |
-| Active Customers (RFM) | 404 |
-| Provinsi Aktif | 33 |
-| Periode Analisis | Des 2023 – Nov 2025 |
+| Prioritas | Rekomendasi | Estimasi Impact |
+|-----------|-------------|-----------------|
+| 🔴 Tinggi | Win-back campaign 117 pelanggan Hibernating/Lost | Revenue recovery |
+| 🟡 Sedang | Realokasi 30% budget iklan ke Sumatera Utara & Kalimantan Timur | Market expansion |
+| 🟡 Sedang | Insentif cashless → turunkan COD dari 38% ke target 25% | Margin improvement |
 
 ---
 
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                        DATA PIPELINE                            │
-│                                                                 │
-│  Kaggle Dataset          Python (pandas)       PostgreSQL 16    │
-│  ──────────────  →   ─────────────────────  →  ─────────────── │
-│  bakitacos/             ingest.py                5 tabel        │
-│  indonesia-e-commerce   Faker id_ID enrichment   7 views        │
-│  -sales-and-shipping    20,848 baris raw         16,045 selesai │
-│  -20232025                                                      │
-│                               │                                 │
-│                               ▼                                 │
-│                    Advanced SQL Analytics                       │
-│                    ──────────────────────                       │
-│                    CTEs · Window Functions                      │
-│                    RFM NTILE · Revenue Trend                    │
-│                    Shipping · Payment · Category                │
-│                                                                 │
-│          ┌────────────────────┴────────────────────┐            │
-│          ▼                                         ▼            │
-│   Tableau Public                          Looker Studio         │
-│   ─────────────                           ─────────────         │
-│   Executive Dashboard                     Operational Dashboard │
-│   Z-pattern layout                        Google Sheets source  │
-│   dashboard_executive_clean.csv           4 tabs CSV upload     │
-│                                                                 │
-│                               ▼                                 │
-│                  Insight Deck PDF (McKinsey Style)              │
-│                  7 slides · Bahasa Indonesia · C-level          │
-└─────────────────────────────────────────────────────────────────┘
+Kaggle Dataset
+│
+▼
+Python Pipeline (pandas + Faker id_ID)
+│  ingest.py — validasi, enrichment, loading
+▼
+PostgreSQL 16 — database: nusacommerce
+│  5 tabel: orders, customers, products,
+│           shipping_methods, payments
+│  20,848 baris raw → 16,045 selesai
+▼
+SQL Analytics (7 files)
+│  CTEs · Window Functions · NTILE
+│  RFM Segmentation · Revenue Trend
+│  Shipping · Payment · Category
+▼
+7 PostgreSQL Views (single source of truth)
+│
+├──────────────────────────┐
+▼                          ▼
+Tableau Public             Looker Studio
+Executive Dashboard        Operational Dashboard
+Z-pattern layout           Google Sheets connector
+│                          │
+└──────────┬───────────────┘
+           ▼
+Insight Deck PDF (7 slides, McKinsey style)
 ```
 
 ---
@@ -86,31 +98,30 @@
 ```
 nusacommerce-analytics/
 ├── data/
-│   ├── raw/                         # Source: all_months_clean.csv (3.7MB)
-│   ├── exports/                     # SQL query exports (10 CSV files)
-│   ├── sheets/                      # Google Sheets ready CSVs (4 files)
-│   ├── tableau/                     # Tableau formatted exports
-│   └── insights/                    # Key metrics documentation
+│   ├── raw/              # all_months_clean.csv (3.7MB, 20,848 baris)
+│   ├── exports/          # 10 CSV dari SQL analytics
+│   ├── sheets/           # 4 CSV untuk Looker Studio
+│   └── tableau/          # dashboard_executive_clean.csv (16,045 baris)
 ├── sql/
-│   ├── 01_schema.sql                # Database schema (5 tables)
-│   ├── 01_data_quality.sql          # Data quality & profiling
-│   ├── 02_revenue_trend.sql         # Revenue & MoM analysis
-│   ├── 03_rfm_segmentation.sql      # RFM customer segmentation
-│   ├── 04_shipping_performance.sql  # Logistics analysis
-│   ├── 05_payment_analysis.sql      # Payment method breakdown
-│   ├── 06_category_analysis.sql     # Product category analysis
-│   └── 07_views_dashboard_prep.sql  # 7 dashboard-ready views
+│   ├── 01_schema.sql
+│   ├── 01_data_quality.sql
+│   ├── 02_revenue_trend.sql
+│   ├── 03_rfm_segmentation.sql     ★ NTILE + Window Functions
+│   ├── 04_shipping_performance.sql
+│   ├── 05_payment_analysis.sql
+│   ├── 06_category_analysis.sql
+│   └── 07_views_dashboard_prep.sql ★ 7 views
 ├── scripts/
-│   ├── ingest.py                    # CSV → PostgreSQL pipeline
-│   ├── export_tableau_csv.py        # PostgreSQL view → Tableau CSV
-│   ├── prepare_for_sheets.py        # Google Sheets export
-│   └── verify_data_sources.py       # Data lineage verification
-├── outputs/
-│   └── NusaCommerce_Insight_Deck.pdf
+│   ├── ingest.py
+│   ├── export_tableau_csv.py
+│   ├── prepare_for_sheets.py
+│   └── verify_data_sources.py      ★ data lineage check
+├── dashboard/
+│   └── tableau_executive_dashboard.png
 ├── docs/
 │   └── SHEETS_SETUP.md
-├── dashboard/
-└── notebooks/
+└── outputs/
+    └── NusaCommerce_Insight_Deck.pdf
 ```
 
 ---
@@ -118,36 +129,30 @@ nusacommerce-analytics/
 ## 🗄️ Database Schema
 
 ```
-customers (424 rows)          products (679 rows)
-├── customer_id (PK)          ├── product_id (PK)
-├── customer_name             ├── category_name
-├── city, province, phone     └── num_categories
+orders (18,868 rows)          customers (424 rows)
+├── order_id (PK)             ├── customer_id (PK)
+├── customer_id (FK)          ├── customer_name
+├── product_id (FK)           └── city, province, phone
+├── shipping_id (FK)
+├── status                    products (679 rows)
+├── order_timestamp           ├── product_id (PK)
+└── year_month                └── category_name
 
-shipping_methods (45 rows)    payments (18,868 rows)
-├── shipping_id (PK)          ├── payment_id (PK)
-├── courier_name              ├── order_id (FK)
-└── service_type              ├── payment_method
-                              ├── discount_amount
-orders (18,868 rows)          ├── shipping_paid_by_buyer
-├── order_id (PK)             ├── total_payment
-├── customer_id (FK)          └── estimated_shipping_cost
-├── product_id (FK)
-├── shipping_id (FK)          Views (7):
-├── status                    ├── vw_dashboard_executive (16,045)
-├── order_timestamp           ├── vw_revenue_monthly     (588)
-└── year_month                ├── vw_rfm_summary         (404)
+payments (18,868 rows)        Views (7):
+├── payment_method            ├── vw_dashboard_executive (16,045)
+├── total_payment             ├── vw_revenue_monthly     (588)
+└── discount_amount           ├── vw_rfm_summary         (404)
                               ├── vw_shipping_summary    (45)
-                              ├── vw_category_summary    (640)
-                              ├── vw_payment_summary     (12)
-                              └── vw_province_summary    (34)
+shipping_methods (45 rows)    ├── vw_category_summary    (640)
+├── courier_name              ├── vw_payment_summary     (12)
+└── service_type              └── vw_province_summary    (34)
 ```
 
 ---
 
-## ⭐ SQL Highlight — RFM Segmentation (NTILE + Window Functions)
+## ⭐ SQL Highlight — RFM Segmentation
 
 ```sql
--- sql/03_rfm_segmentation.sql (simplified showcase)
 WITH rfm_base AS (
     SELECT
         customer_id,
@@ -171,43 +176,49 @@ SELECT segment, COUNT(*) AS customer_count,
 FROM rfm_scores
 GROUP BY segment
 ORDER BY avg_monetary DESC;
+-- Output: 404 pelanggan → Champions 86, Loyal 55, Hibernating 61, Lost 56
 ```
 
-Output: 404 pelanggan aktif tersegmentasi — Champions (86), Loyal (55), Hibernating (61), Lost (56).
+---
+
+## 📈 Key Metrics
+
+| Metric | Value |
+|--------|-------|
+| Total Revenue | Rp 948M |
+| Total Orders (Selesai) | 16,045 |
+| Total Orders (Semua Status) | 18,868 |
+| Average Order Value | Rp 59K |
+| Total Customers | 424 |
+| Active Customers (RFM) | 404 |
+| Provinsi Aktif | 33 |
+| Periode Analisis | Des 2023 – Nov 2025 |
 
 ---
 
 ## 🚀 Quick Start
 
 ```bash
-# 1. Clone & setup environment
 git clone https://github.com/Agathahah/nusacommerce-analytics.git
 cd nusacommerce-analytics
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# 2. Setup PostgreSQL (Mac via Homebrew)
-brew install postgresql@16
-brew services start postgresql@16
+# Setup PostgreSQL
+brew install postgresql@16 && brew services start postgresql@16
 createdb nusacommerce
 psql -d nusacommerce -f sql/01_schema.sql
 
-# 3. Download dataset dari Kaggle
+# Download dataset
 kaggle datasets download -d bakitacos/indonesia-e-commerce-sales-and-shipping-20232025 \
   --path data/raw/ --unzip
 
-# 4. Ingest ke PostgreSQL
+# Pipeline
 python scripts/ingest.py
-
-# 5. Jalankan SQL analytics
-psql -d nusacommerce -f sql/02_revenue_trend.sql
-psql -d nusacommerce -f sql/03_rfm_segmentation.sql
 psql -d nusacommerce -f sql/07_views_dashboard_prep.sql
-
-# 6. Export untuk Tableau
 python scripts/export_tableau_csv.py
 
-# 7. Verifikasi semua data source
+# Verifikasi
 python scripts/verify_data_sources.py
 ```
 
@@ -217,10 +228,9 @@ python scripts/verify_data_sources.py
 
 **Indonesia E-Commerce Sales & Shipping 2023–2025**
 - Source: [Kaggle — bakitacos/indonesia-e-commerce-sales-and-shipping-20232025](https://www.kaggle.com/datasets/bakitacos/indonesia-e-commerce-sales-and-shipping-20232025)
-- Format: CSV semicolon-separated, kolom Bahasa Indonesia
-- Raw: 20,848 baris · 19 kolom · file all_months_clean.csv
-- Setelah filter status Selesai: 16,045 transaksi untuk analisis
-- Catatan: Data simulasi e-commerce Indonesia (bukan data Shopee resmi)
+- Raw: 20,848 baris · 19 kolom · semicolon-separated · Bahasa Indonesia
+- Filtered (status Selesai): 16,045 transaksi
+- *Data simulasi e-commerce Indonesia — bukan data Shopee resmi*
 
 ---
 
@@ -228,21 +238,19 @@ python scripts/verify_data_sources.py
 
 | Layer | Tools |
 |-------|-------|
-| Data Ingestion | Python, Kaggle API, pandas, SQLAlchemy, psycopg2 |
-| Data Enrichment | Faker id_ID (customer_name, phone) |
-| Database | PostgreSQL 16 (Homebrew Mac), DBeaver Community |
-| Analytics | SQL (CTEs, Window Functions, NTILE, RFM) |
+| Ingestion | Python, Kaggle API, pandas, SQLAlchemy, psycopg2 |
+| Enrichment | Faker id_ID |
+| Database | PostgreSQL 16, DBeaver Community |
+| Analytics | SQL — CTEs, Window Functions, NTILE, RFM |
 | Visualization | Tableau Public, Looker Studio, Google Sheets |
-| PDF Generation | reportlab |
-| Version Control | Git, GitHub |
+| PDF | reportlab |
 
 ---
 
 ## 👩‍💻 Author
 
-**Agatha Silalahi**
-Data Scientist · Bank Indonesia Institute (BINS)
-S2 Data Science, Universitas Indonesia · AI/ML Engineering, Pacmann
+**Agatha Silalahi** — Data Scientist, Bank Indonesia Institute (BINS)
+S2 Data Science Universitas Indonesia · AI/ML Engineering Pacmann
 
 [![GitHub](https://img.shields.io/badge/GitHub-Agathahah-181717?style=flat-square&logo=github)](https://github.com/Agathahah)
 [![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?style=flat-square&logo=tableau)](https://public.tableau.com/app/profile/agatha.silalahi)
@@ -255,4 +263,4 @@ MIT
 
 ---
 
-*Data simulasi e-commerce Indonesia. Project ini bagian dari portfolio Data Analyst untuk mendemonstrasikan kemampuan end-to-end: ingestion pipeline, SQL kompleks, dan storytelling visual.*
+*Data simulasi e-commerce Indonesia. End-to-end portfolio: ingestion pipeline → SQL analytics → business storytelling.*
