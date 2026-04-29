@@ -5,16 +5,22 @@
 See: .planning/PROJECT.md (updated 2026-04-21)
 
 **Core value:** Complete end-to-end flow — from Kaggle API download through PostgreSQL analytics to Tableau/Looker dashboards
-**Current focus:** Phase 1 - Data Pipeline
+**Current focus:** Phase 2 - SQL Analytics
 
 ## Current Position
 
-Phase: 1 of 3 (Data Pipeline)
+Phase: 2 of 3 (SQL Analytics)
 Plan: 0 of TBD in current phase
-Status: Context gathered, ready to plan
-Last activity: 2026-04-21 — Phase 1 context gathered
+Status: Ready to begin Phase 2
+Last activity: 2026-04-24 — Phase 1 completed
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [███░░░░░░░] Phase 2, 0%
+
+## Completed
+
+| Phase | Description | Commit | Date |
+|-------|-------------|--------|------|
+| 1 | Data Pipeline | 974418f | 2026-04-24 |
 
 ## Performance Metrics
 
@@ -45,6 +51,7 @@ Recent decisions affecting current work:
 - Kaggle API over manual download: reproducible pipeline, demonstrates automation
 - PostgreSQL over SQLite: industry-standard RDBMS, window functions, CTEs
 - Google Sheets as Looker bridge: only free way to connect Looker Studio to local data
+- Dataset is Shopee Indonesia (not Olist Brazil) — 5 tables instead of 6 (no seller/review entities), semicolon-separated CSV, 18868 orders, 424 customers, 679 products, 45 shipping methods
 
 ### Pending Todos
 
@@ -62,6 +69,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-21
-Stopped at: Phase 1 context gathered
-Resume file: .planning/phases/01-data-pipeline/01-CONTEXT.md
+Last session: 2026-04-24
+Stopped at: Phase 1 completed, ready for Phase 2
+Resume file: .planning/STATE.md
