@@ -1,11 +1,12 @@
-# NusaCommerce Analytics 🇮🇩
+# Shopee Indonesia Analytics 🇮🇩
 
 **56% revenue e-commerce Indonesia hanya berasal dari 3 provinsi.**
-Dari 20.000+ transaksi: 29% pelanggan sudah churn, COD masih 38% risiko margin,
-dan revenue sangat bergantung pada segmen Champions yang kecil.
+Dari 20.000+ transaksi Shopee Indonesia: 29% pelanggan sudah churn,
+COD masih 38% risiko margin, dan revenue sangat bergantung pada
+segmen Champions yang kecil.
 
 Project ini membangun end-to-end analytics pipeline untuk mengidentifikasi
-revenue leakage dan growth opportunity di pasar e-commerce Indonesia.
+revenue leakage dan growth opportunity dari data transaksi Shopee Indonesia.
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -23,15 +24,11 @@ revenue leakage dan growth opportunity di pasar e-commerce Indonesia.
 | Executive Dashboard | Tableau Public | [🔗 View](https://public.tableau.com/app/profile/agatha.silalahi/viz/NusaCommerceExecutiveDashboard/Dashboard1) |
 | Operational Dashboard | Looker Studio | [🔗 View](https://datastudio.google.com/reporting/617f29b4-3925-4943-8729-68fd4bfff227) |
 
-### Executive Dashboard Preview
-
-![NusaCommerce Executive Dashboard](dashboard/tableau_executive_dashboard.png)
-
 ---
 
 ## 🔍 Key Insights
 
-> Temuan ini muncul dari analisis 20.848 transaksi e-commerce Indonesia simulasi 2023–2025.
+> Temuan dari analisis 20.848 transaksi Shopee Indonesia 2023–2025.
 
 **Geografis — Revenue sangat terkonsentrasi:**
 - Jawa Barat: Rp244M (25.7% total revenue)
@@ -60,9 +57,8 @@ revenue leakage dan growth opportunity di pasar e-commerce Indonesia.
 ---
 
 ## 🏗️ Architecture
-
-```
-Kaggle Dataset
+Kaggle Dataset (bakitacos)
+Data transaksi seller Shopee Indonesia 2023–2025
 │
 ▼
 Python Pipeline (pandas + Faker id_ID)
@@ -71,7 +67,7 @@ Python Pipeline (pandas + Faker id_ID)
 PostgreSQL 16 — database: nusacommerce
 │  5 tabel: orders, customers, products,
 │           shipping_methods, payments
-│  20,848 baris raw → 16,045 selesai
+│  20,848 baris raw → 16,045 status Selesai
 ▼
 SQL Analytics (7 files)
 │  CTEs · Window Functions · NTILE
@@ -80,23 +76,20 @@ SQL Analytics (7 files)
 ▼
 7 PostgreSQL Views (single source of truth)
 │
-├──────────────────────────┐
-▼                          ▼
-Tableau Public             Looker Studio
-Executive Dashboard        Operational Dashboard
-Z-pattern layout           Google Sheets connector
-│                          │
-└──────────┬───────────────┘
-           ▼
+├──────────────────────┐
+▼                      ▼
+Tableau Public          Looker Studio
+Executive Dashboard     Operational Dashboard
+Z-pattern layout        Google Sheets connector
+│                      │
+└──────────┬────────────┘
+▼
 Insight Deck PDF (7 slides, McKinsey style)
-```
 
 ---
 
 ## 📁 Project Structure
-
-```
-nusacommerce-analytics/
+shopee-indonesia-analytics/
 ├── data/
 │   ├── raw/              # all_months_clean.csv (3.7MB, 20,848 baris)
 │   ├── exports/          # 10 CSV dari SQL analytics
@@ -106,47 +99,40 @@ nusacommerce-analytics/
 │   ├── 01_schema.sql
 │   ├── 01_data_quality.sql
 │   ├── 02_revenue_trend.sql
-│   ├── 03_rfm_segmentation.sql     ★ NTILE + Window Functions
+│   ├── 03_rfm_segmentation.sql      ★ NTILE + Window Functions
 │   ├── 04_shipping_performance.sql
 │   ├── 05_payment_analysis.sql
 │   ├── 06_category_analysis.sql
-│   └── 07_views_dashboard_prep.sql ★ 7 views
+│   └── 07_views_dashboard_prep.sql  ★ 7 views
 ├── scripts/
 │   ├── ingest.py
 │   ├── export_tableau_csv.py
 │   ├── prepare_for_sheets.py
-│   └── verify_data_sources.py      ★ data lineage check
-├── dashboard/
-│   └── tableau_executive_dashboard.png
+│   └── verify_data_sources.py       ★ data lineage check
 ├── docs/
 │   └── SHEETS_SETUP.md
 └── outputs/
-    └── NusaCommerce_Insight_Deck.pdf
-```
+└── NusaCommerce_Insight_Deck.pdf
 
 ---
 
 ## 🗄️ Database Schema
-
-```
 orders (18,868 rows)          customers (424 rows)
 ├── order_id (PK)             ├── customer_id (PK)
-├── customer_id (FK)          ├── customer_name
+├── customer_id (FK)          ├── customer_name (Faker id_ID)
 ├── product_id (FK)           └── city, province, phone
 ├── shipping_id (FK)
 ├── status                    products (679 rows)
 ├── order_timestamp           ├── product_id (PK)
 └── year_month                └── category_name
-
 payments (18,868 rows)        Views (7):
 ├── payment_method            ├── vw_dashboard_executive (16,045)
 ├── total_payment             ├── vw_revenue_monthly     (588)
 └── discount_amount           ├── vw_rfm_summary         (404)
-                              ├── vw_shipping_summary    (45)
+├── vw_shipping_summary    (45)
 shipping_methods (45 rows)    ├── vw_category_summary    (640)
 ├── courier_name              ├── vw_payment_summary     (12)
 └── service_type              └── vw_province_summary    (34)
-```
 
 ---
 
@@ -176,7 +162,7 @@ SELECT segment, COUNT(*) AS customer_count,
 FROM rfm_scores
 GROUP BY segment
 ORDER BY avg_monetary DESC;
--- Output: 404 pelanggan → Champions 86, Loyal 55, Hibernating 61, Lost 56
+-- Output: Champions 86, Loyal 55, Hibernating 61, Lost 56
 ```
 
 ---
@@ -199,8 +185,8 @@ ORDER BY avg_monetary DESC;
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/Agathahah/nusacommerce-analytics.git
-cd nusacommerce-analytics
+git clone https://github.com/Agathahah/shopee-indonesia-analytics.git
+cd shopee-indonesia-analytics
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
@@ -228,9 +214,11 @@ python scripts/verify_data_sources.py
 
 **Indonesia E-Commerce Sales & Shipping 2023–2025**
 - Source: [Kaggle — bakitacos/indonesia-e-commerce-sales-and-shipping-20232025](https://www.kaggle.com/datasets/bakitacos/indonesia-e-commerce-sales-and-shipping-20232025)
-- Raw: 20,848 baris · 19 kolom · semicolon-separated · Bahasa Indonesia
+- Deskripsi: Data export transaksi seller Shopee Indonesia, dipublikasikan di Kaggle untuk keperluan edukasi dan riset
+- Format: CSV semicolon-separated, kolom Bahasa Indonesia
+- Raw: 20,848 baris · 19 kolom · file all_months_clean.csv
 - Filtered (status Selesai): 16,045 transaksi
-- *Data simulasi e-commerce Indonesia — bukan data Shopee resmi*
+- Customer name & phone: di-enrich menggunakan Faker id_ID
 
 ---
 
@@ -239,7 +227,7 @@ python scripts/verify_data_sources.py
 | Layer | Tools |
 |-------|-------|
 | Ingestion | Python, Kaggle API, pandas, SQLAlchemy, psycopg2 |
-| Enrichment | Faker id_ID |
+| Enrichment | Faker id_ID (customer_name, phone) |
 | Database | PostgreSQL 16, DBeaver Community |
 | Analytics | SQL — CTEs, Window Functions, NTILE, RFM |
 | Visualization | Tableau Public, Looker Studio, Google Sheets |
@@ -262,5 +250,4 @@ S2 Data Science Universitas Indonesia · AI/ML Engineering Pacmann
 MIT
 
 ---
-
-*Data simulasi e-commerce Indonesia. End-to-end portfolio: ingestion pipeline → SQL analytics → business storytelling.*
+*Data export transaksi Shopee Indonesia (Kaggle) untuk keperluan edukasi dan riset.*
