@@ -57,36 +57,41 @@ revenue leakage dan growth opportunity dari data transaksi Shopee Indonesia.
 ---
 
 ## 🏗️ Architecture
+
+```
 Kaggle Dataset (bakitacos)
 Data transaksi seller Shopee Indonesia 2023-2025
-|
-v
+      |
+      v
 Python Pipeline (pandas + Faker id_ID)
-|  ingest.py -- validasi, enrichment, loading
-v
+      |  ingest.py -- validasi, enrichment, loading
+      v
 PostgreSQL 16 -- database: nusacommerce
-|  5 tabel: orders, customers, products,
-|           shipping_methods, payments
-|  20,848 baris raw -> 16,045 status Selesai
-v
+      |  5 tabel: orders, customers, products,
+      |           shipping_methods, payments
+      |  20,848 baris raw -> 16,045 status Selesai
+      v
 SQL Analytics (7 files)
-|  CTEs - Window Functions - NTILE
-|  RFM Segmentation - Revenue Trend
-|  Shipping - Payment - Category
-v
+      |  CTEs - Window Functions - NTILE
+      |  RFM Segmentation - Revenue Trend
+      |  Shipping - Payment - Category
+      v
 7 PostgreSQL Views (single source of truth)
-|
-+---------------------------+
-v                           v
+      |
+      +---------------------------+
+      v                           v
 Tableau Public              Looker Studio
 Executive Dashboard         Operational Dashboard
 Z-pattern layout            Google Sheets connector
-|                           |
-+-------------+-------------+
-v
-Insight Deck PDF (7 slides, McKinsey style)
+      |                           |
+      +-------------+-------------+
+                    v
+       Insight Deck PDF (7 slides, McKinsey style)
+```
 
 ## 📁 Project Structure
+
+```
 shopee-indonesia-analytics/
 ├── data/
 │   ├── raw/              # all_months_clean.csv (3.7MB, 20,848 baris)
@@ -110,9 +115,12 @@ shopee-indonesia-analytics/
 ├── docs/
 │   └── SHEETS_SETUP.md
 └── outputs/
-└── NusaCommerce_Insight_Deck.pdf
+    └── NusaCommerce_Insight_Deck.pdf
+```
 
 ## 🗄️ Database Schema
+
+```
 orders (18,868 rows)              customers (424 rows)
 ├── order_id        (PK)          ├── customer_id   (PK)
 ├── customer_id     (FK)          ├── customer_name (Faker id_ID)
@@ -121,19 +129,21 @@ orders (18,868 rows)              customers (424 rows)
 ├── status                        products (679 rows)
 ├── order_timestamp               ├── product_id    (PK)
 └── year_month                    └── category_name
+
 payments (18,868 rows)            shipping_methods (45 rows)
 ├── payment_id      (PK)          ├── shipping_id   (PK)
 ├── order_id        (FK)          ├── courier_name
 ├── payment_method                └── service_type
 ├── total_payment
 └── discount_amount               Views (7):
-├── vw_dashboard_executive  (16,045)
-├── vw_revenue_monthly      (588)
-├── vw_rfm_summary          (404)
-├── vw_shipping_summary     (45)
-├── vw_category_summary     (640)
-├── vw_payment_summary      (12)
-└── vw_province_summary     (34)
+                                  ├── vw_dashboard_executive  (16,045)
+                                  ├── vw_revenue_monthly      (588)
+                                  ├── vw_rfm_summary          (404)
+                                  ├── vw_shipping_summary     (45)
+                                  ├── vw_category_summary     (640)
+                                  ├── vw_payment_summary      (12)
+                                  └── vw_province_summary     (34)
+```
 
 ## ⭐ SQL Highlight — RFM Segmentation
 
