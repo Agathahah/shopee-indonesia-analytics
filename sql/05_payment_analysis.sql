@@ -12,10 +12,12 @@ WITH payment_enriched AS (
         p.discount_amount,
         p.shipping_paid_by_buyer,
         o.total_qty,
-        CASE WHEN p.payment_method = 'COD'
+        -- Raw value is 'COD (Bayar di Tempat)'. The first version compared with
+        -- = 'COD', matched nothing, and labelled every COD order as digital.
+        CASE WHEN p.payment_method ILIKE 'COD%'
             THEN 'COD' ELSE 'Non-COD (Digital)' END    AS payment_category,
         CASE
-            WHEN p.payment_method = 'COD'               THEN 'COD'
+            WHEN p.payment_method ILIKE 'COD%'          THEN 'COD'
             WHEN p.payment_method ILIKE '%ShopeePay%'   THEN 'ShopeePay (E-Wallet)'
             WHEN p.payment_method ILIKE '%Online%'
               OR p.payment_method ILIKE '%Transfer%'
