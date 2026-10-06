@@ -4,21 +4,19 @@ Export clean CSVs for Tableau with proper formatting.
 """
 
 import csv
-import psycopg2
+import sys
 from pathlib import Path
 
-DB_CONFIG = {
-    'dbname': 'nusacommerce',
-    'user': 'nusacommerce_user',
-    'password': 'nusacommerce2025',
-    'host': 'localhost'
-}
+import psycopg2
+
+sys.path.insert(0, str(Path(__file__).parent))
+from db import DB_CONFIG  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).parent.parent
 TABLEAU_DIR = PROJECT_ROOT / "data" / "tableau"
 
 EXPORTS = {
-    "dashboard_executive": "SELECT * FROM vw_dashboard_executive",
+    "dashboard_executive": "SELECT * FROM vw_dashboard_orders ORDER BY order_timestamp, order_id",
     "rfm_summary": "SELECT * FROM vw_rfm_summary",
     "revenue_monthly": "SELECT * FROM vw_revenue_monthly",
 }

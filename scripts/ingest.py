@@ -5,17 +5,21 @@ Ingests raw CSV data into normalized PostgreSQL tables.
 """
 
 import hashlib
+import os
+from collections import Counter
+
+import sys
+from pathlib import Path
+
 import pandas as pd
 import psycopg2
-from faker import Faker
 
-# Database connection config
-DB_CONFIG = {
-    'dbname': 'nusacommerce',
-    'user': 'nusacommerce_user',
-    'password': 'nusacommerce2025',
-    'host': 'localhost'
-}
+# Connection settings come from the environment (see .env.example); the first
+# version committed the database password in this file.
+sys.path.insert(0, str(Path(__file__).parent))
+from db import DB_CONFIG  # noqa: E402
+
+REJECTS_PATH = 'data/exports/ingestion_rejects.csv'
 
 CSV_PATH = 'data/raw/all_months_clean.csv'
 
@@ -23,6 +27,20 @@ CSV_PATH = 'data/raw/all_months_clean.csv'
 def generate_id(value: str) -> str:
     """Generate MD5 hash ID (first 20 characters)."""
     return hashlib.md5(value.encode()).hexdigest()[:20]
+
+
+MONTHS = {m: i for i, m in enumerate(
+    ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august',
+     'september', 'october', 'november', 'december'], start=1)}
+
+
+def month_from_source_file(source_file) -> pd.Timestamp | None:
+    """'DecemberSales2024.xlsx' -> 2024-12-01. Returns None if no month/year is found."""
+    import re
+    match = re.match(r'([A-Za-z]+)Sales(\d{4})', str(source_file))
+    if not match or match.group(1).lower() not in MONTHS:
+        return None
+    return pd.Timestamp(int(match.group(2)), MONTHS[match.group(1).lower()], 1)
 
 
 def parse_shipping_method(method_name: str) -> tuple:
@@ -36,10 +54,15 @@ def parse_shipping_method(method_name: str) -> tuple:
 
 
 def build_customers_df(df: pd.DataFrame) -> pd.DataFrame:
-    """Build customers table with Faker-generated names and phones."""
-    fake = Faker('id_ID')
-    Faker.seed(42)
+    """Build the buyer-location table.
 
+    The seller export has no buyer identifier, so one row here is one
+    city/regency + province, not one person. The table keeps the name
+    ``customers`` for backward compatibility with the SQL files, but every
+    analysis on it is location-level (see README, "Unit of analysis").
+    The first version filled ``customer_name`` and ``phone`` with Faker data,
+    which made locations look like people; that has been removed.
+    """
     unique_locations = df[['Kota/Kabupaten', 'Provinsi']].drop_duplicates()
 
     customers = []
@@ -49,10 +72,10 @@ def build_customers_df(df: pd.DataFrame) -> pd.DataFrame:
         customer_id = generate_id(city + province)
         customers.append({
             'customer_id': customer_id,
-            'customer_name': fake.name(),
+            'customer_name': f"{city}, {province}",
             'city': city,
             'province': province,
-            'phone': fake.phone_number()
+            'phone': None
         })
 
     return pd.DataFrame(customers)
@@ -100,8 +123,14 @@ def build_shipping_methods_df(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_orders_df(df: pd.DataFrame, customers_df: pd.DataFrame,
-                    products_df: pd.DataFrame, shipping_df: pd.DataFrame) -> pd.DataFrame:
-    """Build orders table with foreign key mappings."""
+                    products_df: pd.DataFrame, shipping_df: pd.DataFrame,
+                    rejects: list | None = None) -> pd.DataFrame:
+    """Build orders table with foreign key mappings.
+
+    Rows that cannot be mapped are recorded in ``rejects`` with a reason
+    instead of being dropped silently.
+    """
+    rejects = [] if rejects is None else rejects
     customer_lookup = dict(zip(
         customers_df['city'] + customers_df['province'],
         customers_df['customer_id']
@@ -120,12 +149,26 @@ def build_orders_df(df: pd.DataFrame, customers_df: pd.DataFrame,
         product_id = product_lookup.get(category)
         shipping_id = shipping_lookup.get(shipping_method)
 
-        if not all([customer_id, product_id, shipping_id]):
+        missing = [name for name, value in
+                   (('location', customer_id), ('product_category', product_id),
+                    ('shipping_option', shipping_id)) if not value]
+        if missing:
+            rejects.append({'order_id': row['order_id'], 'reason': 'missing ' + '+'.join(missing),
+                            'status': row['Status Pesanan']})
             continue
 
         order_timestamp = pd.to_datetime(row['Waktu Pesanan Dibuat'], errors='coerce')
+        timestamp_is_estimated = False
         if pd.isna(order_timestamp):
-            continue
+            # Two monthly exports (DecemberSales2024, JulySales2025) arrive without
+            # order timestamps. The month is known from the file name, so the order
+            # is kept, dated to the first day of that month, and flagged.
+            order_timestamp = month_from_source_file(row['source_file'])
+            timestamp_is_estimated = True
+            if order_timestamp is None:
+                rejects.append({'order_id': row['order_id'], 'reason': 'no timestamp and no month in file name',
+                                'status': row['Status Pesanan']})
+                continue
         year_month = order_timestamp.strftime('%Y-%m')
 
         orders.append({
@@ -140,6 +183,7 @@ def build_orders_df(df: pd.DataFrame, customers_df: pd.DataFrame,
             'cancellation_reason': str(row['Alasan Pembatalan']).strip() if pd.notna(row['Alasan Pembatalan']) and row['Alasan Pembatalan'] != '' else None,
             'order_timestamp': order_timestamp,
             'year_month': year_month,
+            'timestamp_is_estimated': timestamp_is_estimated,
             'source_file': str(row['source_file']).strip() if pd.notna(row['source_file']) else None
         })
 
@@ -218,13 +262,13 @@ def insert_orders(cursor, orders_df: pd.DataFrame) -> int:
     query = """
         INSERT INTO orders (order_id, customer_id, product_id, shipping_id, total_qty,
                            total_weight_gr, total_returned_qty, status, cancellation_reason,
-                           order_timestamp, year_month, source_file)
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                           order_timestamp, year_month, source_file, timestamp_is_estimated)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         ON CONFLICT DO NOTHING
     """
     columns = ['order_id', 'customer_id', 'product_id', 'shipping_id', 'total_qty',
                'total_weight_gr', 'total_returned_qty', 'status', 'cancellation_reason',
-               'order_timestamp', 'year_month', 'source_file']
+               'order_timestamp', 'year_month', 'source_file', 'timestamp_is_estimated']
     data = [tuple(None if pd.isna(v) else v for v in row) for row in orders_df[columns].values]
     cursor.executemany(query, data)
     return len(data)
@@ -270,8 +314,13 @@ def main():
     shipping_df = build_shipping_methods_df(df)
     print(f"  Shipping methods: {len(shipping_df)} unique")
 
-    orders_df = build_orders_df(df, customers_df, products_df, shipping_df)
-    print(f"  Orders: {len(orders_df)} rows")
+    rejects: list = []
+    orders_df = build_orders_df(df, customers_df, products_df, shipping_df, rejects)
+    print(f"  Orders: {len(orders_df)} rows, rejected: {len(rejects)}")
+    for reason, n in Counter(r['reason'] for r in rejects).most_common():
+        print(f"    {n:>6}  {reason}")
+    os.makedirs(os.path.dirname(REJECTS_PATH), exist_ok=True)
+    pd.DataFrame(rejects).to_csv(REJECTS_PATH, index=False)
 
     payments_df = build_payments_df(df)
     valid_order_ids = set(orders_df['order_id'])

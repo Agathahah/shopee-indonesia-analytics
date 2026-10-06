@@ -1,9 +1,10 @@
 -- NusaCommerce Analytics Database Schema
 -- Normalized from flat Indonesian e-commerce CSV data
 
--- 1. Customers table
--- customer_id: MD5 hash of Kota+Provinsi+faker_name (generated during ETL)
--- customer_name, phone: Generated using Faker id_ID locale
+-- 1. Customers table = buyer LOCATIONS, not people
+-- The seller export has no buyer ID. customer_id is the MD5 of city+province,
+-- so one row is one city/regency. customer_name holds "City, Province";
+-- phone is NULL. (v1 filled name/phone with Faker data.)
 CREATE TABLE IF NOT EXISTS customers (
     customer_id VARCHAR(32) PRIMARY KEY,
     customer_name VARCHAR(100) NOT NULL,
@@ -43,7 +44,10 @@ CREATE TABLE IF NOT EXISTS orders (
     cancellation_reason TEXT,
     order_timestamp TIMESTAMP NOT NULL,
     year_month VARCHAR(7) NOT NULL,
-    source_file VARCHAR(255)
+    source_file VARCHAR(255),
+    -- TRUE when the export had no timestamp and the order is dated to the
+    -- first day of the month named in source_file (see scripts/ingest.py)
+    timestamp_is_estimated BOOLEAN NOT NULL DEFAULT FALSE
 );
 
 -- 5. Payments table
