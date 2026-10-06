@@ -93,11 +93,9 @@ def check_postgresql():
         return
 
     # Coba beberapa kombinasi koneksi yang pernah dipakai di project ini
-    connection_attempts = [
-        {"dbname": "nusacommerce", "user": "agathasilalahi",   "host": "localhost", "port": 5432},
-        {"dbname": "nusacommerce", "user": "nusacommerce_user","host": "localhost",
-         "password": "nusacommerce2025", "port": 5432},
-    ]
+    sys.path.insert(0, str(Path(__file__).parent))
+    from db import DB_CONFIG
+    connection_attempts = [DB_CONFIG]
 
     conn = None
     for params in connection_attempts:
@@ -251,7 +249,7 @@ def check_exports():
             size_kb = fpath.stat().st_size / 1024
             if pd:
                 try:
-                    df = pd.read_csv(fpath, nrows=0)
+                    pd.read_csv(fpath, nrows=0)
                     with open(fpath) as fh:
                         rows = sum(1 for _ in fh) - 1
                     ok(f"{fname}")
@@ -280,7 +278,7 @@ def print_lineage():
     scripts/ingest.py  →  PostgreSQL database: nusacommerce
     5 tabel: orders (18,868) | customers (404) | products (679)
            | shipping_methods (45) | payments (18,868)
-    Enrichment: Faker('id_ID') untuk customer_name, phone
+    Enrichment: tidak ada (v1 memakai Faker untuk nama/telepon; sudah dihapus)
 
   {BOLD}SQL ANALYTICS  (hanya status=Selesai = 16,045 baris):{RESET}
     sql/02_revenue_trend.sql        → data/exports/revenue_trend.csv
