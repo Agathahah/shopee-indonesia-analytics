@@ -181,3 +181,39 @@ ORDER BY total_revenue DESC;
 
 -- Confirmation
 SELECT 'Views created successfully' AS status;
+
+-- 8. Order-level view for the Tableau executive dashboard (completed orders)
+-- payment_category uses ILIKE 'COD%': the raw value is 'COD (Bayar di Tempat)'.
+-- The CSV behind the first published dashboard labelled COD orders as Digital.
+DROP VIEW IF EXISTS vw_dashboard_orders CASCADE;
+CREATE VIEW vw_dashboard_orders AS
+SELECT
+    o.order_id,
+    o.order_timestamp,
+    DATE_TRUNC('month', o.order_timestamp)::DATE           AS order_month,
+    o.year_month,
+    EXTRACT(YEAR FROM o.order_timestamp)::INT              AS order_year,
+    EXTRACT(MONTH FROM o.order_timestamp)::INT             AS order_month_num,
+    EXTRACT(QUARTER FROM o.order_timestamp)::INT           AS order_quarter,
+    o.timestamp_is_estimated,
+    c.city                                                 AS kota,
+    c.province                                             AS provinsi,
+    COALESCE(sm.courier_name, 'Unknown')                   AS courier,
+    COALESCE(sm.service_type, 'Unknown')                   AS service_type,
+    py.payment_method,
+    CASE WHEN py.payment_method ILIKE 'COD%' THEN 'COD' ELSE 'Digital' END AS payment_category,
+    py.total_payment,
+    py.discount_amount,
+    py.shipping_paid_by_buyer,
+    py.estimated_shipping_cost,
+    o.total_qty,
+    o.total_weight_gr,
+    o.total_returned_qty,
+    (py.discount_amount > 0)::INT                          AS has_discount,
+    (py.total_payment >= 500000)::INT                      AS is_high_value,
+    o.customer_id                                          AS buyer_location_id
+FROM orders o
+JOIN payments py ON o.order_id = py.order_id
+JOIN customers c ON o.customer_id = c.customer_id
+JOIN shipping_methods sm ON o.shipping_id = sm.shipping_id
+WHERE o.status = 'Selesai';
