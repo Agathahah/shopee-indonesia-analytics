@@ -28,9 +28,9 @@ customer_rfm_raw AS (
 ),
 rfm_scores AS (
     SELECT *,
-        NTILE(4) OVER (ORDER BY recency_days DESC) AS r_score,
-        NTILE(4) OVER (ORDER BY frequency ASC)     AS f_score,
-        NTILE(4) OVER (ORDER BY monetary ASC)      AS m_score
+        NTILE(4) OVER (ORDER BY recency_days DESC, customer_id) AS r_score,
+        NTILE(4) OVER (ORDER BY frequency ASC, customer_id)     AS f_score,
+        NTILE(4) OVER (ORDER BY monetary ASC, customer_id)      AS m_score
     FROM customer_rfm_raw
 ),
 rfm_combined AS (
@@ -74,4 +74,4 @@ SELECT
         ELSE 11
     END AS segment_priority
 FROM rfm_combined
-ORDER BY rfm_total_score DESC, recency_days ASC;
+ORDER BY rfm_total_score DESC, recency_days ASC, customer_id;

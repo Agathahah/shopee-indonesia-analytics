@@ -3,7 +3,6 @@
 Upload NusaCommerce Analytics CSVs to Google Sheets for Looker Studio.
 """
 
-import os
 import sys
 import pandas as pd
 import gspread

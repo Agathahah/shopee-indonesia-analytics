@@ -72,9 +72,9 @@ customer_rfm AS (
 ),
 rfm_scored AS (
     SELECT *,
-        NTILE(4) OVER (ORDER BY recency_days DESC) AS r_score,
-        NTILE(4) OVER (ORDER BY frequency ASC) AS f_score,
-        NTILE(4) OVER (ORDER BY monetary ASC) AS m_score
+        NTILE(4) OVER (ORDER BY recency_days DESC, customer_id) AS r_score,
+        NTILE(4) OVER (ORDER BY frequency ASC, customer_id) AS f_score,
+        NTILE(4) OVER (ORDER BY monetary ASC, customer_id) AS m_score
     FROM customer_rfm
 ),
 rfm_segmented AS (
@@ -104,7 +104,7 @@ SELECT
     ROUND(SUM(monetary) * 100.0 / SUM(SUM(monetary)) OVER (), 2) AS revenue_pct
 FROM rfm_segmented
 GROUP BY segment
-ORDER BY total_monetary DESC;
+ORDER BY total_monetary DESC, segment;
 
 -- 4. Shipping Summary View
 CREATE VIEW vw_shipping_summary AS
@@ -123,7 +123,7 @@ FROM orders o
 JOIN payments py ON o.order_id = py.order_id
 LEFT JOIN shipping_methods sm ON o.shipping_id = sm.shipping_id
 GROUP BY sm.courier_name, sm.service_type
-ORDER BY total_orders DESC;
+ORDER BY total_orders DESC, courier, service_type;
 
 -- 5. Payment Summary View
 CREATE VIEW vw_payment_summary AS
@@ -141,7 +141,7 @@ SELECT
 FROM orders o
 JOIN payments py ON o.order_id = py.order_id
 GROUP BY py.payment_method
-ORDER BY total_revenue DESC;
+ORDER BY total_revenue DESC, py.payment_method;
 
 -- 6. Category Summary View
 CREATE VIEW vw_category_summary AS
@@ -158,7 +158,7 @@ FROM products p
 JOIN orders o ON p.product_id = o.product_id
 JOIN payments py ON o.order_id = py.order_id
 GROUP BY p.category_name
-ORDER BY total_revenue DESC;
+ORDER BY total_revenue DESC, p.category_name;
 
 -- 7. Province Summary View
 CREATE VIEW vw_province_summary AS
@@ -181,3 +181,39 @@ ORDER BY total_revenue DESC;
 
 -- Confirmation
 SELECT 'Views created successfully' AS status;
+
+-- 8. Order-level view for the Tableau executive dashboard (completed orders)
+-- payment_category uses ILIKE 'COD%': the raw value is 'COD (Bayar di Tempat)'.
+-- The CSV behind the first published dashboard labelled COD orders as Digital.
+DROP VIEW IF EXISTS vw_dashboard_orders CASCADE;
+CREATE VIEW vw_dashboard_orders AS
+SELECT
+    o.order_id,
+    o.order_timestamp,
+    DATE_TRUNC('month', o.order_timestamp)::DATE           AS order_month,
+    o.year_month,
+    EXTRACT(YEAR FROM o.order_timestamp)::INT              AS order_year,
+    EXTRACT(MONTH FROM o.order_timestamp)::INT             AS order_month_num,
+    EXTRACT(QUARTER FROM o.order_timestamp)::INT           AS order_quarter,
+    o.timestamp_is_estimated,
+    c.city                                                 AS kota,
+    c.province                                             AS provinsi,
+    COALESCE(sm.courier_name, 'Unknown')                   AS courier,
+    COALESCE(sm.service_type, 'Unknown')                   AS service_type,
+    py.payment_method,
+    CASE WHEN py.payment_method ILIKE 'COD%' THEN 'COD' ELSE 'Digital' END AS payment_category,
+    py.total_payment,
+    py.discount_amount,
+    py.shipping_paid_by_buyer,
+    py.estimated_shipping_cost,
+    o.total_qty,
+    o.total_weight_gr,
+    o.total_returned_qty,
+    (py.discount_amount > 0)::INT                          AS has_discount,
+    (py.total_payment >= 500000)::INT                      AS is_high_value,
+    o.customer_id                                          AS buyer_location_id
+FROM orders o
+JOIN payments py ON o.order_id = py.order_id
+JOIN customers c ON o.customer_id = c.customer_id
+JOIN shipping_methods sm ON o.shipping_id = sm.shipping_id
+WHERE o.status = 'Selesai';
