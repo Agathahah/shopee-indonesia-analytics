@@ -1,134 +1,134 @@
 analysis_level,category_name,num_categories,order_month,year_month,total_orders,completed_orders,cancelled_orders,cancellation_rate,total_items_sold,total_revenue,avg_order_value,total_discount,unique_customers,paying_customers,revenue_rank,orders_rank,revenue_share_pct,orders_share_pct,revenue_quartile,monthly_orders,monthly_revenue,mom_growth_pct,first_order_date,last_order_date
 category_monthly_trend,Baskom / Mangkok Besar,,2023-12-01,2023-12,,,,,,,,,,,,,,,,1,0,,,
-category_monthly_trend,Plastik / Wadah Plastik,,2023-12-01,2023-12,,,,,,,,,,,,,,,,11,618165,,,
-category_monthly_trend,Mangkok Sambal / Saus,,2023-12-01,2023-12,,,,,,,,,,,,,,,,89,3742061,,,
-category_monthly_trend,Rak / Rak Serbaguna,,2023-12-01,2023-12,,,,,,,,,,,,,,,,24,1554718,,,
-category_monthly_trend,Stempel / Alat Kantor,,2023-12-01,2023-12,,,,,,,,,,,,,,,,2,263960,,,
 category_monthly_trend,Celengan,,2023-12-01,2023-12,,,,,,,,,,,,,,,,172,4682922,,,
-category_monthly_trend,Toples / Sealware,,2023-12-01,2023-12,,,,,,,,,,,,,,,,6,345720,,,
-category_monthly_trend,Tempat Nasi,,2023-12-01,2023-12,,,,,,,,,,,,,,,,1,13458,,,
-category_monthly_trend,Lunch Box / Rantang,,2023-12-01,2023-12,,,,,,,,,,,,,,,,7,628744,,,
-category_monthly_trend,Teko / Jug,,2023-12-01,2023-12,,,,,,,,,,,,,,,,3,48840,,,
-category_monthly_trend,Nampan / Tray,,2023-12-01,2023-12,,,,,,,,,,,,,,,,8,744646,,,
-category_monthly_trend,Saringan / Strainer,,2023-12-01,2023-12,,,,,,,,,,,,,,,,1,84830,,,
-category_monthly_trend,Other,,2023-12-01,2023-12,,,,,,,,,,,,,,,,9,332748,,,
 category_monthly_trend,Keranjang,,2023-12-01,2023-12,,,,,,,,,,,,,,,,10,598917,,,
+category_monthly_trend,Lunch Box / Rantang,,2023-12-01,2023-12,,,,,,,,,,,,,,,,7,628744,,,
+category_monthly_trend,Mangkok Sambal / Saus,,2023-12-01,2023-12,,,,,,,,,,,,,,,,89,3742061,,,
+category_monthly_trend,Nampan / Tray,,2023-12-01,2023-12,,,,,,,,,,,,,,,,8,744646,,,
+category_monthly_trend,Other,,2023-12-01,2023-12,,,,,,,,,,,,,,,,9,332748,,,
 category_monthly_trend,Peralatan Makan,,2023-12-01,2023-12,,,,,,,,,,,,,,,,4,129437,,,
+category_monthly_trend,Plastik / Wadah Plastik,,2023-12-01,2023-12,,,,,,,,,,,,,,,,11,618165,,,
+category_monthly_trend,Rak / Rak Serbaguna,,2023-12-01,2023-12,,,,,,,,,,,,,,,,24,1554718,,,
+category_monthly_trend,Saringan / Strainer,,2023-12-01,2023-12,,,,,,,,,,,,,,,,1,84830,,,
 category_monthly_trend,Seal / Baut / Roof,,2023-12-01,2023-12,,,,,,,,,,,,,,,,20,6490193,,,
-category_monthly_trend,Toples / Sealware,,2024-01-01,2024-01,,,,,,,,,,,,,,,,5,154500,-55.31,,
-category_monthly_trend,Peralatan Makan,,2024-01-01,2024-01,,,,,,,,,,,,,,,,1,25960,-79.94,,
-category_monthly_trend,Mangkok Sambal / Saus,,2024-01-01,2024-01,,,,,,,,,,,,,,,,99,4553508,21.68,,
+category_monthly_trend,Stempel / Alat Kantor,,2023-12-01,2023-12,,,,,,,,,,,,,,,,2,263960,,,
+category_monthly_trend,Teko / Jug,,2023-12-01,2023-12,,,,,,,,,,,,,,,,3,48840,,,
+category_monthly_trend,Tempat Nasi,,2023-12-01,2023-12,,,,,,,,,,,,,,,,1,13458,,,
+category_monthly_trend,Toples / Sealware,,2023-12-01,2023-12,,,,,,,,,,,,,,,,6,345720,,,
+category_monthly_trend,Celengan,,2024-01-01,2024-01,,,,,,,,,,,,,,,,165,5004318,6.86,,
 category_monthly_trend,Keranjang,,2024-01-01,2024-01,,,,,,,,,,,,,,,,13,399923,-33.23,,
-category_monthly_trend,Plastik / Wadah Plastik,,2024-01-01,2024-01,,,,,,,,,,,,,,,,15,662464,7.17,,
-category_monthly_trend,Tempat Nasi,,2024-01-01,2024-01,,,,,,,,,,,,,,,,1,21000,56.04,,
+category_monthly_trend,Lunch Box / Rantang,,2024-01-01,2024-01,,,,,,,,,,,,,,,,10,2051873,226.34,,
+category_monthly_trend,Mangkok Sambal / Saus,,2024-01-01,2024-01,,,,,,,,,,,,,,,,99,4553508,21.68,,
 category_monthly_trend,Nampan / Tray,,2024-01-01,2024-01,,,,,,,,,,,,,,,,10,1900082,155.17,,
 category_monthly_trend,Other,,2024-01-01,2024-01,,,,,,,,,,,,,,,,6,602329,81.02,,
-category_monthly_trend,Lunch Box / Rantang,,2024-01-01,2024-01,,,,,,,,,,,,,,,,10,2051873,226.34,,
-category_monthly_trend,Saringan / Strainer,,2024-01-01,2024-01,,,,,,,,,,,,,,,,2,167110,96.99,,
-category_monthly_trend,Celengan,,2024-01-01,2024-01,,,,,,,,,,,,,,,,165,5004318,6.86,,
+category_monthly_trend,Peralatan Makan,,2024-01-01,2024-01,,,,,,,,,,,,,,,,1,25960,-79.94,,
+category_monthly_trend,Plastik / Wadah Plastik,,2024-01-01,2024-01,,,,,,,,,,,,,,,,15,662464,7.17,,
 category_monthly_trend,Rak / Rak Serbaguna,,2024-01-01,2024-01,,,,,,,,,,,,,,,,28,1449460,-6.77,,
+category_monthly_trend,Saringan / Strainer,,2024-01-01,2024-01,,,,,,,,,,,,,,,,2,167110,96.99,,
 category_monthly_trend,Seal / Baut / Roof,,2024-01-01,2024-01,,,,,,,,,,,,,,,,18,4081473,-37.11,,
-category_monthly_trend,Rak / Rak Serbaguna,,2024-02-01,2024-02,,,,,,,,,,,,,,,,28,2088270,44.07,,
-category_monthly_trend,Nampan / Tray,,2024-02-01,2024-02,,,,,,,,,,,,,,,,3,943882,-50.32,,
+category_monthly_trend,Tempat Nasi,,2024-01-01,2024-01,,,,,,,,,,,,,,,,1,21000,56.04,,
+category_monthly_trend,Toples / Sealware,,2024-01-01,2024-01,,,,,,,,,,,,,,,,5,154500,-55.31,,
 category_monthly_trend,Baskom / Mangkok Besar,,2024-02-01,2024-02,,,,,,,,,,,,,,,,3,82210,,,
-category_monthly_trend,Toples / Sealware,,2024-02-01,2024-02,,,,,,,,,,,,,,,,7,350780,127.04,,
-category_monthly_trend,Saringan / Strainer,,2024-02-01,2024-02,,,,,,,,,,,,,,,,5,463528,177.38,,
 category_monthly_trend,Celengan,,2024-02-01,2024-02,,,,,,,,,,,,,,,,165,5137953,2.67,,
-category_monthly_trend,Peralatan Makan,,2024-02-01,2024-02,,,,,,,,,,,,,,,,1,120150,362.83,,
-category_monthly_trend,Seal / Baut / Roof,,2024-02-01,2024-02,,,,,,,,,,,,,,,,8,3624460,-11.20,,
-category_monthly_trend,Perlengkapan Packing,,2024-02-01,2024-02,,,,,,,,,,,,,,,,1,77000,,,
 category_monthly_trend,Keranjang,,2024-02-01,2024-02,,,,,,,,,,,,,,,,13,859098,114.82,,
-category_monthly_trend,Plastik / Wadah Plastik,,2024-02-01,2024-02,,,,,,,,,,,,,,,,19,366820,-44.63,,
 category_monthly_trend,Lunch Box / Rantang,,2024-02-01,2024-02,,,,,,,,,,,,,,,,3,75320,-96.33,,
-category_monthly_trend,Piring,,2024-02-01,2024-02,,,,,,,,,,,,,,,,1,57160,,,
-category_monthly_trend,Other,,2024-02-01,2024-02,,,,,,,,,,,,,,,,10,682597,13.33,,
 category_monthly_trend,Mangkok Sambal / Saus,,2024-02-01,2024-02,,,,,,,,,,,,,,,,71,3313499,-27.23,,
+category_monthly_trend,Nampan / Tray,,2024-02-01,2024-02,,,,,,,,,,,,,,,,3,943882,-50.32,,
+category_monthly_trend,Other,,2024-02-01,2024-02,,,,,,,,,,,,,,,,10,682597,13.33,,
+category_monthly_trend,Peralatan Makan,,2024-02-01,2024-02,,,,,,,,,,,,,,,,1,120150,362.83,,
+category_monthly_trend,Perlengkapan Packing,,2024-02-01,2024-02,,,,,,,,,,,,,,,,1,77000,,,
+category_monthly_trend,Piring,,2024-02-01,2024-02,,,,,,,,,,,,,,,,1,57160,,,
+category_monthly_trend,Plastik / Wadah Plastik,,2024-02-01,2024-02,,,,,,,,,,,,,,,,19,366820,-44.63,,
+category_monthly_trend,Rak / Rak Serbaguna,,2024-02-01,2024-02,,,,,,,,,,,,,,,,28,2088270,44.07,,
+category_monthly_trend,Saringan / Strainer,,2024-02-01,2024-02,,,,,,,,,,,,,,,,5,463528,177.38,,
+category_monthly_trend,Seal / Baut / Roof,,2024-02-01,2024-02,,,,,,,,,,,,,,,,8,3624460,-11.20,,
+category_monthly_trend,Toples / Sealware,,2024-02-01,2024-02,,,,,,,,,,,,,,,,7,350780,127.04,,
+category_monthly_trend,Baskom / Mangkok Besar,,2024-03-01,2024-03,,,,,,,,,,,,,,,,2,26000,-68.37,,
+category_monthly_trend,Celengan,,2024-03-01,2024-03,,,,,,,,,,,,,,,,180,5220172,1.60,,
+category_monthly_trend,Keranjang,,2024-03-01,2024-03,,,,,,,,,,,,,,,,17,1111270,29.35,,
+category_monthly_trend,Lunch Box / Rantang,,2024-03-01,2024-03,,,,,,,,,,,,,,,,12,1610112,2037.70,,
+category_monthly_trend,Mangkok Sambal / Saus,,2024-03-01,2024-03,,,,,,,,,,,,,,,,91,4624442,39.56,,
+category_monthly_trend,Nampan / Tray,,2024-03-01,2024-03,,,,,,,,,,,,,,,,21,3842141,307.06,,
 category_monthly_trend,Other,,2024-03-01,2024-03,,,,,,,,,,,,,,,,10,1780206,160.80,,
+category_monthly_trend,Plastik / Wadah Plastik,,2024-03-01,2024-03,,,,,,,,,,,,,,,,8,546530,48.99,,
 category_monthly_trend,Rak / Rak Serbaguna,,2024-03-01,2024-03,,,,,,,,,,,,,,,,19,1245888,-40.34,,
+category_monthly_trend,Saringan / Strainer,,2024-03-01,2024-03,,,,,,,,,,,,,,,,2,207790,-55.17,,
+category_monthly_trend,Seal / Baut / Roof,,2024-03-01,2024-03,,,,,,,,,,,,,,,,11,4951538,36.61,,
+category_monthly_trend,Stempel / Alat Kantor,,2024-03-01,2024-03,,,,,,,,,,,,,,,,1,57992,-78.03,,
 category_monthly_trend,Teko / Jug,,2024-03-01,2024-03,,,,,,,,,,,,,,,,3,99000,102.70,,
 category_monthly_trend,Tempat Nasi,,2024-03-01,2024-03,,,,,,,,,,,,,,,,1,17120,-18.48,,
-category_monthly_trend,Celengan,,2024-03-01,2024-03,,,,,,,,,,,,,,,,180,5220172,1.60,,
-category_monthly_trend,Nampan / Tray,,2024-03-01,2024-03,,,,,,,,,,,,,,,,21,3842141,307.06,,
-category_monthly_trend,Mangkok Sambal / Saus,,2024-03-01,2024-03,,,,,,,,,,,,,,,,91,4624442,39.56,,
-category_monthly_trend,Saringan / Strainer,,2024-03-01,2024-03,,,,,,,,,,,,,,,,2,207790,-55.17,,
 category_monthly_trend,Toples / Sealware,,2024-03-01,2024-03,,,,,,,,,,,,,,,,19,1145095,226.44,,
-category_monthly_trend,Baskom / Mangkok Besar,,2024-03-01,2024-03,,,,,,,,,,,,,,,,2,26000,-68.37,,
-category_monthly_trend,Lunch Box / Rantang,,2024-03-01,2024-03,,,,,,,,,,,,,,,,12,1610112,2037.70,,
-category_monthly_trend,Keranjang,,2024-03-01,2024-03,,,,,,,,,,,,,,,,17,1111270,29.35,,
-category_monthly_trend,Plastik / Wadah Plastik,,2024-03-01,2024-03,,,,,,,,,,,,,,,,8,546530,48.99,,
-category_monthly_trend,Stempel / Alat Kantor,,2024-03-01,2024-03,,,,,,,,,,,,,,,,1,57992,-78.03,,
-category_monthly_trend,Seal / Baut / Roof,,2024-03-01,2024-03,,,,,,,,,,,,,,,,11,4951538,36.61,,
-category_monthly_trend,Stempel / Alat Kantor,,2024-04-01,2024-04,,,,,,,,,,,,,,,,5,390300,573.02,,
-category_monthly_trend,Rak / Rak Serbaguna,,2024-04-01,2024-04,,,,,,,,,,,,,,,,26,1063048,-14.68,,
-category_monthly_trend,Nampan / Tray,,2024-04-01,2024-04,,,,,,,,,,,,,,,,15,1872378,-51.27,,
 category_monthly_trend,Celengan,,2024-04-01,2024-04,,,,,,,,,,,,,,,,270,7926625,51.85,,
-category_monthly_trend,Lunch Box / Rantang,,2024-04-01,2024-04,,,,,,,,,,,,,,,,12,506071,-68.57,,
-category_monthly_trend,Perlengkapan Packing,,2024-04-01,2024-04,,,,,,,,,,,,,,,,3,1313000,1605.19,,
-category_monthly_trend,Plastik / Wadah Plastik,,2024-04-01,2024-04,,,,,,,,,,,,,,,,4,175540,-67.88,,
-category_monthly_trend,Other,,2024-04-01,2024-04,,,,,,,,,,,,,,,,14,900551,-49.41,,
-category_monthly_trend,Seal / Baut / Roof,,2024-04-01,2024-04,,,,,,,,,,,,,,,,1,177000,-96.43,,
-category_monthly_trend,Teko / Jug,,2024-04-01,2024-04,,,,,,,,,,,,,,,,1,13459,-86.41,,
-category_monthly_trend,Peralatan Makan,,2024-04-01,2024-04,,,,,,,,,,,,,,,,3,105940,-11.83,,
-category_monthly_trend,Piring,,2024-04-01,2024-04,,,,,,,,,,,,,,,,3,155015,171.19,,
-category_monthly_trend,Tempat Nasi,,2024-04-01,2024-04,,,,,,,,,,,,,,,,3,45280,164.49,,
-category_monthly_trend,Mangkok Sambal / Saus,,2024-04-01,2024-04,,,,,,,,,,,,,,,,78,3923929,-15.15,,
-category_monthly_trend,Toples / Sealware,,2024-04-01,2024-04,,,,,,,,,,,,,,,,3,122765,-89.28,,
 category_monthly_trend,Keranjang,,2024-04-01,2024-04,,,,,,,,,,,,,,,,8,259092,-76.69,,
-category_monthly_trend,Other,,2024-05-01,2024-05,,,,,,,,,,,,,,,,9,504925,-43.93,,
-category_monthly_trend,Baskom / Mangkok Besar,,2024-05-01,2024-05,,,,,,,,,,,,,,,,2,31120,19.69,,
-category_monthly_trend,Saringan / Strainer,,2024-05-01,2024-05,,,,,,,,,,,,,,,,5,303280,45.96,,
-category_monthly_trend,Celengan,,2024-05-01,2024-05,,,,,,,,,,,,,,,,293,9340089,17.83,,
+category_monthly_trend,Lunch Box / Rantang,,2024-04-01,2024-04,,,,,,,,,,,,,,,,12,506071,-68.57,,
+category_monthly_trend,Mangkok Sambal / Saus,,2024-04-01,2024-04,,,,,,,,,,,,,,,,78,3923929,-15.15,,
+category_monthly_trend,Nampan / Tray,,2024-04-01,2024-04,,,,,,,,,,,,,,,,15,1872378,-51.27,,
+category_monthly_trend,Other,,2024-04-01,2024-04,,,,,,,,,,,,,,,,14,900551,-49.41,,
+category_monthly_trend,Peralatan Makan,,2024-04-01,2024-04,,,,,,,,,,,,,,,,3,105940,-11.83,,
+category_monthly_trend,Perlengkapan Packing,,2024-04-01,2024-04,,,,,,,,,,,,,,,,3,1313000,1605.19,,
+category_monthly_trend,Piring,,2024-04-01,2024-04,,,,,,,,,,,,,,,,3,155015,171.19,,
+category_monthly_trend,Plastik / Wadah Plastik,,2024-04-01,2024-04,,,,,,,,,,,,,,,,4,175540,-67.88,,
+category_monthly_trend,Rak / Rak Serbaguna,,2024-04-01,2024-04,,,,,,,,,,,,,,,,26,1063048,-14.68,,
+category_monthly_trend,Seal / Baut / Roof,,2024-04-01,2024-04,,,,,,,,,,,,,,,,1,177000,-96.43,,
+category_monthly_trend,Stempel / Alat Kantor,,2024-04-01,2024-04,,,,,,,,,,,,,,,,5,390300,573.02,,
+category_monthly_trend,Teko / Jug,,2024-04-01,2024-04,,,,,,,,,,,,,,,,1,13459,-86.41,,
+category_monthly_trend,Tempat Nasi,,2024-04-01,2024-04,,,,,,,,,,,,,,,,3,45280,164.49,,
+category_monthly_trend,Toples / Sealware,,2024-04-01,2024-04,,,,,,,,,,,,,,,,3,122765,-89.28,,
 category_monthly_trend,Aksesoris Pintu,,2024-05-01,2024-05,,,,,,,,,,,,,,,,1,15040,,,
+category_monthly_trend,Baskom / Mangkok Besar,,2024-05-01,2024-05,,,,,,,,,,,,,,,,2,31120,19.69,,
+category_monthly_trend,Celengan,,2024-05-01,2024-05,,,,,,,,,,,,,,,,293,9340089,17.83,,
 category_monthly_trend,Keranjang,,2024-05-01,2024-05,,,,,,,,,,,,,,,,10,472924,82.53,,
 category_monthly_trend,Lunch Box / Rantang,,2024-05-01,2024-05,,,,,,,,,,,,,,,,24,1743736,244.56,,
-category_monthly_trend,Teko / Jug,,2024-05-01,2024-05,,,,,,,,,,,,,,,,2,16600,23.34,,
-category_monthly_trend,Rak / Rak Serbaguna,,2024-05-01,2024-05,,,,,,,,,,,,,,,,49,2143790,101.66,,
 category_monthly_trend,Mangkok Sambal / Saus,,2024-05-01,2024-05,,,,,,,,,,,,,,,,108,4136121,5.41,,
-category_monthly_trend,Seal / Baut / Roof,,2024-05-01,2024-05,,,,,,,,,,,,,,,,27,11233222,6246.45,,
 category_monthly_trend,Nampan / Tray,,2024-05-01,2024-05,,,,,,,,,,,,,,,,12,741568,-60.39,,
-category_monthly_trend,Tempat Nasi,,2024-05-01,2024-05,,,,,,,,,,,,,,,,4,100020,120.89,,
-category_monthly_trend,Plastik / Wadah Plastik,,2024-05-01,2024-05,,,,,,,,,,,,,,,,2,78960,-55.02,,
+category_monthly_trend,Other,,2024-05-01,2024-05,,,,,,,,,,,,,,,,9,504925,-43.93,,
 category_monthly_trend,Peralatan Makan,,2024-05-01,2024-05,,,,,,,,,,,,,,,,3,57160,-46.04,,
 category_monthly_trend,Perlengkapan Packing,,2024-05-01,2024-05,,,,,,,,,,,,,,,,4,593182,-54.82,,
-category_monthly_trend,Plastik / Wadah Plastik,,2024-06-01,2024-06,,,,,,,,,,,,,,,,5,221982,181.13,,
-category_monthly_trend,Keranjang,,2024-06-01,2024-06,,,,,,,,,,,,,,,,3,28296,-94.02,,
-category_monthly_trend,Tempat Nasi,,2024-06-01,2024-06,,,,,,,,,,,,,,,,22,577652,477.54,,
-category_monthly_trend,Other,,2024-06-01,2024-06,,,,,,,,,,,,,,,,11,592000,17.25,,
-category_monthly_trend,Celengan,,2024-06-01,2024-06,,,,,,,,,,,,,,,,274,6267305,-32.90,,
-category_monthly_trend,Perlengkapan Packing,,2024-06-01,2024-06,,,,,,,,,,,,,,,,3,334734,-43.57,,
-category_monthly_trend,Peralatan Makan,,2024-06-01,2024-06,,,,,,,,,,,,,,,,1,9320,-83.69,,
-category_monthly_trend,Mangkok Sambal / Saus,,2024-06-01,2024-06,,,,,,,,,,,,,,,,129,4920834,18.97,,
-category_monthly_trend,Saringan / Strainer,,2024-06-01,2024-06,,,,,,,,,,,,,,,,2,2618,-99.14,,
-category_monthly_trend,Lunch Box / Rantang,,2024-06-01,2024-06,,,,,,,,,,,,,,,,44,4028256,131.01,,
+category_monthly_trend,Plastik / Wadah Plastik,,2024-05-01,2024-05,,,,,,,,,,,,,,,,2,78960,-55.02,,
+category_monthly_trend,Rak / Rak Serbaguna,,2024-05-01,2024-05,,,,,,,,,,,,,,,,49,2143790,101.66,,
+category_monthly_trend,Saringan / Strainer,,2024-05-01,2024-05,,,,,,,,,,,,,,,,5,303280,45.96,,
+category_monthly_trend,Seal / Baut / Roof,,2024-05-01,2024-05,,,,,,,,,,,,,,,,27,11233222,6246.45,,
+category_monthly_trend,Teko / Jug,,2024-05-01,2024-05,,,,,,,,,,,,,,,,2,16600,23.34,,
+category_monthly_trend,Tempat Nasi,,2024-05-01,2024-05,,,,,,,,,,,,,,,,4,100020,120.89,,
+category_monthly_trend,Aksesoris Pintu,,2024-06-01,2024-06,,,,,,,,,,,,,,,,59,772260,5034.71,,
 category_monthly_trend,Baskom / Mangkok Besar,,2024-06-01,2024-06,,,,,,,,,,,,,,,,4,84880,172.75,,
-category_monthly_trend,Rak / Rak Serbaguna,,2024-06-01,2024-06,,,,,,,,,,,,,,,,32,1616672,-24.59,,
+category_monthly_trend,Celengan,,2024-06-01,2024-06,,,,,,,,,,,,,,,,274,6267305,-32.90,,
+category_monthly_trend,Keranjang,,2024-06-01,2024-06,,,,,,,,,,,,,,,,3,28296,-94.02,,
+category_monthly_trend,Lunch Box / Rantang,,2024-06-01,2024-06,,,,,,,,,,,,,,,,44,4028256,131.01,,
+category_monthly_trend,Mangkok Sambal / Saus,,2024-06-01,2024-06,,,,,,,,,,,,,,,,129,4920834,18.97,,
+category_monthly_trend,Nampan / Tray,,2024-06-01,2024-06,,,,,,,,,,,,,,,,13,2535739,241.94,,
+category_monthly_trend,Other,,2024-06-01,2024-06,,,,,,,,,,,,,,,,11,592000,17.25,,
+category_monthly_trend,Peralatan Makan,,2024-06-01,2024-06,,,,,,,,,,,,,,,,1,9320,-83.69,,
+category_monthly_trend,Perlengkapan Packing,,2024-06-01,2024-06,,,,,,,,,,,,,,,,3,334734,-43.57,,
 category_monthly_trend,Piring,,2024-06-01,2024-06,,,,,,,,,,,,,,,,1,50920,-67.15,,
-category_monthly_trend,Toples / Sealware,,2024-06-01,2024-06,,,,,,,,,,,,,,,,3,214440,74.68,,
+category_monthly_trend,Plastik / Wadah Plastik,,2024-06-01,2024-06,,,,,,,,,,,,,,,,5,221982,181.13,,
+category_monthly_trend,Rak / Rak Serbaguna,,2024-06-01,2024-06,,,,,,,,,,,,,,,,32,1616672,-24.59,,
+category_monthly_trend,Saringan / Strainer,,2024-06-01,2024-06,,,,,,,,,,,,,,,,2,2618,-99.14,,
 category_monthly_trend,Seal / Baut / Roof,,2024-06-01,2024-06,,,,,,,,,,,,,,,,19,6752053,-39.89,,
 category_monthly_trend,Teko / Jug,,2024-06-01,2024-06,,,,,,,,,,,,,,,,8,200622,1108.57,,
-category_monthly_trend,Nampan / Tray,,2024-06-01,2024-06,,,,,,,,,,,,,,,,13,2535739,241.94,,
-category_monthly_trend,Aksesoris Pintu,,2024-06-01,2024-06,,,,,,,,,,,,,,,,59,772260,5034.71,,
-category_monthly_trend,Piring,,2024-07-01,2024-07,,,,,,,,,,,,,,,,2,10320,-79.73,,
-category_monthly_trend,Nampan / Tray,,2024-07-01,2024-07,,,,,,,,,,,,,,,,23,2081678,-17.91,,
-category_monthly_trend,Rak / Rak Serbaguna,,2024-07-01,2024-07,,,,,,,,,,,,,,,,49,3206820,98.36,,
-category_monthly_trend,Teko / Jug,,2024-07-01,2024-07,,,,,,,,,,,,,,,,47,2488185,1140.24,,
-category_monthly_trend,Lunch Box / Rantang,,2024-07-01,2024-07,,,,,,,,,,,,,,,,52,6457581,60.31,,
-category_monthly_trend,Perlengkapan Packing,,2024-07-01,2024-07,,,,,,,,,,,,,,,,8,1878554,461.21,,
-category_monthly_trend,Other,,2024-07-01,2024-07,,,,,,,,,,,,,,,,26,2489067,320.45,,
-category_monthly_trend,Seal / Baut / Roof,,2024-07-01,2024-07,,,,,,,,,,,,,,,,9,9451950,39.99,,
-category_monthly_trend,Tempat Nasi,,2024-07-01,2024-07,,,,,,,,,,,,,,,,39,1619788,180.41,,
+category_monthly_trend,Tempat Nasi,,2024-06-01,2024-06,,,,,,,,,,,,,,,,22,577652,477.54,,
+category_monthly_trend,Toples / Sealware,,2024-06-01,2024-06,,,,,,,,,,,,,,,,3,214440,74.68,,
 category_monthly_trend,Aksesoris Pintu,,2024-07-01,2024-07,,,,,,,,,,,,,,,,155,1575867,104.06,,
-category_monthly_trend,Plastik / Wadah Plastik,,2024-07-01,2024-07,,,,,,,,,,,,,,,,3,313284,41.13,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2024-07-01,2024-07,,,,,,,,,,,,,,,,20,776225,,,
-category_monthly_trend,Saringan / Strainer,,2024-07-01,2024-07,,,,,,,,,,,,,,,,17,318324,12059.05,,
-category_monthly_trend,Toples / Sealware,,2024-07-01,2024-07,,,,,,,,,,,,,,,,3,87720,-59.09,,
-category_monthly_trend,Mangkok Sambal / Saus,,2024-07-01,2024-07,,,,,,,,,,,,,,,,196,7881300,60.16,,
-category_monthly_trend,Keranjang,,2024-07-01,2024-07,,,,,,,,,,,,,,,,16,977412,3354.24,,
-category_monthly_trend,Stempel / Alat Kantor,,2024-07-01,2024-07,,,,,,,,,,,,,,,,3,270260,-30.76,,
-category_monthly_trend,Celengan,,2024-07-01,2024-07,,,,,,,,,,,,,,,,404,11867966,89.36,,
-category_monthly_trend,Peralatan Makan,,2024-07-01,2024-07,,,,,,,,,,,,,,,,7,284976,2957.68,,
 category_monthly_trend,Baskom / Mangkok Besar,,2024-07-01,2024-07,,,,,,,,,,,,,,,,15,727551,757.15,,
-category_monthly_trend,Toples / Sealware,,2024-08-01,2024-08,,,,,,,,,,,,,,,,2,18403,-79.02,,
+category_monthly_trend,Celengan,,2024-07-01,2024-07,,,,,,,,,,,,,,,,404,11867966,89.36,,
+category_monthly_trend,Keranjang,,2024-07-01,2024-07,,,,,,,,,,,,,,,,16,977412,3354.24,,
+category_monthly_trend,Lunch Box / Rantang,,2024-07-01,2024-07,,,,,,,,,,,,,,,,52,6457581,60.31,,
+category_monthly_trend,Mangkok Sambal / Saus,,2024-07-01,2024-07,,,,,,,,,,,,,,,,196,7881300,60.16,,
+category_monthly_trend,Nampan / Tray,,2024-07-01,2024-07,,,,,,,,,,,,,,,,23,2081678,-17.91,,
+category_monthly_trend,Other,,2024-07-01,2024-07,,,,,,,,,,,,,,,,26,2489067,320.45,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2024-07-01,2024-07,,,,,,,,,,,,,,,,20,776225,,,
+category_monthly_trend,Peralatan Makan,,2024-07-01,2024-07,,,,,,,,,,,,,,,,7,284976,2957.68,,
+category_monthly_trend,Perlengkapan Packing,,2024-07-01,2024-07,,,,,,,,,,,,,,,,8,1878554,461.21,,
+category_monthly_trend,Piring,,2024-07-01,2024-07,,,,,,,,,,,,,,,,2,10320,-79.73,,
+category_monthly_trend,Plastik / Wadah Plastik,,2024-07-01,2024-07,,,,,,,,,,,,,,,,3,313284,41.13,,
+category_monthly_trend,Rak / Rak Serbaguna,,2024-07-01,2024-07,,,,,,,,,,,,,,,,49,3206820,98.36,,
+category_monthly_trend,Saringan / Strainer,,2024-07-01,2024-07,,,,,,,,,,,,,,,,17,318324,12059.05,,
+category_monthly_trend,Seal / Baut / Roof,,2024-07-01,2024-07,,,,,,,,,,,,,,,,9,9451950,39.99,,
+category_monthly_trend,Stempel / Alat Kantor,,2024-07-01,2024-07,,,,,,,,,,,,,,,,3,270260,-30.76,,
+category_monthly_trend,Teko / Jug,,2024-07-01,2024-07,,,,,,,,,,,,,,,,47,2488185,1140.24,,
+category_monthly_trend,Tempat Nasi,,2024-07-01,2024-07,,,,,,,,,,,,,,,,39,1619788,180.41,,
+category_monthly_trend,Toples / Sealware,,2024-07-01,2024-07,,,,,,,,,,,,,,,,3,87720,-59.09,,
+category_monthly_trend,Aksesoris Pintu,,2024-08-01,2024-08,,,,,,,,,,,,,,,,138,1543344,-2.06,,
 category_monthly_trend,Baskom / Mangkok Besar,,2024-08-01,2024-08,,,,,,,,,,,,,,,,55,3769712,418.14,,
 category_monthly_trend,Celengan,,2024-08-01,2024-08,,,,,,,,,,,,,,,,423,12704249,7.05,,
 category_monthly_trend,Keranjang,,2024-08-01,2024-08,,,,,,,,,,,,,,,,24,680019,-30.43,,
@@ -140,297 +140,297 @@ category_monthly_trend,Pengolah Bumbu / Sayur,,2024-08-01,2024-08,,,,,,,,,,,,,,,
 category_monthly_trend,Peralatan Makan,,2024-08-01,2024-08,,,,,,,,,,,,,,,,24,1216629,326.92,,
 category_monthly_trend,Perlengkapan Packing,,2024-08-01,2024-08,,,,,,,,,,,,,,,,9,1497320,-20.29,,
 category_monthly_trend,Piring,,2024-08-01,2024-08,,,,,,,,,,,,,,,,2,41800,305.04,,
-category_monthly_trend,Tempat Nasi,,2024-08-01,2024-08,,,,,,,,,,,,,,,,30,637334,-60.65,,
-category_monthly_trend,Aksesoris Pintu,,2024-08-01,2024-08,,,,,,,,,,,,,,,,138,1543344,-2.06,,
-category_monthly_trend,Teko / Jug,,2024-08-01,2024-08,,,,,,,,,,,,,,,,29,1081366,-56.54,,
 category_monthly_trend,Rak / Rak Serbaguna,,2024-08-01,2024-08,,,,,,,,,,,,,,,,28,1564286,-51.22,,
-category_monthly_trend,Stempel / Alat Kantor,,2024-08-01,2024-08,,,,,,,,,,,,,,,,4,195790,-27.55,,
 category_monthly_trend,Saringan / Strainer,,2024-08-01,2024-08,,,,,,,,,,,,,,,,38,746976,134.66,,
 category_monthly_trend,Seal / Baut / Roof,,2024-08-01,2024-08,,,,,,,,,,,,,,,,27,12379565,30.97,,
-category_monthly_trend,Keranjang,,2024-09-01,2024-09,,,,,,,,,,,,,,,,22,389998,-42.65,,
-category_monthly_trend,Piring,,2024-09-01,2024-09,,,,,,,,,,,,,,,,8,1490728,3466.33,,
-category_monthly_trend,Mangkok Sambal / Saus,,2024-09-01,2024-09,,,,,,,,,,,,,,,,146,6199323,3.33,,
-category_monthly_trend,Rak / Rak Serbaguna,,2024-09-01,2024-09,,,,,,,,,,,,,,,,22,1178776,-24.64,,
-category_monthly_trend,Lunch Box / Rantang,,2024-09-01,2024-09,,,,,,,,,,,,,,,,40,2409917,-20.83,,
-category_monthly_trend,Teko / Jug,,2024-09-01,2024-09,,,,,,,,,,,,,,,,12,517161,-52.18,,
-category_monthly_trend,Peralatan Makan,,2024-09-01,2024-09,,,,,,,,,,,,,,,,23,1110385,-8.73,,
+category_monthly_trend,Stempel / Alat Kantor,,2024-08-01,2024-08,,,,,,,,,,,,,,,,4,195790,-27.55,,
+category_monthly_trend,Teko / Jug,,2024-08-01,2024-08,,,,,,,,,,,,,,,,29,1081366,-56.54,,
+category_monthly_trend,Tempat Nasi,,2024-08-01,2024-08,,,,,,,,,,,,,,,,30,637334,-60.65,,
+category_monthly_trend,Toples / Sealware,,2024-08-01,2024-08,,,,,,,,,,,,,,,,2,18403,-79.02,,
 category_monthly_trend,Aksesoris Pintu,,2024-09-01,2024-09,,,,,,,,,,,,,,,,93,1287291,-16.59,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2024-09-01,2024-09,,,,,,,,,,,,,,,,3,243240,-62.45,,
-category_monthly_trend,Saringan / Strainer,,2024-09-01,2024-09,,,,,,,,,,,,,,,,35,689769,-7.66,,
 category_monthly_trend,Baskom / Mangkok Besar,,2024-09-01,2024-09,,,,,,,,,,,,,,,,119,8597366,128.06,,
-category_monthly_trend,Plastik / Wadah Plastik,,2024-09-01,2024-09,,,,,,,,,,,,,,,,3,80702,-74.24,,
 category_monthly_trend,Celengan,,2024-09-01,2024-09,,,,,,,,,,,,,,,,298,7223397,-43.14,,
-category_monthly_trend,Perlengkapan Packing,,2024-09-01,2024-09,,,,,,,,,,,,,,,,6,660220,-55.91,,
-category_monthly_trend,Tempat Nasi,,2024-09-01,2024-09,,,,,,,,,,,,,,,,38,929673,45.87,,
-category_monthly_trend,Seal / Baut / Roof,,2024-09-01,2024-09,,,,,,,,,,,,,,,,21,21659513,74.96,,
-category_monthly_trend,Other,,2024-09-01,2024-09,,,,,,,,,,,,,,,,28,3157841,-35.31,,
+category_monthly_trend,Keranjang,,2024-09-01,2024-09,,,,,,,,,,,,,,,,22,389998,-42.65,,
+category_monthly_trend,Lunch Box / Rantang,,2024-09-01,2024-09,,,,,,,,,,,,,,,,40,2409917,-20.83,,
+category_monthly_trend,Mangkok Sambal / Saus,,2024-09-01,2024-09,,,,,,,,,,,,,,,,146,6199323,3.33,,
 category_monthly_trend,Nampan / Tray,,2024-09-01,2024-09,,,,,,,,,,,,,,,,31,4386812,32.71,,
+category_monthly_trend,Other,,2024-09-01,2024-09,,,,,,,,,,,,,,,,28,3157841,-35.31,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2024-09-01,2024-09,,,,,,,,,,,,,,,,3,243240,-62.45,,
+category_monthly_trend,Peralatan Makan,,2024-09-01,2024-09,,,,,,,,,,,,,,,,23,1110385,-8.73,,
+category_monthly_trend,Perlengkapan Packing,,2024-09-01,2024-09,,,,,,,,,,,,,,,,6,660220,-55.91,,
+category_monthly_trend,Piring,,2024-09-01,2024-09,,,,,,,,,,,,,,,,8,1490728,3466.33,,
+category_monthly_trend,Plastik / Wadah Plastik,,2024-09-01,2024-09,,,,,,,,,,,,,,,,3,80702,-74.24,,
+category_monthly_trend,Rak / Rak Serbaguna,,2024-09-01,2024-09,,,,,,,,,,,,,,,,22,1178776,-24.64,,
+category_monthly_trend,Saringan / Strainer,,2024-09-01,2024-09,,,,,,,,,,,,,,,,35,689769,-7.66,,
+category_monthly_trend,Seal / Baut / Roof,,2024-09-01,2024-09,,,,,,,,,,,,,,,,21,21659513,74.96,,
 category_monthly_trend,Stempel / Alat Kantor,,2024-09-01,2024-09,,,,,,,,,,,,,,,,5,345445,76.44,,
-category_monthly_trend,Celengan,,2024-10-01,2024-10,,,,,,,,,,,,,,,,205,5031426,-30.35,,
-category_monthly_trend,Plastik / Wadah Plastik,,2024-10-01,2024-10,,,,,,,,,,,,,,,,8,389799,383.01,,
-category_monthly_trend,Toples / Sealware,,2024-10-01,2024-10,,,,,,,,,,,,,,,,4,177335,863.62,,
-category_monthly_trend,Mangkok Sambal / Saus,,2024-10-01,2024-10,,,,,,,,,,,,,,,,185,6018386,-2.92,,
-category_monthly_trend,Perlengkapan Packing,,2024-10-01,2024-10,,,,,,,,,,,,,,,,9,1245958,88.72,,
-category_monthly_trend,Baskom / Mangkok Besar,,2024-10-01,2024-10,,,,,,,,,,,,,,,,133,8055494,-6.30,,
-category_monthly_trend,Keranjang,,2024-10-01,2024-10,,,,,,,,,,,,,,,,22,519719,33.26,,
+category_monthly_trend,Teko / Jug,,2024-09-01,2024-09,,,,,,,,,,,,,,,,12,517161,-52.18,,
+category_monthly_trend,Tempat Nasi,,2024-09-01,2024-09,,,,,,,,,,,,,,,,38,929673,45.87,,
 category_monthly_trend,Aksesoris Pintu,,2024-10-01,2024-10,,,,,,,,,,,,,,,,92,1194879,-7.18,,
+category_monthly_trend,Baskom / Mangkok Besar,,2024-10-01,2024-10,,,,,,,,,,,,,,,,133,8055494,-6.30,,
+category_monthly_trend,Celengan,,2024-10-01,2024-10,,,,,,,,,,,,,,,,205,5031426,-30.35,,
+category_monthly_trend,Keranjang,,2024-10-01,2024-10,,,,,,,,,,,,,,,,22,519719,33.26,,
 category_monthly_trend,Lunch Box / Rantang,,2024-10-01,2024-10,,,,,,,,,,,,,,,,48,4054212,68.23,,
-category_monthly_trend,Peralatan Makan,,2024-10-01,2024-10,,,,,,,,,,,,,,,,13,1006948,-9.32,,
-category_monthly_trend,Teko / Jug,,2024-10-01,2024-10,,,,,,,,,,,,,,,,18,933986,80.60,,
-category_monthly_trend,Seal / Baut / Roof,,2024-10-01,2024-10,,,,,,,,,,,,,,,,24,12900723,-40.44,,
-category_monthly_trend,Tempat Nasi,,2024-10-01,2024-10,,,,,,,,,,,,,,,,60,1301066,39.95,,
+category_monthly_trend,Mangkok Sambal / Saus,,2024-10-01,2024-10,,,,,,,,,,,,,,,,185,6018386,-2.92,,
 category_monthly_trend,Nampan / Tray,,2024-10-01,2024-10,,,,,,,,,,,,,,,,89,6503374,48.25,,
-category_monthly_trend,Saringan / Strainer,,2024-10-01,2024-10,,,,,,,,,,,,,,,,19,566531,-17.87,,
-category_monthly_trend,Piring,,2024-10-01,2024-10,,,,,,,,,,,,,,,,14,457771,-69.29,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2024-10-01,2024-10,,,,,,,,,,,,,,,,21,3592355,1376.88,,
-category_monthly_trend,Stempel / Alat Kantor,,2024-10-01,2024-10,,,,,,,,,,,,,,,,8,986592,185.60,,
 category_monthly_trend,Other,,2024-10-01,2024-10,,,,,,,,,,,,,,,,26,3217517,1.89,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2024-10-01,2024-10,,,,,,,,,,,,,,,,21,3592355,1376.88,,
+category_monthly_trend,Peralatan Makan,,2024-10-01,2024-10,,,,,,,,,,,,,,,,13,1006948,-9.32,,
+category_monthly_trend,Perlengkapan Packing,,2024-10-01,2024-10,,,,,,,,,,,,,,,,9,1245958,88.72,,
+category_monthly_trend,Piring,,2024-10-01,2024-10,,,,,,,,,,,,,,,,14,457771,-69.29,,
+category_monthly_trend,Plastik / Wadah Plastik,,2024-10-01,2024-10,,,,,,,,,,,,,,,,8,389799,383.01,,
 category_monthly_trend,Rak / Rak Serbaguna,,2024-10-01,2024-10,,,,,,,,,,,,,,,,24,888518,-24.62,,
-category_monthly_trend,Celengan,,2024-11-01,2024-11,,,,,,,,,,,,,,,,195,5206199,3.47,,
-category_monthly_trend,Toples / Sealware,,2024-11-01,2024-11,,,,,,,,,,,,,,,,10,164991,-6.96,,
-category_monthly_trend,Peralatan Makan,,2024-11-01,2024-11,,,,,,,,,,,,,,,,21,1490844,48.06,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2024-11-01,2024-11,,,,,,,,,,,,,,,,14,499547,-86.09,,
-category_monthly_trend,Plastik / Wadah Plastik,,2024-11-01,2024-11,,,,,,,,,,,,,,,,4,388440,-0.35,,
-category_monthly_trend,Other,,2024-11-01,2024-11,,,,,,,,,,,,,,,,17,1602036,-50.21,,
-category_monthly_trend,Tempat Nasi,,2024-11-01,2024-11,,,,,,,,,,,,,,,,45,1256520,-3.42,,
-category_monthly_trend,Saringan / Strainer,,2024-11-01,2024-11,,,,,,,,,,,,,,,,36,951494,67.95,,
-category_monthly_trend,Nampan / Tray,,2024-11-01,2024-11,,,,,,,,,,,,,,,,35,2296301,-64.69,,
-category_monthly_trend,Mangkok Sambal / Saus,,2024-11-01,2024-11,,,,,,,,,,,,,,,,213,7320389,21.63,,
-category_monthly_trend,Teko / Jug,,2024-11-01,2024-11,,,,,,,,,,,,,,,,14,527829,-43.49,,
+category_monthly_trend,Saringan / Strainer,,2024-10-01,2024-10,,,,,,,,,,,,,,,,19,566531,-17.87,,
+category_monthly_trend,Seal / Baut / Roof,,2024-10-01,2024-10,,,,,,,,,,,,,,,,24,12900723,-40.44,,
+category_monthly_trend,Stempel / Alat Kantor,,2024-10-01,2024-10,,,,,,,,,,,,,,,,8,986592,185.60,,
+category_monthly_trend,Teko / Jug,,2024-10-01,2024-10,,,,,,,,,,,,,,,,18,933986,80.60,,
+category_monthly_trend,Tempat Nasi,,2024-10-01,2024-10,,,,,,,,,,,,,,,,60,1301066,39.95,,
+category_monthly_trend,Toples / Sealware,,2024-10-01,2024-10,,,,,,,,,,,,,,,,4,177335,863.62,,
 category_monthly_trend,Aksesoris Pintu,,2024-11-01,2024-11,,,,,,,,,,,,,,,,124,1733997,45.12,,
-category_monthly_trend,Lunch Box / Rantang,,2024-11-01,2024-11,,,,,,,,,,,,,,,,13,1994370,-50.81,,
-category_monthly_trend,Keranjang,,2024-11-01,2024-11,,,,,,,,,,,,,,,,19,558396,7.44,,
-category_monthly_trend,Rak / Rak Serbaguna,,2024-11-01,2024-11,,,,,,,,,,,,,,,,18,915887,3.08,,
-category_monthly_trend,Stempel / Alat Kantor,,2024-11-01,2024-11,,,,,,,,,,,,,,,,4,152240,-84.57,,
-category_monthly_trend,Perlengkapan Packing,,2024-11-01,2024-11,,,,,,,,,,,,,,,,3,828200,-33.53,,
 category_monthly_trend,Baskom / Mangkok Besar,,2024-11-01,2024-11,,,,,,,,,,,,,,,,76,5510199,-31.60,,
-category_monthly_trend,Seal / Baut / Roof,,2024-11-01,2024-11,,,,,,,,,,,,,,,,36,13814686,7.08,,
+category_monthly_trend,Celengan,,2024-11-01,2024-11,,,,,,,,,,,,,,,,195,5206199,3.47,,
+category_monthly_trend,Keranjang,,2024-11-01,2024-11,,,,,,,,,,,,,,,,19,558396,7.44,,
+category_monthly_trend,Lunch Box / Rantang,,2024-11-01,2024-11,,,,,,,,,,,,,,,,13,1994370,-50.81,,
+category_monthly_trend,Mangkok Sambal / Saus,,2024-11-01,2024-11,,,,,,,,,,,,,,,,213,7320389,21.63,,
+category_monthly_trend,Nampan / Tray,,2024-11-01,2024-11,,,,,,,,,,,,,,,,35,2296301,-64.69,,
+category_monthly_trend,Other,,2024-11-01,2024-11,,,,,,,,,,,,,,,,17,1602036,-50.21,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2024-11-01,2024-11,,,,,,,,,,,,,,,,14,499547,-86.09,,
+category_monthly_trend,Peralatan Makan,,2024-11-01,2024-11,,,,,,,,,,,,,,,,21,1490844,48.06,,
+category_monthly_trend,Perlengkapan Packing,,2024-11-01,2024-11,,,,,,,,,,,,,,,,3,828200,-33.53,,
 category_monthly_trend,Piring,,2024-11-01,2024-11,,,,,,,,,,,,,,,,10,613224,33.96,,
-category_monthly_trend,Perlengkapan Packing,,2024-12-01,2024-12,,,,,,,,,,,,,,,,1,443000,-46.51,,
-category_monthly_trend,Mangkok Sambal / Saus,,2024-12-01,2024-12,,,,,,,,,,,,,,,,207,7382271,0.85,,
-category_monthly_trend,Other,,2024-12-01,2024-12,,,,,,,,,,,,,,,,20,3211006,100.43,,
-category_monthly_trend,Plastik / Wadah Plastik,,2024-12-01,2024-12,,,,,,,,,,,,,,,,6,443435,14.16,,
-category_monthly_trend,Saringan / Strainer,,2024-12-01,2024-12,,,,,,,,,,,,,,,,34,1353067,42.20,,
-category_monthly_trend,Nampan / Tray,,2024-12-01,2024-12,,,,,,,,,,,,,,,,27,3463985,50.85,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2024-12-01,2024-12,,,,,,,,,,,,,,,,8,335023,-32.93,,
-category_monthly_trend,Celengan,,2024-12-01,2024-12,,,,,,,,,,,,,,,,368,9196765,76.65,,
-category_monthly_trend,Piring,,2024-12-01,2024-12,,,,,,,,,,,,,,,,8,298497,-51.32,,
-category_monthly_trend,Seal / Baut / Roof,,2024-12-01,2024-12,,,,,,,,,,,,,,,,37,13771363,-0.31,,
-category_monthly_trend,Rak / Rak Serbaguna,,2024-12-01,2024-12,,,,,,,,,,,,,,,,5,225588,-75.37,,
-category_monthly_trend,Peralatan Makan,,2024-12-01,2024-12,,,,,,,,,,,,,,,,22,888520,-40.40,,
-category_monthly_trend,Lunch Box / Rantang,,2024-12-01,2024-12,,,,,,,,,,,,,,,,24,3220227,61.47,,
-category_monthly_trend,Tempat Nasi,,2024-12-01,2024-12,,,,,,,,,,,,,,,,54,1396124,11.11,,
-category_monthly_trend,Teko / Jug,,2024-12-01,2024-12,,,,,,,,,,,,,,,,7,402876,-23.67,,
-category_monthly_trend,Stempel / Alat Kantor,,2024-12-01,2024-12,,,,,,,,,,,,,,,,12,575764,278.19,,
-category_monthly_trend,Baskom / Mangkok Besar,,2024-12-01,2024-12,,,,,,,,,,,,,,,,32,1530155,-72.23,,
-category_monthly_trend,Keranjang,,2024-12-01,2024-12,,,,,,,,,,,,,,,,26,498848,-10.66,,
-category_monthly_trend,Toples / Sealware,,2024-12-01,2024-12,,,,,,,,,,,,,,,,2,41500,-74.85,,
+category_monthly_trend,Plastik / Wadah Plastik,,2024-11-01,2024-11,,,,,,,,,,,,,,,,4,388440,-0.35,,
+category_monthly_trend,Rak / Rak Serbaguna,,2024-11-01,2024-11,,,,,,,,,,,,,,,,18,915887,3.08,,
+category_monthly_trend,Saringan / Strainer,,2024-11-01,2024-11,,,,,,,,,,,,,,,,36,951494,67.95,,
+category_monthly_trend,Seal / Baut / Roof,,2024-11-01,2024-11,,,,,,,,,,,,,,,,36,13814686,7.08,,
+category_monthly_trend,Stempel / Alat Kantor,,2024-11-01,2024-11,,,,,,,,,,,,,,,,4,152240,-84.57,,
+category_monthly_trend,Teko / Jug,,2024-11-01,2024-11,,,,,,,,,,,,,,,,14,527829,-43.49,,
+category_monthly_trend,Tempat Nasi,,2024-11-01,2024-11,,,,,,,,,,,,,,,,45,1256520,-3.42,,
+category_monthly_trend,Toples / Sealware,,2024-11-01,2024-11,,,,,,,,,,,,,,,,10,164991,-6.96,,
 category_monthly_trend,Aksesoris Pintu,,2024-12-01,2024-12,,,,,,,,,,,,,,,,181,2656184,53.18,,
-category_monthly_trend,Piring,,2025-01-01,2025-01,,,,,,,,,,,,,,,,9,688119,130.53,,
-category_monthly_trend,Lunch Box / Rantang,,2025-01-01,2025-01,,,,,,,,,,,,,,,,26,1220082,-62.11,,
-category_monthly_trend,Toples / Sealware,,2025-01-01,2025-01,,,,,,,,,,,,,,,,10,253104,509.89,,
-category_monthly_trend,Rak / Rak Serbaguna,,2025-01-01,2025-01,,,,,,,,,,,,,,,,29,1193896,429.24,,
-category_monthly_trend,Mangkok Sambal / Saus,,2025-01-01,2025-01,,,,,,,,,,,,,,,,139,5648201,-23.49,,
-category_monthly_trend,Celengan,,2025-01-01,2025-01,,,,,,,,,,,,,,,,327,8880713,-3.44,,
-category_monthly_trend,Stempel / Alat Kantor,,2025-01-01,2025-01,,,,,,,,,,,,,,,,2,0,-100.00,,
-category_monthly_trend,Plastik / Wadah Plastik,,2025-01-01,2025-01,,,,,,,,,,,,,,,,4,136164,-69.29,,
-category_monthly_trend,Nampan / Tray,,2025-01-01,2025-01,,,,,,,,,,,,,,,,29,2345319,-32.29,,
-category_monthly_trend,Baskom / Mangkok Besar,,2025-01-01,2025-01,,,,,,,,,,,,,,,,17,953581,-37.68,,
-category_monthly_trend,Saringan / Strainer,,2025-01-01,2025-01,,,,,,,,,,,,,,,,31,622435,-54.00,,
-category_monthly_trend,Tempat Nasi,,2025-01-01,2025-01,,,,,,,,,,,,,,,,44,864915,-38.05,,
+category_monthly_trend,Baskom / Mangkok Besar,,2024-12-01,2024-12,,,,,,,,,,,,,,,,32,1530155,-72.23,,
+category_monthly_trend,Celengan,,2024-12-01,2024-12,,,,,,,,,,,,,,,,368,9196765,76.65,,
+category_monthly_trend,Keranjang,,2024-12-01,2024-12,,,,,,,,,,,,,,,,26,498848,-10.66,,
+category_monthly_trend,Lunch Box / Rantang,,2024-12-01,2024-12,,,,,,,,,,,,,,,,24,3220227,61.47,,
+category_monthly_trend,Mangkok Sambal / Saus,,2024-12-01,2024-12,,,,,,,,,,,,,,,,207,7382271,0.85,,
+category_monthly_trend,Nampan / Tray,,2024-12-01,2024-12,,,,,,,,,,,,,,,,27,3463985,50.85,,
+category_monthly_trend,Other,,2024-12-01,2024-12,,,,,,,,,,,,,,,,20,3211006,100.43,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2024-12-01,2024-12,,,,,,,,,,,,,,,,8,335023,-32.93,,
+category_monthly_trend,Peralatan Makan,,2024-12-01,2024-12,,,,,,,,,,,,,,,,22,888520,-40.40,,
+category_monthly_trend,Perlengkapan Packing,,2024-12-01,2024-12,,,,,,,,,,,,,,,,1,443000,-46.51,,
+category_monthly_trend,Piring,,2024-12-01,2024-12,,,,,,,,,,,,,,,,8,298497,-51.32,,
+category_monthly_trend,Plastik / Wadah Plastik,,2024-12-01,2024-12,,,,,,,,,,,,,,,,6,443435,14.16,,
+category_monthly_trend,Rak / Rak Serbaguna,,2024-12-01,2024-12,,,,,,,,,,,,,,,,5,225588,-75.37,,
+category_monthly_trend,Saringan / Strainer,,2024-12-01,2024-12,,,,,,,,,,,,,,,,34,1353067,42.20,,
+category_monthly_trend,Seal / Baut / Roof,,2024-12-01,2024-12,,,,,,,,,,,,,,,,37,13771363,-0.31,,
+category_monthly_trend,Stempel / Alat Kantor,,2024-12-01,2024-12,,,,,,,,,,,,,,,,12,575764,278.19,,
+category_monthly_trend,Teko / Jug,,2024-12-01,2024-12,,,,,,,,,,,,,,,,7,402876,-23.67,,
+category_monthly_trend,Tempat Nasi,,2024-12-01,2024-12,,,,,,,,,,,,,,,,54,1396124,11.11,,
+category_monthly_trend,Toples / Sealware,,2024-12-01,2024-12,,,,,,,,,,,,,,,,2,41500,-74.85,,
 category_monthly_trend,Aksesoris Pintu,,2025-01-01,2025-01,,,,,,,,,,,,,,,,178,3003402,13.07,,
+category_monthly_trend,Baskom / Mangkok Besar,,2025-01-01,2025-01,,,,,,,,,,,,,,,,17,953581,-37.68,,
+category_monthly_trend,Celengan,,2025-01-01,2025-01,,,,,,,,,,,,,,,,327,8880713,-3.44,,
+category_monthly_trend,Keranjang,,2025-01-01,2025-01,,,,,,,,,,,,,,,,63,1204663,141.49,,
+category_monthly_trend,Lunch Box / Rantang,,2025-01-01,2025-01,,,,,,,,,,,,,,,,26,1220082,-62.11,,
+category_monthly_trend,Mangkok Sambal / Saus,,2025-01-01,2025-01,,,,,,,,,,,,,,,,139,5648201,-23.49,,
+category_monthly_trend,Nampan / Tray,,2025-01-01,2025-01,,,,,,,,,,,,,,,,29,2345319,-32.29,,
 category_monthly_trend,Other,,2025-01-01,2025-01,,,,,,,,,,,,,,,,33,2314916,-27.91,,
 category_monthly_trend,Pengolah Bumbu / Sayur,,2025-01-01,2025-01,,,,,,,,,,,,,,,,8,315860,-5.72,,
-category_monthly_trend,Seal / Baut / Roof,,2025-01-01,2025-01,,,,,,,,,,,,,,,,23,12629020,-8.30,,
-category_monthly_trend,Perlengkapan Packing,,2025-01-01,2025-01,,,,,,,,,,,,,,,,3,270100,-39.03,,
 category_monthly_trend,Peralatan Makan,,2025-01-01,2025-01,,,,,,,,,,,,,,,,8,3080710,246.72,,
+category_monthly_trend,Perlengkapan Packing,,2025-01-01,2025-01,,,,,,,,,,,,,,,,3,270100,-39.03,,
+category_monthly_trend,Piring,,2025-01-01,2025-01,,,,,,,,,,,,,,,,9,688119,130.53,,
+category_monthly_trend,Plastik / Wadah Plastik,,2025-01-01,2025-01,,,,,,,,,,,,,,,,4,136164,-69.29,,
+category_monthly_trend,Rak / Rak Serbaguna,,2025-01-01,2025-01,,,,,,,,,,,,,,,,29,1193896,429.24,,
+category_monthly_trend,Saringan / Strainer,,2025-01-01,2025-01,,,,,,,,,,,,,,,,31,622435,-54.00,,
+category_monthly_trend,Seal / Baut / Roof,,2025-01-01,2025-01,,,,,,,,,,,,,,,,23,12629020,-8.30,,
+category_monthly_trend,Stempel / Alat Kantor,,2025-01-01,2025-01,,,,,,,,,,,,,,,,2,0,-100.00,,
 category_monthly_trend,Teko / Jug,,2025-01-01,2025-01,,,,,,,,,,,,,,,,8,277875,-31.03,,
-category_monthly_trend,Keranjang,,2025-01-01,2025-01,,,,,,,,,,,,,,,,63,1204663,141.49,,
-category_monthly_trend,Stempel / Alat Kantor,,2025-02-01,2025-02,,,,,,,,,,,,,,,,3,411900,,,
-category_monthly_trend,Toples / Sealware,,2025-02-01,2025-02,,,,,,,,,,,,,,,,3,227265,-10.21,,
-category_monthly_trend,Tempat Nasi,,2025-02-01,2025-02,,,,,,,,,,,,,,,,29,748267,-13.49,,
-category_monthly_trend,Teko / Jug,,2025-02-01,2025-02,,,,,,,,,,,,,,,,12,685380,146.65,,
-category_monthly_trend,Seal / Baut / Roof,,2025-02-01,2025-02,,,,,,,,,,,,,,,,41,17564221,39.08,,
-category_monthly_trend,Saringan / Strainer,,2025-02-01,2025-02,,,,,,,,,,,,,,,,45,1035383,66.34,,
-category_monthly_trend,Rak / Rak Serbaguna,,2025-02-01,2025-02,,,,,,,,,,,,,,,,41,2459694,106.02,,
-category_monthly_trend,Plastik / Wadah Plastik,,2025-02-01,2025-02,,,,,,,,,,,,,,,,2,76100,-44.11,,
-category_monthly_trend,Piring,,2025-02-01,2025-02,,,,,,,,,,,,,,,,14,535584,-22.17,,
-category_monthly_trend,Perlengkapan Packing,,2025-02-01,2025-02,,,,,,,,,,,,,,,,4,406200,50.39,,
-category_monthly_trend,Peralatan Makan,,2025-02-01,2025-02,,,,,,,,,,,,,,,,6,165052,-94.64,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2025-02-01,2025-02,,,,,,,,,,,,,,,,6,253535,-19.73,,
-category_monthly_trend,Other,,2025-02-01,2025-02,,,,,,,,,,,,,,,,62,3650625,57.70,,
-category_monthly_trend,Nampan / Tray,,2025-02-01,2025-02,,,,,,,,,,,,,,,,29,4428665,88.83,,
-category_monthly_trend,Mangkok Sambal / Saus,,2025-02-01,2025-02,,,,,,,,,,,,,,,,128,4683230,-17.08,,
-category_monthly_trend,Lunch Box / Rantang,,2025-02-01,2025-02,,,,,,,,,,,,,,,,24,1053032,-13.69,,
-category_monthly_trend,Keranjang,,2025-02-01,2025-02,,,,,,,,,,,,,,,,36,578156,-52.01,,
-category_monthly_trend,Celengan,,2025-02-01,2025-02,,,,,,,,,,,,,,,,203,5049041,-43.15,,
-category_monthly_trend,Baskom / Mangkok Besar,,2025-02-01,2025-02,,,,,,,,,,,,,,,,14,556730,-41.62,,
+category_monthly_trend,Tempat Nasi,,2025-01-01,2025-01,,,,,,,,,,,,,,,,44,864915,-38.05,,
+category_monthly_trend,Toples / Sealware,,2025-01-01,2025-01,,,,,,,,,,,,,,,,10,253104,509.89,,
 category_monthly_trend,Aksesoris Pintu,,2025-02-01,2025-02,,,,,,,,,,,,,,,,140,2165219,-27.91,,
+category_monthly_trend,Baskom / Mangkok Besar,,2025-02-01,2025-02,,,,,,,,,,,,,,,,14,556730,-41.62,,
+category_monthly_trend,Celengan,,2025-02-01,2025-02,,,,,,,,,,,,,,,,203,5049041,-43.15,,
+category_monthly_trend,Keranjang,,2025-02-01,2025-02,,,,,,,,,,,,,,,,36,578156,-52.01,,
+category_monthly_trend,Lunch Box / Rantang,,2025-02-01,2025-02,,,,,,,,,,,,,,,,24,1053032,-13.69,,
+category_monthly_trend,Mangkok Sambal / Saus,,2025-02-01,2025-02,,,,,,,,,,,,,,,,128,4683230,-17.08,,
+category_monthly_trend,Nampan / Tray,,2025-02-01,2025-02,,,,,,,,,,,,,,,,29,4428665,88.83,,
+category_monthly_trend,Other,,2025-02-01,2025-02,,,,,,,,,,,,,,,,62,3650625,57.70,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2025-02-01,2025-02,,,,,,,,,,,,,,,,6,253535,-19.73,,
+category_monthly_trend,Peralatan Makan,,2025-02-01,2025-02,,,,,,,,,,,,,,,,6,165052,-94.64,,
+category_monthly_trend,Perlengkapan Packing,,2025-02-01,2025-02,,,,,,,,,,,,,,,,4,406200,50.39,,
+category_monthly_trend,Piring,,2025-02-01,2025-02,,,,,,,,,,,,,,,,14,535584,-22.17,,
+category_monthly_trend,Plastik / Wadah Plastik,,2025-02-01,2025-02,,,,,,,,,,,,,,,,2,76100,-44.11,,
+category_monthly_trend,Rak / Rak Serbaguna,,2025-02-01,2025-02,,,,,,,,,,,,,,,,41,2459694,106.02,,
+category_monthly_trend,Saringan / Strainer,,2025-02-01,2025-02,,,,,,,,,,,,,,,,45,1035383,66.34,,
+category_monthly_trend,Seal / Baut / Roof,,2025-02-01,2025-02,,,,,,,,,,,,,,,,41,17564221,39.08,,
+category_monthly_trend,Stempel / Alat Kantor,,2025-02-01,2025-02,,,,,,,,,,,,,,,,3,411900,,,
+category_monthly_trend,Teko / Jug,,2025-02-01,2025-02,,,,,,,,,,,,,,,,12,685380,146.65,,
+category_monthly_trend,Tempat Nasi,,2025-02-01,2025-02,,,,,,,,,,,,,,,,29,748267,-13.49,,
+category_monthly_trend,Toples / Sealware,,2025-02-01,2025-02,,,,,,,,,,,,,,,,3,227265,-10.21,,
 category_monthly_trend,Aksesoris Pintu,,2025-03-01,2025-03,,,,,,,,,,,,,,,,96,1324518,-38.83,,
-category_monthly_trend,Piring,,2025-03-01,2025-03,,,,,,,,,,,,,,,,14,2540000,374.25,,
-category_monthly_trend,Lunch Box / Rantang,,2025-03-01,2025-03,,,,,,,,,,,,,,,,21,1437216,36.48,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2025-03-01,2025-03,,,,,,,,,,,,,,,,3,82180,-67.59,,
-category_monthly_trend,Stempel / Alat Kantor,,2025-03-01,2025-03,,,,,,,,,,,,,,,,5,692935,68.23,,
-category_monthly_trend,Peralatan Makan,,2025-03-01,2025-03,,,,,,,,,,,,,,,,2,17400,-89.46,,
-category_monthly_trend,Other,,2025-03-01,2025-03,,,,,,,,,,,,,,,,49,1801755,-50.65,,
-category_monthly_trend,Celengan,,2025-03-01,2025-03,,,,,,,,,,,,,,,,80,2141627,-57.58,,
-category_monthly_trend,Tempat Nasi,,2025-03-01,2025-03,,,,,,,,,,,,,,,,32,741850,-0.86,,
-category_monthly_trend,Keranjang,,2025-03-01,2025-03,,,,,,,,,,,,,,,,9,131189,-77.31,,
 category_monthly_trend,Baskom / Mangkok Besar,,2025-03-01,2025-03,,,,,,,,,,,,,,,,29,2115813,280.04,,
-category_monthly_trend,Plastik / Wadah Plastik,,2025-03-01,2025-03,,,,,,,,,,,,,,,,7,355845,367.60,,
-category_monthly_trend,Nampan / Tray,,2025-03-01,2025-03,,,,,,,,,,,,,,,,44,7362481,66.25,,
+category_monthly_trend,Celengan,,2025-03-01,2025-03,,,,,,,,,,,,,,,,80,2141627,-57.58,,
+category_monthly_trend,Keranjang,,2025-03-01,2025-03,,,,,,,,,,,,,,,,9,131189,-77.31,,
+category_monthly_trend,Lunch Box / Rantang,,2025-03-01,2025-03,,,,,,,,,,,,,,,,21,1437216,36.48,,
 category_monthly_trend,Mangkok Sambal / Saus,,2025-03-01,2025-03,,,,,,,,,,,,,,,,40,1774118,-62.12,,
-category_monthly_trend,Toples / Sealware,,2025-03-01,2025-03,,,,,,,,,,,,,,,,38,1680976,639.65,,
-category_monthly_trend,Seal / Baut / Roof,,2025-03-01,2025-03,,,,,,,,,,,,,,,,21,13173614,-25.00,,
-category_monthly_trend,Teko / Jug,,2025-03-01,2025-03,,,,,,,,,,,,,,,,12,446465,-34.86,,
+category_monthly_trend,Nampan / Tray,,2025-03-01,2025-03,,,,,,,,,,,,,,,,44,7362481,66.25,,
+category_monthly_trend,Other,,2025-03-01,2025-03,,,,,,,,,,,,,,,,49,1801755,-50.65,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2025-03-01,2025-03,,,,,,,,,,,,,,,,3,82180,-67.59,,
+category_monthly_trend,Peralatan Makan,,2025-03-01,2025-03,,,,,,,,,,,,,,,,2,17400,-89.46,,
+category_monthly_trend,Piring,,2025-03-01,2025-03,,,,,,,,,,,,,,,,14,2540000,374.25,,
+category_monthly_trend,Plastik / Wadah Plastik,,2025-03-01,2025-03,,,,,,,,,,,,,,,,7,355845,367.60,,
 category_monthly_trend,Rak / Rak Serbaguna,,2025-03-01,2025-03,,,,,,,,,,,,,,,,23,1220055,-50.40,,
-category_monthly_trend,Baskom / Mangkok Besar,,2025-04-01,2025-04,,,,,,,,,,,,,,,,20,626350,-70.40,,
-category_monthly_trend,Rak / Rak Serbaguna,,2025-04-01,2025-04,,,,,,,,,,,,,,,,24,940812,-22.89,,
-category_monthly_trend,Seal / Baut / Roof,,2025-04-01,2025-04,,,,,,,,,,,,,,,,26,10530189,-20.07,,
-category_monthly_trend,Saringan / Strainer,,2025-04-01,2025-04,,,,,,,,,,,,,,,,2,67897,-93.44,,
+category_monthly_trend,Seal / Baut / Roof,,2025-03-01,2025-03,,,,,,,,,,,,,,,,21,13173614,-25.00,,
+category_monthly_trend,Stempel / Alat Kantor,,2025-03-01,2025-03,,,,,,,,,,,,,,,,5,692935,68.23,,
+category_monthly_trend,Teko / Jug,,2025-03-01,2025-03,,,,,,,,,,,,,,,,12,446465,-34.86,,
+category_monthly_trend,Tempat Nasi,,2025-03-01,2025-03,,,,,,,,,,,,,,,,32,741850,-0.86,,
+category_monthly_trend,Toples / Sealware,,2025-03-01,2025-03,,,,,,,,,,,,,,,,38,1680976,639.65,,
 category_monthly_trend,Aksesoris Pintu,,2025-04-01,2025-04,,,,,,,,,,,,,,,,109,1666733,25.84,,
-category_monthly_trend,Perlengkapan Packing,,2025-04-01,2025-04,,,,,,,,,,,,,,,,2,571593,40.72,,
-category_monthly_trend,Stempel / Alat Kantor,,2025-04-01,2025-04,,,,,,,,,,,,,,,,7,102019,-85.28,,
-category_monthly_trend,Lunch Box / Rantang,,2025-04-01,2025-04,,,,,,,,,,,,,,,,24,1670982,16.27,,
-category_monthly_trend,Teko / Jug,,2025-04-01,2025-04,,,,,,,,,,,,,,,,8,389076,-12.85,,
-category_monthly_trend,Nampan / Tray,,2025-04-01,2025-04,,,,,,,,,,,,,,,,42,2373835,-67.76,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2025-04-01,2025-04,,,,,,,,,,,,,,,,5,273232,232.48,,
-category_monthly_trend,Plastik / Wadah Plastik,,2025-04-01,2025-04,,,,,,,,,,,,,,,,2,16600,-95.34,,
-category_monthly_trend,Keranjang,,2025-04-01,2025-04,,,,,,,,,,,,,,,,41,621983,374.11,,
-category_monthly_trend,Tempat Nasi,,2025-04-01,2025-04,,,,,,,,,,,,,,,,21,343039,-53.76,,
-category_monthly_trend,Mangkok Sambal / Saus,,2025-04-01,2025-04,,,,,,,,,,,,,,,,105,3652410,105.87,,
+category_monthly_trend,Baskom / Mangkok Besar,,2025-04-01,2025-04,,,,,,,,,,,,,,,,20,626350,-70.40,,
 category_monthly_trend,Celengan,,2025-04-01,2025-04,,,,,,,,,,,,,,,,232,5218075,143.65,,
-category_monthly_trend,Toples / Sealware,,2025-04-01,2025-04,,,,,,,,,,,,,,,,1,14468,-99.14,,
-category_monthly_trend,Peralatan Makan,,2025-04-01,2025-04,,,,,,,,,,,,,,,,3,58000,233.33,,
+category_monthly_trend,Keranjang,,2025-04-01,2025-04,,,,,,,,,,,,,,,,41,621983,374.11,,
+category_monthly_trend,Lunch Box / Rantang,,2025-04-01,2025-04,,,,,,,,,,,,,,,,24,1670982,16.27,,
+category_monthly_trend,Mangkok Sambal / Saus,,2025-04-01,2025-04,,,,,,,,,,,,,,,,105,3652410,105.87,,
+category_monthly_trend,Nampan / Tray,,2025-04-01,2025-04,,,,,,,,,,,,,,,,42,2373835,-67.76,,
 category_monthly_trend,Other,,2025-04-01,2025-04,,,,,,,,,,,,,,,,31,1837772,2.00,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2025-04-01,2025-04,,,,,,,,,,,,,,,,5,273232,232.48,,
+category_monthly_trend,Peralatan Makan,,2025-04-01,2025-04,,,,,,,,,,,,,,,,3,58000,233.33,,
+category_monthly_trend,Perlengkapan Packing,,2025-04-01,2025-04,,,,,,,,,,,,,,,,2,571593,40.72,,
 category_monthly_trend,Piring,,2025-04-01,2025-04,,,,,,,,,,,,,,,,14,426870,-83.19,,
+category_monthly_trend,Plastik / Wadah Plastik,,2025-04-01,2025-04,,,,,,,,,,,,,,,,2,16600,-95.34,,
+category_monthly_trend,Rak / Rak Serbaguna,,2025-04-01,2025-04,,,,,,,,,,,,,,,,24,940812,-22.89,,
+category_monthly_trend,Saringan / Strainer,,2025-04-01,2025-04,,,,,,,,,,,,,,,,2,67897,-93.44,,
+category_monthly_trend,Seal / Baut / Roof,,2025-04-01,2025-04,,,,,,,,,,,,,,,,26,10530189,-20.07,,
+category_monthly_trend,Stempel / Alat Kantor,,2025-04-01,2025-04,,,,,,,,,,,,,,,,7,102019,-85.28,,
+category_monthly_trend,Teko / Jug,,2025-04-01,2025-04,,,,,,,,,,,,,,,,8,389076,-12.85,,
+category_monthly_trend,Tempat Nasi,,2025-04-01,2025-04,,,,,,,,,,,,,,,,21,343039,-53.76,,
+category_monthly_trend,Toples / Sealware,,2025-04-01,2025-04,,,,,,,,,,,,,,,,1,14468,-99.14,,
 category_monthly_trend,Aksesoris Pintu,,2025-05-01,2025-05,,,,,,,,,,,,,,,,192,2428140,45.68,,
+category_monthly_trend,Baskom / Mangkok Besar,,2025-05-01,2025-05,,,,,,,,,,,,,,,,16,487223,-22.21,,
+category_monthly_trend,Celengan,,2025-05-01,2025-05,,,,,,,,,,,,,,,,132,2734988,-47.59,,
 category_monthly_trend,Keranjang,,2025-05-01,2025-05,,,,,,,,,,,,,,,,50,1082428,74.03,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2025-05-01,2025-05,,,,,,,,,,,,,,,,3,104700,-61.68,,
-category_monthly_trend,Teko / Jug,,2025-05-01,2025-05,,,,,,,,,,,,,,,,6,274817,-29.37,,
 category_monthly_trend,Lunch Box / Rantang,,2025-05-01,2025-05,,,,,,,,,,,,,,,,30,1966741,17.70,,
-category_monthly_trend,Toples / Sealware,,2025-05-01,2025-05,,,,,,,,,,,,,,,,2,67400,365.86,,
-category_monthly_trend,Rak / Rak Serbaguna,,2025-05-01,2025-05,,,,,,,,,,,,,,,,36,2331058,147.77,,
-category_monthly_trend,Perlengkapan Packing,,2025-05-01,2025-05,,,,,,,,,,,,,,,,5,237000,-58.54,,
-category_monthly_trend,Stempel / Alat Kantor,,2025-05-01,2025-05,,,,,,,,,,,,,,,,13,336188,229.53,,
-category_monthly_trend,Peralatan Makan,,2025-05-01,2025-05,,,,,,,,,,,,,,,,7,122516,111.23,,
-category_monthly_trend,Seal / Baut / Roof,,2025-05-01,2025-05,,,,,,,,,,,,,,,,25,8453825,-19.72,,
 category_monthly_trend,Mangkok Sambal / Saus,,2025-05-01,2025-05,,,,,,,,,,,,,,,,96,2594286,-28.97,,
+category_monthly_trend,Nampan / Tray,,2025-05-01,2025-05,,,,,,,,,,,,,,,,56,2130849,-10.24,,
+category_monthly_trend,Other,,2025-05-01,2025-05,,,,,,,,,,,,,,,,29,810163,-55.92,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2025-05-01,2025-05,,,,,,,,,,,,,,,,3,104700,-61.68,,
+category_monthly_trend,Peralatan Makan,,2025-05-01,2025-05,,,,,,,,,,,,,,,,7,122516,111.23,,
+category_monthly_trend,Perlengkapan Packing,,2025-05-01,2025-05,,,,,,,,,,,,,,,,5,237000,-58.54,,
 category_monthly_trend,Piring,,2025-05-01,2025-05,,,,,,,,,,,,,,,,27,273207,-36.00,,
 category_monthly_trend,Plastik / Wadah Plastik,,2025-05-01,2025-05,,,,,,,,,,,,,,,,1,9320,-43.86,,
-category_monthly_trend,Nampan / Tray,,2025-05-01,2025-05,,,,,,,,,,,,,,,,56,2130849,-10.24,,
-category_monthly_trend,Baskom / Mangkok Besar,,2025-05-01,2025-05,,,,,,,,,,,,,,,,16,487223,-22.21,,
+category_monthly_trend,Rak / Rak Serbaguna,,2025-05-01,2025-05,,,,,,,,,,,,,,,,36,2331058,147.77,,
+category_monthly_trend,Seal / Baut / Roof,,2025-05-01,2025-05,,,,,,,,,,,,,,,,25,8453825,-19.72,,
+category_monthly_trend,Stempel / Alat Kantor,,2025-05-01,2025-05,,,,,,,,,,,,,,,,13,336188,229.53,,
+category_monthly_trend,Teko / Jug,,2025-05-01,2025-05,,,,,,,,,,,,,,,,6,274817,-29.37,,
 category_monthly_trend,Tempat Nasi,,2025-05-01,2025-05,,,,,,,,,,,,,,,,3,26836,-92.18,,
-category_monthly_trend,Other,,2025-05-01,2025-05,,,,,,,,,,,,,,,,29,810163,-55.92,,
-category_monthly_trend,Celengan,,2025-05-01,2025-05,,,,,,,,,,,,,,,,132,2734988,-47.59,,
-category_monthly_trend,Lunch Box / Rantang,,2025-06-01,2025-06,,,,,,,,,,,,,,,,14,2586381,31.51,,
-category_monthly_trend,Nampan / Tray,,2025-06-01,2025-06,,,,,,,,,,,,,,,,112,3385305,58.87,,
-category_monthly_trend,Stempel / Alat Kantor,,2025-06-01,2025-06,,,,,,,,,,,,,,,,7,483067,43.69,,
-category_monthly_trend,Teko / Jug,,2025-06-01,2025-06,,,,,,,,,,,,,,,,2,0,-100.00,,
-category_monthly_trend,Plastik / Wadah Plastik,,2025-06-01,2025-06,,,,,,,,,,,,,,,,5,75704,712.27,,
+category_monthly_trend,Toples / Sealware,,2025-05-01,2025-05,,,,,,,,,,,,,,,,2,67400,365.86,,
 category_monthly_trend,Aksesoris Pintu,,2025-06-01,2025-06,,,,,,,,,,,,,,,,176,2266625,-6.65,,
-category_monthly_trend,Tempat Nasi,,2025-06-01,2025-06,,,,,,,,,,,,,,,,8,372900,1289.55,,
-category_monthly_trend,Rak / Rak Serbaguna,,2025-06-01,2025-06,,,,,,,,,,,,,,,,21,1344476,-42.32,,
-category_monthly_trend,Piring,,2025-06-01,2025-06,,,,,,,,,,,,,,,,2,19000,-93.05,,
-category_monthly_trend,Toples / Sealware,,2025-06-01,2025-06,,,,,,,,,,,,,,,,1,0,-100.00,,
-category_monthly_trend,Seal / Baut / Roof,,2025-06-01,2025-06,,,,,,,,,,,,,,,,49,13998869,65.59,,
-category_monthly_trend,Perlengkapan Packing,,2025-06-01,2025-06,,,,,,,,,,,,,,,,3,136000,-42.62,,
-category_monthly_trend,Saringan / Strainer,,2025-06-01,2025-06,,,,,,,,,,,,,,,,1,92625,36.42,,
 category_monthly_trend,Baskom / Mangkok Besar,,2025-06-01,2025-06,,,,,,,,,,,,,,,,6,144900,-70.26,,
-category_monthly_trend,Peralatan Makan,,2025-06-01,2025-06,,,,,,,,,,,,,,,,4,64265,-47.55,,
 category_monthly_trend,Celengan,,2025-06-01,2025-06,,,,,,,,,,,,,,,,62,1420653,-48.06,,
 category_monthly_trend,Keranjang,,2025-06-01,2025-06,,,,,,,,,,,,,,,,24,577128,-46.68,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2025-06-01,2025-06,,,,,,,,,,,,,,,,2,42000,-59.89,,
-category_monthly_trend,Other,,2025-06-01,2025-06,,,,,,,,,,,,,,,,7,72400,-91.06,,
+category_monthly_trend,Lunch Box / Rantang,,2025-06-01,2025-06,,,,,,,,,,,,,,,,14,2586381,31.51,,
 category_monthly_trend,Mangkok Sambal / Saus,,2025-06-01,2025-06,,,,,,,,,,,,,,,,25,602960,-76.76,,
-category_monthly_trend,Stempel / Alat Kantor,,2025-07-01,2025-07,,,,,,,,,,,,,,,,10,364040,-24.64,,
-category_monthly_trend,Baskom / Mangkok Besar,,2025-07-01,2025-07,,,,,,,,,,,,,,,,6,126203,-12.90,,
-category_monthly_trend,Mangkok Sambal / Saus,,2025-07-01,2025-07,,,,,,,,,,,,,,,,149,4983049,726.43,,
-category_monthly_trend,Peralatan Makan,,2025-07-01,2025-07,,,,,,,,,,,,,,,,6,187336,191.51,,
-category_monthly_trend,Plastik / Wadah Plastik,,2025-07-01,2025-07,,,,,,,,,,,,,,,,3,56836,-24.92,,
-category_monthly_trend,Nampan / Tray,,2025-07-01,2025-07,,,,,,,,,,,,,,,,141,7006939,106.98,,
-category_monthly_trend,Keranjang,,2025-07-01,2025-07,,,,,,,,,,,,,,,,20,311735,-45.99,,
-category_monthly_trend,Toples / Sealware,,2025-07-01,2025-07,,,,,,,,,,,,,,,,2,12500,,,
+category_monthly_trend,Nampan / Tray,,2025-06-01,2025-06,,,,,,,,,,,,,,,,112,3385305,58.87,,
+category_monthly_trend,Other,,2025-06-01,2025-06,,,,,,,,,,,,,,,,7,72400,-91.06,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2025-06-01,2025-06,,,,,,,,,,,,,,,,2,42000,-59.89,,
+category_monthly_trend,Peralatan Makan,,2025-06-01,2025-06,,,,,,,,,,,,,,,,4,64265,-47.55,,
+category_monthly_trend,Perlengkapan Packing,,2025-06-01,2025-06,,,,,,,,,,,,,,,,3,136000,-42.62,,
+category_monthly_trend,Piring,,2025-06-01,2025-06,,,,,,,,,,,,,,,,2,19000,-93.05,,
+category_monthly_trend,Plastik / Wadah Plastik,,2025-06-01,2025-06,,,,,,,,,,,,,,,,5,75704,712.27,,
+category_monthly_trend,Rak / Rak Serbaguna,,2025-06-01,2025-06,,,,,,,,,,,,,,,,21,1344476,-42.32,,
+category_monthly_trend,Saringan / Strainer,,2025-06-01,2025-06,,,,,,,,,,,,,,,,1,92625,36.42,,
+category_monthly_trend,Seal / Baut / Roof,,2025-06-01,2025-06,,,,,,,,,,,,,,,,49,13998869,65.59,,
+category_monthly_trend,Stempel / Alat Kantor,,2025-06-01,2025-06,,,,,,,,,,,,,,,,7,483067,43.69,,
+category_monthly_trend,Teko / Jug,,2025-06-01,2025-06,,,,,,,,,,,,,,,,2,0,-100.00,,
+category_monthly_trend,Tempat Nasi,,2025-06-01,2025-06,,,,,,,,,,,,,,,,8,372900,1289.55,,
+category_monthly_trend,Toples / Sealware,,2025-06-01,2025-06,,,,,,,,,,,,,,,,1,0,-100.00,,
 category_monthly_trend,Aksesoris Pintu,,2025-07-01,2025-07,,,,,,,,,,,,,,,,175,2301552,1.54,,
-category_monthly_trend,Lunch Box / Rantang,,2025-07-01,2025-07,,,,,,,,,,,,,,,,13,291495,-88.73,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2025-07-01,2025-07,,,,,,,,,,,,,,,,6,344400,720.00,,
-category_monthly_trend,Tempat Nasi,,2025-07-01,2025-07,,,,,,,,,,,,,,,,3,40900,-89.03,,
-category_monthly_trend,Seal / Baut / Roof,,2025-07-01,2025-07,,,,,,,,,,,,,,,,49,15799842,12.87,,
-category_monthly_trend,Rak / Rak Serbaguna,,2025-07-01,2025-07,,,,,,,,,,,,,,,,14,785280,-41.59,,
-category_monthly_trend,Other,,2025-07-01,2025-07,,,,,,,,,,,,,,,,9,577720,697.96,,
-category_monthly_trend,Piring,,2025-07-01,2025-07,,,,,,,,,,,,,,,,3,59200,211.58,,
-category_monthly_trend,Teko / Jug,,2025-07-01,2025-07,,,,,,,,,,,,,,,,1,17000,,,
-category_monthly_trend,Perlengkapan Packing,,2025-07-01,2025-07,,,,,,,,,,,,,,,,5,346300,154.63,,
+category_monthly_trend,Baskom / Mangkok Besar,,2025-07-01,2025-07,,,,,,,,,,,,,,,,6,126203,-12.90,,
 category_monthly_trend,Celengan,,2025-07-01,2025-07,,,,,,,,,,,,,,,,63,4869713,242.78,,
-category_monthly_trend,Rak / Rak Serbaguna,,2025-08-01,2025-08,,,,,,,,,,,,,,,,12,745058,-5.12,,
+category_monthly_trend,Keranjang,,2025-07-01,2025-07,,,,,,,,,,,,,,,,20,311735,-45.99,,
+category_monthly_trend,Lunch Box / Rantang,,2025-07-01,2025-07,,,,,,,,,,,,,,,,13,291495,-88.73,,
+category_monthly_trend,Mangkok Sambal / Saus,,2025-07-01,2025-07,,,,,,,,,,,,,,,,149,4983049,726.43,,
+category_monthly_trend,Nampan / Tray,,2025-07-01,2025-07,,,,,,,,,,,,,,,,141,7006939,106.98,,
+category_monthly_trend,Other,,2025-07-01,2025-07,,,,,,,,,,,,,,,,9,577720,697.96,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2025-07-01,2025-07,,,,,,,,,,,,,,,,6,344400,720.00,,
+category_monthly_trend,Peralatan Makan,,2025-07-01,2025-07,,,,,,,,,,,,,,,,6,187336,191.51,,
+category_monthly_trend,Perlengkapan Packing,,2025-07-01,2025-07,,,,,,,,,,,,,,,,5,346300,154.63,,
+category_monthly_trend,Piring,,2025-07-01,2025-07,,,,,,,,,,,,,,,,3,59200,211.58,,
+category_monthly_trend,Plastik / Wadah Plastik,,2025-07-01,2025-07,,,,,,,,,,,,,,,,3,56836,-24.92,,
+category_monthly_trend,Rak / Rak Serbaguna,,2025-07-01,2025-07,,,,,,,,,,,,,,,,14,785280,-41.59,,
+category_monthly_trend,Seal / Baut / Roof,,2025-07-01,2025-07,,,,,,,,,,,,,,,,49,15799842,12.87,,
+category_monthly_trend,Stempel / Alat Kantor,,2025-07-01,2025-07,,,,,,,,,,,,,,,,10,364040,-24.64,,
+category_monthly_trend,Teko / Jug,,2025-07-01,2025-07,,,,,,,,,,,,,,,,1,17000,,,
+category_monthly_trend,Tempat Nasi,,2025-07-01,2025-07,,,,,,,,,,,,,,,,3,40900,-89.03,,
+category_monthly_trend,Toples / Sealware,,2025-07-01,2025-07,,,,,,,,,,,,,,,,2,12500,,,
+category_monthly_trend,Aksesoris Pintu,,2025-08-01,2025-08,,,,,,,,,,,,,,,,185,2176455,-5.44,,
+category_monthly_trend,Baskom / Mangkok Besar,,2025-08-01,2025-08,,,,,,,,,,,,,,,,8,140200,11.09,,
+category_monthly_trend,Celengan,,2025-08-01,2025-08,,,,,,,,,,,,,,,,151,3591734,-26.24,,
+category_monthly_trend,Keranjang,,2025-08-01,2025-08,,,,,,,,,,,,,,,,14,642406,106.07,,
 category_monthly_trend,Lunch Box / Rantang,,2025-08-01,2025-08,,,,,,,,,,,,,,,,23,1669585,472.77,,
+category_monthly_trend,Mangkok Sambal / Saus,,2025-08-01,2025-08,,,,,,,,,,,,,,,,193,6510085,30.64,,
+category_monthly_trend,Nampan / Tray,,2025-08-01,2025-08,,,,,,,,,,,,,,,,189,9777776,39.54,,
+category_monthly_trend,Other,,2025-08-01,2025-08,,,,,,,,,,,,,,,,10,703974,21.85,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2025-08-01,2025-08,,,,,,,,,,,,,,,,11,472500,37.20,,
+category_monthly_trend,Peralatan Makan,,2025-08-01,2025-08,,,,,,,,,,,,,,,,4,240130,28.18,,
+category_monthly_trend,Perlengkapan Packing,,2025-08-01,2025-08,,,,,,,,,,,,,,,,3,235269,-32.06,,
+category_monthly_trend,Piring,,2025-08-01,2025-08,,,,,,,,,,,,,,,,2,43000,-27.36,,
+category_monthly_trend,Plastik / Wadah Plastik,,2025-08-01,2025-08,,,,,,,,,,,,,,,,3,31900,-43.87,,
+category_monthly_trend,Rak / Rak Serbaguna,,2025-08-01,2025-08,,,,,,,,,,,,,,,,12,745058,-5.12,,
 category_monthly_trend,Seal / Baut / Roof,,2025-08-01,2025-08,,,,,,,,,,,,,,,,44,16312367,3.24,,
 category_monthly_trend,Stempel / Alat Kantor,,2025-08-01,2025-08,,,,,,,,,,,,,,,,6,374810,2.96,,
-category_monthly_trend,Other,,2025-08-01,2025-08,,,,,,,,,,,,,,,,10,703974,21.85,,
-category_monthly_trend,Perlengkapan Packing,,2025-08-01,2025-08,,,,,,,,,,,,,,,,3,235269,-32.06,,
-category_monthly_trend,Tempat Nasi,,2025-08-01,2025-08,,,,,,,,,,,,,,,,1,14000,-65.77,,
-category_monthly_trend,Aksesoris Pintu,,2025-08-01,2025-08,,,,,,,,,,,,,,,,185,2176455,-5.44,,
-category_monthly_trend,Toples / Sealware,,2025-08-01,2025-08,,,,,,,,,,,,,,,,1,27500,120.00,,
-category_monthly_trend,Nampan / Tray,,2025-08-01,2025-08,,,,,,,,,,,,,,,,189,9777776,39.54,,
-category_monthly_trend,Celengan,,2025-08-01,2025-08,,,,,,,,,,,,,,,,151,3591734,-26.24,,
-category_monthly_trend,Peralatan Makan,,2025-08-01,2025-08,,,,,,,,,,,,,,,,4,240130,28.18,,
-category_monthly_trend,Keranjang,,2025-08-01,2025-08,,,,,,,,,,,,,,,,14,642406,106.07,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2025-08-01,2025-08,,,,,,,,,,,,,,,,11,472500,37.20,,
-category_monthly_trend,Baskom / Mangkok Besar,,2025-08-01,2025-08,,,,,,,,,,,,,,,,8,140200,11.09,,
-category_monthly_trend,Plastik / Wadah Plastik,,2025-08-01,2025-08,,,,,,,,,,,,,,,,3,31900,-43.87,,
 category_monthly_trend,Teko / Jug,,2025-08-01,2025-08,,,,,,,,,,,,,,,,4,118282,595.78,,
-category_monthly_trend,Piring,,2025-08-01,2025-08,,,,,,,,,,,,,,,,2,43000,-27.36,,
-category_monthly_trend,Mangkok Sambal / Saus,,2025-08-01,2025-08,,,,,,,,,,,,,,,,193,6510085,30.64,,
-category_monthly_trend,Toples / Sealware,,2025-09-01,2025-09,,,,,,,,,,,,,,,,5,209900,663.27,,
-category_monthly_trend,Baskom / Mangkok Besar,,2025-09-01,2025-09,,,,,,,,,,,,,,,,7,60445,-56.89,,
-category_monthly_trend,Peralatan Makan,,2025-09-01,2025-09,,,,,,,,,,,,,,,,7,188600,-21.46,,
-category_monthly_trend,Nampan / Tray,,2025-09-01,2025-09,,,,,,,,,,,,,,,,169,11011554,12.62,,
-category_monthly_trend,Piring,,2025-09-01,2025-09,,,,,,,,,,,,,,,,4,65500,52.33,,
-category_monthly_trend,Tempat Nasi,,2025-09-01,2025-09,,,,,,,,,,,,,,,,3,165000,1078.57,,
-category_monthly_trend,Celengan,,2025-09-01,2025-09,,,,,,,,,,,,,,,,301,7090797,97.42,,
-category_monthly_trend,Seal / Baut / Roof,,2025-09-01,2025-09,,,,,,,,,,,,,,,,39,10688071,-34.48,,
-category_monthly_trend,Teko / Jug,,2025-09-01,2025-09,,,,,,,,,,,,,,,,3,76900,-34.99,,
-category_monthly_trend,Mangkok Sambal / Saus,,2025-09-01,2025-09,,,,,,,,,,,,,,,,214,6746753,3.64,,
-category_monthly_trend,Keranjang,,2025-09-01,2025-09,,,,,,,,,,,,,,,,18,956182,48.84,,
-category_monthly_trend,Rak / Rak Serbaguna,,2025-09-01,2025-09,,,,,,,,,,,,,,,,23,1021522,37.11,,
-category_monthly_trend,Lunch Box / Rantang,,2025-09-01,2025-09,,,,,,,,,,,,,,,,10,1334967,-20.04,,
-category_monthly_trend,Stempel / Alat Kantor,,2025-09-01,2025-09,,,,,,,,,,,,,,,,9,265525,-29.16,,
-category_monthly_trend,Other,,2025-09-01,2025-09,,,,,,,,,,,,,,,,13,468835,-33.40,,
-category_monthly_trend,Perlengkapan Packing,,2025-09-01,2025-09,,,,,,,,,,,,,,,,1,108596,-53.84,,
+category_monthly_trend,Tempat Nasi,,2025-08-01,2025-08,,,,,,,,,,,,,,,,1,14000,-65.77,,
+category_monthly_trend,Toples / Sealware,,2025-08-01,2025-08,,,,,,,,,,,,,,,,1,27500,120.00,,
 category_monthly_trend,Aksesoris Pintu,,2025-09-01,2025-09,,,,,,,,,,,,,,,,214,2720520,25.00,,
-category_monthly_trend,Rak / Rak Serbaguna,,2025-10-01,2025-10,,,,,,,,,,,,,,,,15,600775,-41.19,,
-category_monthly_trend,Stempel / Alat Kantor,,2025-10-01,2025-10,,,,,,,,,,,,,,,,4,272173,2.50,,
-category_monthly_trend,Plastik / Wadah Plastik,,2025-10-01,2025-10,,,,,,,,,,,,,,,,2,51400,61.13,,
-category_monthly_trend,Tempat Nasi,,2025-10-01,2025-10,,,,,,,,,,,,,,,,1,0,-100.00,,
-category_monthly_trend,Piring,,2025-10-01,2025-10,,,,,,,,,,,,,,,,3,28300,-56.79,,
-category_monthly_trend,Toples / Sealware,,2025-10-01,2025-10,,,,,,,,,,,,,,,,2,52000,-75.23,,
-category_monthly_trend,Peralatan Makan,,2025-10-01,2025-10,,,,,,,,,,,,,,,,7,136000,-27.89,,
-category_monthly_trend,Pengolah Bumbu / Sayur,,2025-10-01,2025-10,,,,,,,,,,,,,,,,1,86000,-81.80,,
-category_monthly_trend,Other,,2025-10-01,2025-10,,,,,,,,,,,,,,,,23,649816,38.60,,
-category_monthly_trend,Nampan / Tray,,2025-10-01,2025-10,,,,,,,,,,,,,,,,124,8986618,-18.39,,
-category_monthly_trend,Mangkok Sambal / Saus,,2025-10-01,2025-10,,,,,,,,,,,,,,,,311,9254732,37.17,,
-category_monthly_trend,Lunch Box / Rantang,,2025-10-01,2025-10,,,,,,,,,,,,,,,,8,194440,-85.43,,
-category_monthly_trend,Keranjang,,2025-10-01,2025-10,,,,,,,,,,,,,,,,12,116686,-87.80,,
-category_monthly_trend,Celengan,,2025-10-01,2025-10,,,,,,,,,,,,,,,,315,7097284,0.09,,
-category_monthly_trend,Baskom / Mangkok Besar,,2025-10-01,2025-10,,,,,,,,,,,,,,,,6,71460,18.22,,
+category_monthly_trend,Baskom / Mangkok Besar,,2025-09-01,2025-09,,,,,,,,,,,,,,,,7,60445,-56.89,,
+category_monthly_trend,Celengan,,2025-09-01,2025-09,,,,,,,,,,,,,,,,301,7090797,97.42,,
+category_monthly_trend,Keranjang,,2025-09-01,2025-09,,,,,,,,,,,,,,,,18,956182,48.84,,
+category_monthly_trend,Lunch Box / Rantang,,2025-09-01,2025-09,,,,,,,,,,,,,,,,10,1334967,-20.04,,
+category_monthly_trend,Mangkok Sambal / Saus,,2025-09-01,2025-09,,,,,,,,,,,,,,,,214,6746753,3.64,,
+category_monthly_trend,Nampan / Tray,,2025-09-01,2025-09,,,,,,,,,,,,,,,,169,11011554,12.62,,
+category_monthly_trend,Other,,2025-09-01,2025-09,,,,,,,,,,,,,,,,13,468835,-33.40,,
+category_monthly_trend,Peralatan Makan,,2025-09-01,2025-09,,,,,,,,,,,,,,,,7,188600,-21.46,,
+category_monthly_trend,Perlengkapan Packing,,2025-09-01,2025-09,,,,,,,,,,,,,,,,1,108596,-53.84,,
+category_monthly_trend,Piring,,2025-09-01,2025-09,,,,,,,,,,,,,,,,4,65500,52.33,,
+category_monthly_trend,Rak / Rak Serbaguna,,2025-09-01,2025-09,,,,,,,,,,,,,,,,23,1021522,37.11,,
+category_monthly_trend,Seal / Baut / Roof,,2025-09-01,2025-09,,,,,,,,,,,,,,,,39,10688071,-34.48,,
+category_monthly_trend,Stempel / Alat Kantor,,2025-09-01,2025-09,,,,,,,,,,,,,,,,9,265525,-29.16,,
+category_monthly_trend,Teko / Jug,,2025-09-01,2025-09,,,,,,,,,,,,,,,,3,76900,-34.99,,
+category_monthly_trend,Tempat Nasi,,2025-09-01,2025-09,,,,,,,,,,,,,,,,3,165000,1078.57,,
+category_monthly_trend,Toples / Sealware,,2025-09-01,2025-09,,,,,,,,,,,,,,,,5,209900,663.27,,
 category_monthly_trend,Aksesoris Pintu,,2025-10-01,2025-10,,,,,,,,,,,,,,,,223,2669499,-1.88,,
+category_monthly_trend,Baskom / Mangkok Besar,,2025-10-01,2025-10,,,,,,,,,,,,,,,,6,71460,18.22,,
+category_monthly_trend,Celengan,,2025-10-01,2025-10,,,,,,,,,,,,,,,,315,7097284,0.09,,
+category_monthly_trend,Keranjang,,2025-10-01,2025-10,,,,,,,,,,,,,,,,12,116686,-87.80,,
+category_monthly_trend,Lunch Box / Rantang,,2025-10-01,2025-10,,,,,,,,,,,,,,,,8,194440,-85.43,,
+category_monthly_trend,Mangkok Sambal / Saus,,2025-10-01,2025-10,,,,,,,,,,,,,,,,311,9254732,37.17,,
+category_monthly_trend,Nampan / Tray,,2025-10-01,2025-10,,,,,,,,,,,,,,,,124,8986618,-18.39,,
+category_monthly_trend,Other,,2025-10-01,2025-10,,,,,,,,,,,,,,,,23,649816,38.60,,
+category_monthly_trend,Pengolah Bumbu / Sayur,,2025-10-01,2025-10,,,,,,,,,,,,,,,,1,86000,-81.80,,
+category_monthly_trend,Peralatan Makan,,2025-10-01,2025-10,,,,,,,,,,,,,,,,7,136000,-27.89,,
+category_monthly_trend,Piring,,2025-10-01,2025-10,,,,,,,,,,,,,,,,3,28300,-56.79,,
+category_monthly_trend,Plastik / Wadah Plastik,,2025-10-01,2025-10,,,,,,,,,,,,,,,,2,51400,61.13,,
+category_monthly_trend,Rak / Rak Serbaguna,,2025-10-01,2025-10,,,,,,,,,,,,,,,,15,600775,-41.19,,
 category_monthly_trend,Seal / Baut / Roof,,2025-10-01,2025-10,,,,,,,,,,,,,,,,57,25347326,137.16,,
-category_monthly_trend,Peralatan Makan,,2025-11-01,2025-11,,,,,,,,,,,,,,,,7,121636,-10.56,,
-category_monthly_trend,Toples / Sealware,,2025-11-01,2025-11,,,,,,,,,,,,,,,,4,214296,312.11,,
-category_monthly_trend,Nampan / Tray,,2025-11-01,2025-11,,,,,,,,,,,,,,,,63,4073029,-54.68,,
-category_monthly_trend,Lunch Box / Rantang,,2025-11-01,2025-11,,,,,,,,,,,,,,,,8,1453860,647.72,,
-category_monthly_trend,Other,,2025-11-01,2025-11,,,,,,,,,,,,,,,,16,324451,-50.07,,
+category_monthly_trend,Stempel / Alat Kantor,,2025-10-01,2025-10,,,,,,,,,,,,,,,,4,272173,2.50,,
+category_monthly_trend,Tempat Nasi,,2025-10-01,2025-10,,,,,,,,,,,,,,,,1,0,-100.00,,
+category_monthly_trend,Toples / Sealware,,2025-10-01,2025-10,,,,,,,,,,,,,,,,2,52000,-75.23,,
+category_monthly_trend,Aksesoris Pintu,,2025-11-01,2025-11,,,,,,,,,,,,,,,,190,1743314,-34.70,,
 category_monthly_trend,Baskom / Mangkok Besar,,2025-11-01,2025-11,,,,,,,,,,,,,,,,3,78000,9.15,,
+category_monthly_trend,Celengan,,2025-11-01,2025-11,,,,,,,,,,,,,,,,236,4703827,-33.72,,
+category_monthly_trend,Keranjang,,2025-11-01,2025-11,,,,,,,,,,,,,,,,13,603977,417.61,,
+category_monthly_trend,Lunch Box / Rantang,,2025-11-01,2025-11,,,,,,,,,,,,,,,,8,1453860,647.72,,
 category_monthly_trend,Mangkok Sambal / Saus,,2025-11-01,2025-11,,,,,,,,,,,,,,,,438,9069999,-2.00,,
-category_monthly_trend,Tempat Nasi,,2025-11-01,2025-11,,,,,,,,,,,,,,,,1,0,,,
+category_monthly_trend,Nampan / Tray,,2025-11-01,2025-11,,,,,,,,,,,,,,,,63,4073029,-54.68,,
+category_monthly_trend,Other,,2025-11-01,2025-11,,,,,,,,,,,,,,,,16,324451,-50.07,,
+category_monthly_trend,Peralatan Makan,,2025-11-01,2025-11,,,,,,,,,,,,,,,,7,121636,-10.56,,
 category_monthly_trend,Plastik / Wadah Plastik,,2025-11-01,2025-11,,,,,,,,,,,,,,,,3,10000,-80.54,,
 category_monthly_trend,Rak / Rak Serbaguna,,2025-11-01,2025-11,,,,,,,,,,,,,,,,2,57625,-90.41,,
-category_monthly_trend,Aksesoris Pintu,,2025-11-01,2025-11,,,,,,,,,,,,,,,,190,1743314,-34.70,,
-category_monthly_trend,Stempel / Alat Kantor,,2025-11-01,2025-11,,,,,,,,,,,,,,,,10,253864,-6.73,,
-category_monthly_trend,Keranjang,,2025-11-01,2025-11,,,,,,,,,,,,,,,,13,603977,417.61,,
-category_monthly_trend,Celengan,,2025-11-01,2025-11,,,,,,,,,,,,,,,,236,4703827,-33.72,,
 category_monthly_trend,Seal / Baut / Roof,,2025-11-01,2025-11,,,,,,,,,,,,,,,,40,9244675,-63.53,,
+category_monthly_trend,Stempel / Alat Kantor,,2025-11-01,2025-11,,,,,,,,,,,,,,,,10,253864,-6.73,,
 category_monthly_trend,Teko / Jug,,2025-11-01,2025-11,,,,,,,,,,,,,,,,2,11000,-85.70,,
+category_monthly_trend,Tempat Nasi,,2025-11-01,2025-11,,,,,,,,,,,,,,,,1,0,,,
+category_monthly_trend,Toples / Sealware,,2025-11-01,2025-11,,,,,,,,,,,,,,,,4,214296,312.11,,
 category_summary,Seal / Baut / Roof,1.0,,,672.0,564.0,100.0,14.88,1876.0,275029758,487641,1836524,138.0,131.0,1.0,5.0,26.30,3.22,1.0,,,,2023-12-01 00:33:00,2025-11-30 16:16:00
 category_summary,Celengan,1.0,,,5514.0,4871.0,609.0,11.04,7086.0,147607838,30303,0,291.0,277.0,2.0,1.0,14.12,26.45,1.0,,,,2023-12-01 10:01:00,2025-11-30 23:17:00
 category_summary,Mangkok Sambal / Saus,1.0,,,3609.0,3103.0,382.0,10.58,6928.0,125535205,40456,30020,369.0,356.0,3.0,2.0,12.01,17.31,1.0,,,,2023-12-02 11:02:00,2025-11-30 22:04:00
@@ -758,8 +758,8 @@ category_summary,"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Saringan / Stra
 category_summary,"Celengan, Gantungan Baju / Hanger, Saringan / Strainer",3.0,,,1.0,1.0,0.0,0.00,4.0,83984,83984,0,1.0,1.0,325.0,227.0,0.01,0.00,2.0,,,,2024-05-12 08:49:00,2024-05-12 08:49:00
 category_summary,"Mangkok Sambal / Saus, Sapu / Pembersih Lantai",2.0,,,4.0,2.0,2.0,50.00,5.0,83904,41952,0,4.0,2.0,326.0,99.0,0.01,0.02,2.0,,,,2024-05-13 05:45:00,2025-10-30 20:52:00
 category_summary,"Aksesoris Mandi, Botol / Gelas / Mug, Gantungan Baju / Hanger, Keranjang, Other, Peralatan Kamar Mandi, Pisau / Alat Potong, Sapu / Pembersih Lantai, Teko / Jug",9.0,,,1.0,1.0,0.0,0.00,11.0,83831,83831,0,1.0,1.0,327.0,227.0,0.01,0.00,2.0,,,,2024-09-25 11:21:00,2024-09-25 11:21:00
-category_summary,"Baskom / Mangkok Besar, Perlengkapan Packing, Tempat Nasi",3.0,,,1.0,1.0,0.0,0.00,4.0,83680,83680,0,1.0,1.0,328.0,227.0,0.01,0.00,2.0,,,,2024-09-24 13:02:00,2024-09-24 13:02:00
 category_summary,"Baskom / Mangkok Besar, Perlengkapan Packing, Piring",3.0,,,1.0,1.0,0.0,0.00,5.0,83680,83680,0,1.0,1.0,328.0,227.0,0.01,0.00,2.0,,,,2024-11-08 11:28:00,2024-11-08 11:28:00
+category_summary,"Baskom / Mangkok Besar, Perlengkapan Packing, Tempat Nasi",3.0,,,1.0,1.0,0.0,0.00,4.0,83680,83680,0,1.0,1.0,328.0,227.0,0.01,0.00,2.0,,,,2024-09-24 13:02:00,2024-09-24 13:02:00
 category_summary,"Perlengkapan Packing, Plastik / Wadah Plastik, Sapu / Pembersih Lantai, Sikat / Pembersih",4.0,,,1.0,1.0,0.0,0.00,8.0,83500,83500,0,1.0,1.0,330.0,227.0,0.01,0.00,2.0,,,,2024-09-21 16:01:00,2024-09-21 16:01:00
 category_summary,"Celengan, Other, Plastik / Wadah Plastik",3.0,,,2.0,2.0,0.0,0.00,7.0,83299,41650,0,2.0,2.0,331.0,142.0,0.01,0.01,2.0,,,,2024-12-01 00:00:00,2025-04-20 09:10:00
 category_summary,"Baskom / Mangkok Besar, Peralatan Makan",2.0,,,2.0,2.0,0.0,0.00,5.0,83200,41600,0,2.0,2.0,332.0,142.0,0.01,0.01,2.0,,,,2024-06-08 22:43:00,2024-09-09 15:34:00
@@ -782,8 +782,8 @@ category_summary,"Aksesoris Pintu, Toples / Sealware",2.0,,,5.0,4.0,1.0,20.00,11
 category_summary,"Baskom / Mangkok Besar, Botol / Gelas / Mug, Other, Saringan / Strainer",4.0,,,1.0,1.0,0.0,0.00,5.0,76900,76900,0,1.0,1.0,349.0,227.0,0.01,0.00,3.0,,,,2025-02-08 10:44:00,2025-02-08 10:44:00
 category_summary,"Aksesoris Pintu, Gayung, Sikat / Pembersih",3.0,,,2.0,2.0,0.0,0.00,8.0,76865,38433,0,2.0,2.0,350.0,142.0,0.01,0.01,3.0,,,,2025-02-09 20:42:00,2025-06-22 10:02:00
 category_summary,"Peralatan Makan, Saringan / Strainer, Spatula",3.0,,,2.0,2.0,0.0,0.00,6.0,76141,38071,0,2.0,2.0,351.0,142.0,0.01,0.01,3.0,,,,2024-07-29 07:53:00,2024-07-29 11:22:00
-category_summary,"Cobek / Ulekan, Keranjang",2.0,,,1.0,1.0,0.0,0.00,2.0,76000,76000,0,1.0,1.0,352.0,227.0,0.01,0.00,3.0,,,,2025-02-24 11:32:00,2025-02-24 11:32:00
 category_summary,"Aksesoris Pintu, Mangkok, Piring, Sikat / Pembersih, Toples / Sealware",5.0,,,1.0,1.0,0.0,0.00,8.0,76000,76000,0,1.0,1.0,352.0,227.0,0.01,0.00,3.0,,,,2024-07-07 16:42:00,2024-07-07 16:42:00
+category_summary,"Cobek / Ulekan, Keranjang",2.0,,,1.0,1.0,0.0,0.00,2.0,76000,76000,0,1.0,1.0,352.0,227.0,0.01,0.00,3.0,,,,2025-02-24 11:32:00,2025-02-24 11:32:00
 category_summary,"Keranjang, Mangkok Sambal / Saus, Other, Peralatan Makan",4.0,,,1.0,1.0,0.0,0.00,8.0,76000,76000,0,1.0,1.0,352.0,227.0,0.01,0.00,3.0,,,,2025-09-21 07:52:00,2025-09-21 07:52:00
 category_summary,"Aksesoris Pintu, Other, Pengolah Bumbu / Sayur",3.0,,,1.0,1.0,0.0,0.00,6.0,75000,75000,0,1.0,1.0,355.0,227.0,0.01,0.00,3.0,,,,2024-12-01 00:00:00,2024-12-01 00:00:00
 category_summary,"Botol / Gelas / Mug, Mangkok Sambal / Saus, Other, Piring",4.0,,,1.0,1.0,0.0,0.00,10.0,75000,75000,0,1.0,1.0,355.0,227.0,0.01,0.00,3.0,,,,2025-08-24 00:32:00,2025-08-24 00:32:00
@@ -792,11 +792,11 @@ category_summary,"Aksesoris Pintu, Pisau / Alat Potong",2.0,,,3.0,3.0,0.0,0.00,8
 category_summary,"Baskom / Mangkok Besar, Gantungan Baju / Hanger, Lunch Box / Rantang, Pisau / Alat Potong, Plastik / Wadah Plastik, Tempat Nasi",6.0,,,1.0,1.0,0.0,0.00,6.0,72656,72656,0,1.0,1.0,359.0,227.0,0.01,0.00,3.0,,,,2024-09-18 07:39:00,2024-09-18 07:39:00
 category_summary,"Aksesoris Pintu, Gantungan Baju / Hanger, Gayung, Keranjang, Pisau / Alat Potong",5.0,,,1.0,1.0,0.0,0.00,6.0,71955,71955,0,1.0,1.0,360.0,227.0,0.01,0.00,3.0,,,,2024-11-27 08:10:00,2024-11-27 08:10:00
 category_summary,"Botol / Gelas / Mug, Celengan, Nampan / Tray",3.0,,,1.0,1.0,0.0,0.00,6.0,71900,71900,0,1.0,1.0,361.0,227.0,0.01,0.00,3.0,,,,2024-04-17 12:18:00,2024-04-17 12:18:00
-category_summary,"Celengan, Sapu / Pembersih Lantai, Sikat / Pembersih",3.0,,,1.0,1.0,0.0,0.00,5.0,71800,71800,0,1.0,1.0,362.0,227.0,0.01,0.00,3.0,,,,2024-08-26 00:04:00,2024-08-26 00:04:00
 category_summary,"Baskom / Mangkok Besar, Celengan, Other, Perlengkapan Packing",4.0,,,1.0,1.0,0.0,0.00,6.0,71800,71800,0,1.0,1.0,362.0,227.0,0.01,0.00,3.0,,,,2025-01-28 06:30:00,2025-01-28 06:30:00
+category_summary,"Celengan, Sapu / Pembersih Lantai, Sikat / Pembersih",3.0,,,1.0,1.0,0.0,0.00,5.0,71800,71800,0,1.0,1.0,362.0,227.0,0.01,0.00,3.0,,,,2024-08-26 00:04:00,2024-08-26 00:04:00
 category_summary,"Other, Plastik / Wadah Plastik, Teko / Jug",3.0,,,1.0,1.0,0.0,0.00,8.0,71720,71720,0,1.0,1.0,364.0,227.0,0.01,0.00,3.0,,,,2025-01-15 16:40:00,2025-01-15 16:40:00
-category_summary,"Perlengkapan Packing, Plastik / Wadah Plastik, Rak / Rak Serbaguna, Sikat / Pembersih",4.0,,,1.0,1.0,0.0,0.00,4.0,71000,71000,0,1.0,1.0,365.0,227.0,0.01,0.00,3.0,,,,2025-03-13 10:44:00,2025-03-13 10:44:00
 category_summary,"Botol / Gelas / Mug, Mangkok Sambal / Saus, Perlengkapan Packing",3.0,,,1.0,1.0,0.0,0.00,6.0,71000,71000,0,1.0,1.0,365.0,227.0,0.01,0.00,3.0,,,,2024-11-25 08:33:00,2024-11-25 08:33:00
+category_summary,"Perlengkapan Packing, Plastik / Wadah Plastik, Rak / Rak Serbaguna, Sikat / Pembersih",4.0,,,1.0,1.0,0.0,0.00,4.0,71000,71000,0,1.0,1.0,365.0,227.0,0.01,0.00,3.0,,,,2025-03-13 10:44:00,2025-03-13 10:44:00
 category_summary,"Aksesoris Pintu, Pisau / Alat Potong, Plastik / Wadah Plastik",3.0,,,2.0,2.0,0.0,0.00,7.0,70657,35329,0,2.0,2.0,367.0,142.0,0.01,0.01,3.0,,,,2024-07-29 00:46:00,2025-09-11 20:48:00
 category_summary,"Nampan / Tray, Other, Saringan / Strainer",3.0,,,1.0,1.0,0.0,0.00,5.0,70472,70472,0,1.0,1.0,368.0,227.0,0.01,0.00,3.0,,,,2024-10-09 17:04:00,2024-10-09 17:04:00
 category_summary,"Baskom / Mangkok Besar, Nampan / Tray, Piring",3.0,,,1.0,1.0,0.0,0.00,8.0,70346,70346,0,1.0,1.0,369.0,227.0,0.01,0.00,3.0,,,,2024-10-17 15:08:00,2024-10-17 15:08:00
@@ -826,8 +826,8 @@ category_summary,"Perlengkapan Packing, Pisau / Alat Potong",2.0,,,1.0,1.0,0.0,0
 category_summary,"Aksesoris Pintu, Keranjang, Sapu / Pembersih Lantai, Saringan / Strainer",4.0,,,1.0,1.0,0.0,0.00,6.0,64000,64000,0,1.0,1.0,393.0,227.0,0.01,0.00,3.0,,,,2024-09-22 09:43:00,2024-09-22 09:43:00
 category_summary,"Mangkok Sambal / Saus, Other, Perlengkapan Packing",3.0,,,1.0,1.0,0.0,0.00,4.0,63500,63500,0,1.0,1.0,394.0,227.0,0.01,0.00,3.0,,,,2024-08-18 11:44:00,2024-08-18 11:44:00
 category_summary,"Baskom / Mangkok Besar, Celengan, Other, Sikat / Pembersih",4.0,,,1.0,1.0,0.0,0.00,5.0,63400,63400,0,1.0,1.0,395.0,227.0,0.01,0.00,3.0,,,,2025-01-07 08:00:00,2025-01-07 08:00:00
-category_summary,"Nampan / Tray, Piring, Plastik / Wadah Plastik",3.0,,,2.0,1.0,1.0,50.00,6.0,63000,63000,0,1.0,1.0,396.0,142.0,0.01,0.01,3.0,,,,2025-07-01 00:00:00,2025-07-01 00:00:00
 category_summary,"Botol / Gelas / Mug, Nampan / Tray, Saringan / Strainer",3.0,,,1.0,1.0,0.0,0.00,8.0,63000,63000,0,1.0,1.0,396.0,227.0,0.01,0.00,3.0,,,,2023-12-21 14:13:00,2023-12-21 14:13:00
+category_summary,"Nampan / Tray, Piring, Plastik / Wadah Plastik",3.0,,,2.0,1.0,1.0,50.00,6.0,63000,63000,0,1.0,1.0,396.0,142.0,0.01,0.01,3.0,,,,2025-07-01 00:00:00,2025-07-01 00:00:00
 category_summary,"Celengan, Nampan / Tray, Spatula",3.0,,,1.0,1.0,0.0,0.00,4.0,62700,62700,0,1.0,1.0,398.0,227.0,0.01,0.00,3.0,,,,2024-07-08 15:28:00,2024-07-08 15:28:00
 category_summary,"Saringan / Strainer, Tempat Nasi",2.0,,,2.0,1.0,1.0,50.00,2.0,62105,62105,0,1.0,1.0,399.0,142.0,0.01,0.01,3.0,,,,2024-07-12 03:14:00,2024-07-15 09:27:00
 category_summary,"Lunch Box / Rantang, Toples / Sealware",2.0,,,1.0,1.0,0.0,0.00,5.0,61912,61912,0,1.0,1.0,400.0,227.0,0.01,0.00,3.0,,,,2024-08-14 07:48:00,2024-08-14 07:48:00
@@ -863,10 +863,10 @@ category_summary,"Aksesoris Pintu, Saringan / Strainer, Talenan",3.0,,,1.0,1.0,0
 category_summary,"Aksesoris Pintu, Other, Sikat / Pembersih",3.0,,,2.0,2.0,0.0,0.00,9.0,54255,27128,0,2.0,2.0,430.0,142.0,0.01,0.01,3.0,,,,2024-12-01 00:00:00,2024-12-01 00:00:00
 category_summary,"Botol / Gelas / Mug, Peralatan Makan, Pisau / Alat Potong, Talenan",4.0,,,1.0,1.0,0.0,0.00,6.0,54210,54210,0,1.0,1.0,431.0,227.0,0.01,0.00,3.0,,,,2025-02-02 12:50:00,2025-02-02 12:50:00
 category_summary,"Bangku / Kursi Kecil, Lunch Box / Rantang",2.0,,,2.0,2.0,0.0,0.00,4.0,54175,27088,0,2.0,2.0,432.0,142.0,0.01,0.01,3.0,,,,2025-09-06 16:53:00,2025-10-19 11:02:00
-category_summary,"Keranjang, Peralatan Kamar Mandi, Perlengkapan Packing, Sikat / Pembersih, Toples / Sealware",5.0,,,1.0,1.0,0.0,0.00,6.0,54000,54000,0,1.0,1.0,433.0,227.0,0.01,0.00,3.0,,,,2025-06-06 14:33:00,2025-06-06 14:33:00
+category_summary,"Aksesoris Pintu, Botol / Gelas / Mug, Other, Pisau / Alat Potong, Saringan / Strainer",5.0,,,1.0,1.0,0.0,0.00,5.0,54000,54000,0,1.0,1.0,433.0,227.0,0.01,0.00,3.0,,,,2024-11-05 10:36:00,2024-11-05 10:36:00
 category_summary,"Baskom / Mangkok Besar, Nampan / Tray, Spatula",3.0,,,2.0,1.0,1.0,50.00,5.0,54000,54000,0,1.0,1.0,433.0,142.0,0.01,0.01,3.0,,,,2025-03-17 14:26:00,2025-03-17 14:53:00
 category_summary,"Botol / Gelas / Mug, Nampan / Tray, Peralatan Makan",3.0,,,1.0,1.0,0.0,0.00,5.0,54000,54000,0,1.0,1.0,433.0,227.0,0.01,0.00,3.0,,,,2025-07-01 00:00:00,2025-07-01 00:00:00
-category_summary,"Aksesoris Pintu, Botol / Gelas / Mug, Other, Pisau / Alat Potong, Saringan / Strainer",5.0,,,1.0,1.0,0.0,0.00,5.0,54000,54000,0,1.0,1.0,433.0,227.0,0.01,0.00,3.0,,,,2024-11-05 10:36:00,2024-11-05 10:36:00
+category_summary,"Keranjang, Peralatan Kamar Mandi, Perlengkapan Packing, Sikat / Pembersih, Toples / Sealware",5.0,,,1.0,1.0,0.0,0.00,6.0,54000,54000,0,1.0,1.0,433.0,227.0,0.01,0.00,3.0,,,,2025-06-06 14:33:00,2025-06-06 14:33:00
 category_summary,"Aksesoris Mandi, Keranjang, Peralatan Kamar Mandi, Perlengkapan Packing",4.0,,,1.0,1.0,0.0,0.00,6.0,53900,53900,0,1.0,1.0,437.0,227.0,0.01,0.00,3.0,,,,2024-03-15 08:58:00,2024-03-15 08:58:00
 category_summary,"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Peralatan Makan",3.0,,,1.0,1.0,0.0,0.00,4.0,53000,53000,0,1.0,1.0,438.0,227.0,0.01,0.00,3.0,,,,2025-07-01 00:00:00,2025-07-01 00:00:00
 category_summary,"Keranjang, Lunch Box / Rantang, Other, Peralatan Makan",4.0,,,1.0,1.0,0.0,0.00,5.0,53000,53000,0,1.0,1.0,438.0,227.0,0.01,0.00,3.0,,,,2024-10-11 00:15:00,2024-10-11 00:15:00
@@ -930,26 +930,26 @@ category_summary,"Aksesoris Pintu, Nampan / Tray, Sapu / Pembersih Lantai, Sarin
 category_summary,"Mangkok Sambal / Saus, Peralatan Makan, Pisau / Alat Potong",3.0,,,1.0,1.0,0.0,0.00,3.0,40390,40390,0,1.0,1.0,497.0,227.0,0.00,0.00,3.0,,,,2024-11-18 10:29:00,2024-11-18 10:29:00
 category_summary,"Nampan / Tray, Peralatan Kamar Mandi",2.0,,,1.0,1.0,0.0,0.00,4.0,40388,40388,0,1.0,1.0,498.0,227.0,0.00,0.00,3.0,,,,2025-09-28 16:10:00,2025-09-28 16:10:00
 category_summary,"Aksesoris Pintu, Keranjang, Mangkok, Other, Peralatan Kamar Mandi, Peralatan Makan",6.0,,,1.0,1.0,0.0,0.00,6.0,40000,40000,0,1.0,1.0,499.0,227.0,0.00,0.00,3.0,,,,2025-02-02 09:47:00,2025-02-02 09:47:00
-category_summary,"Nampan / Tray, Other, Plastik / Wadah Plastik",3.0,,,1.0,1.0,0.0,0.00,4.0,40000,40000,0,1.0,1.0,499.0,227.0,0.00,0.00,3.0,,,,2025-10-08 21:08:00,2025-10-08 21:08:00
 category_summary,"Aksesoris Pintu, Mangkok, Peralatan Kamar Mandi",3.0,,,1.0,1.0,0.0,0.00,8.0,40000,40000,0,1.0,1.0,499.0,227.0,0.00,0.00,3.0,,,,2025-01-12 11:24:00,2025-01-12 11:24:00
+category_summary,"Nampan / Tray, Other, Plastik / Wadah Plastik",3.0,,,1.0,1.0,0.0,0.00,4.0,40000,40000,0,1.0,1.0,499.0,227.0,0.00,0.00,3.0,,,,2025-10-08 21:08:00,2025-10-08 21:08:00
 category_summary,"Aksesoris Pintu, Keranjang, Pisau / Alat Potong",3.0,,,1.0,1.0,0.0,0.00,7.0,39900,39900,0,1.0,1.0,502.0,227.0,0.00,0.00,3.0,,,,2024-10-22 06:44:00,2024-10-22 06:44:00
 category_summary,"Celengan, Nampan / Tray, Other",3.0,,,1.0,1.0,0.0,0.00,3.0,39700,39700,0,1.0,1.0,503.0,227.0,0.00,0.00,3.0,,,,2024-03-19 04:20:00,2024-03-19 04:20:00
 category_summary,"Celengan, Other, Toples / Sealware",3.0,,,1.0,1.0,0.0,0.00,4.0,39700,39700,0,1.0,1.0,503.0,227.0,0.00,0.00,3.0,,,,2024-01-27 09:45:00,2024-01-27 09:45:00
 category_summary,"Aksesoris Pintu, Teko / Jug",2.0,,,2.0,1.0,1.0,50.00,8.0,39679,39679,0,2.0,1.0,505.0,142.0,0.00,0.01,3.0,,,,2025-06-02 11:50:00,2025-10-01 16:03:00
 category_summary,"Celengan, Other, Pisau / Alat Potong, Saringan / Strainer",4.0,,,1.0,1.0,0.0,0.00,4.0,39556,39556,0,1.0,1.0,506.0,227.0,0.00,0.00,3.0,,,,2024-08-21 15:16:00,2024-08-21 15:16:00
 category_summary,"Baskom / Mangkok Besar, Gayung",2.0,,,1.0,1.0,0.0,0.00,3.0,39500,39500,0,1.0,1.0,507.0,227.0,0.00,0.00,3.0,,,,2024-09-29 23:14:00,2024-09-29 23:14:00
+category_summary,"Baskom / Mangkok Besar, Botol / Gelas / Mug, Nampan / Tray",3.0,,,1.0,1.0,0.0,0.00,3.0,39400,39400,0,1.0,1.0,508.0,227.0,0.00,0.00,3.0,,,,2025-03-18 01:28:00,2025-03-18 01:28:00
 category_summary,"Baskom / Mangkok Besar, Celengan, Keranjang",3.0,,,1.0,1.0,0.0,0.00,5.0,39400,39400,0,1.0,1.0,508.0,227.0,0.00,0.00,3.0,,,,2024-12-01 00:00:00,2024-12-01 00:00:00
 category_summary,"Botol / Gelas / Mug, Other, Plastik / Wadah Plastik",3.0,,,1.0,1.0,0.0,0.00,3.0,39400,39400,0,1.0,1.0,508.0,227.0,0.00,0.00,3.0,,,,2025-03-05 20:11:00,2025-03-05 20:11:00
-category_summary,"Baskom / Mangkok Besar, Botol / Gelas / Mug, Nampan / Tray",3.0,,,1.0,1.0,0.0,0.00,3.0,39400,39400,0,1.0,1.0,508.0,227.0,0.00,0.00,3.0,,,,2025-03-18 01:28:00,2025-03-18 01:28:00
 category_summary,"Baskom / Mangkok Besar, Botol / Gelas / Mug, Nampan / Tray, Perlengkapan Packing",4.0,,,1.0,1.0,0.0,0.00,5.0,39200,39200,0,1.0,1.0,511.0,227.0,0.00,0.00,4.0,,,,2025-05-03 09:51:00,2025-05-03 09:51:00
 category_summary,"Bangku / Kursi Kecil, Nampan / Tray, Tempat Nasi",3.0,,,1.0,1.0,0.0,0.00,3.0,39132,39132,0,1.0,1.0,512.0,227.0,0.00,0.00,4.0,,,,2024-10-08 10:52:00,2024-10-08 10:52:00
 category_summary,"Aksesoris Pintu, Celengan, Keranjang",3.0,,,1.0,1.0,0.0,0.00,3.0,39000,39000,0,1.0,1.0,513.0,227.0,0.00,0.00,4.0,,,,2025-08-31 09:53:00,2025-08-31 09:53:00
 category_summary,"Aksesoris Pintu, Mangkok",2.0,,,2.0,2.0,0.0,0.00,6.0,39000,19500,0,1.0,1.0,513.0,142.0,0.00,0.01,4.0,,,,2025-06-11 10:19:00,2025-11-02 21:29:00
 category_summary,"Aksesoris Mandi, Baskom / Mangkok Besar, Botol / Gelas / Mug, Celengan, Plastik / Wadah Plastik",5.0,,,1.0,1.0,0.0,0.00,5.0,38900,38900,0,1.0,1.0,515.0,227.0,0.00,0.00,4.0,,,,2024-12-01 00:00:00,2024-12-01 00:00:00
 category_summary,"Aksesoris Mandi, Aksesoris Pintu, Keranjang",3.0,,,1.0,1.0,0.0,0.00,5.0,38856,38856,0,1.0,1.0,516.0,227.0,0.00,0.00,4.0,,,,2024-10-09 10:31:00,2024-10-09 10:31:00
-category_summary,"Keranjang, Peralatan Makan, Toples / Sealware",3.0,,,1.0,1.0,0.0,0.00,5.0,38800,38800,0,1.0,1.0,517.0,227.0,0.00,0.00,4.0,,,,2025-01-15 20:26:00,2025-01-15 20:26:00
 category_summary,"Botol / Gelas / Mug, Perlengkapan Packing, Rak / Rak Serbaguna",3.0,,,1.0,1.0,0.0,0.00,3.0,38800,38800,0,1.0,1.0,517.0,227.0,0.00,0.00,4.0,,,,2024-07-06 12:51:00,2024-07-06 12:51:00
 category_summary,"Gantungan Baju / Hanger, Tempat Nasi",2.0,,,1.0,1.0,0.0,0.00,2.0,38800,38800,0,1.0,1.0,517.0,227.0,0.00,0.00,4.0,,,,2024-07-07 15:01:00,2024-07-07 15:01:00
+category_summary,"Keranjang, Peralatan Makan, Toples / Sealware",3.0,,,1.0,1.0,0.0,0.00,5.0,38800,38800,0,1.0,1.0,517.0,227.0,0.00,0.00,4.0,,,,2025-01-15 20:26:00,2025-01-15 20:26:00
 category_summary,"Baskom / Mangkok Besar, Mangkok, Piring, Pisau / Alat Potong, Spatula",5.0,,,1.0,1.0,0.0,0.00,6.0,38400,38400,0,1.0,1.0,520.0,227.0,0.00,0.00,4.0,,,,2025-03-06 17:15:00,2025-03-06 17:15:00
 category_summary,"Lunch Box / Rantang, Mangkok Sambal / Saus, Saringan / Strainer",3.0,,,1.0,1.0,0.0,0.00,3.0,38370,38370,0,1.0,1.0,521.0,227.0,0.00,0.00,4.0,,,,2024-07-26 22:50:00,2024-07-26 22:50:00
 category_summary,"Botol / Gelas / Mug, Peralatan Kamar Mandi",2.0,,,1.0,1.0,0.0,0.00,2.0,38000,38000,0,1.0,1.0,522.0,227.0,0.00,0.00,4.0,,,,2024-11-16 09:21:00,2024-11-16 09:21:00
@@ -957,18 +957,18 @@ category_summary,"Aksesoris Pintu, Bangku / Kursi Kecil, Saringan / Strainer",3.
 category_summary,"Baskom / Mangkok Besar, Keranjang, Other",3.0,,,1.0,1.0,0.0,0.00,4.0,37700,37700,0,1.0,1.0,524.0,227.0,0.00,0.00,4.0,,,,2025-01-09 16:18:00,2025-01-09 16:18:00
 category_summary,"Botol / Gelas / Mug, Mangkok, Nampan / Tray",3.0,,,2.0,1.0,1.0,50.00,8.0,37572,37572,0,1.0,1.0,525.0,142.0,0.00,0.01,4.0,,,,2025-08-22 16:17:00,2025-10-24 08:57:00
 category_summary,"Aksesoris Pintu, Other, Sapu / Pembersih Lantai",3.0,,,1.0,1.0,0.0,0.00,3.0,37500,37500,0,1.0,1.0,526.0,227.0,0.00,0.00,4.0,,,,2025-08-05 20:31:00,2025-08-05 20:31:00
-category_summary,"Mangkok, Nampan / Tray",2.0,,,1.0,1.0,0.0,0.00,4.0,37400,37400,0,1.0,1.0,527.0,227.0,0.00,0.00,4.0,,,,2025-03-23 13:41:00,2025-03-23 13:41:00
 category_summary,"Aksesoris Pintu, Other, Perlengkapan Packing, Sapu / Pembersih Lantai, Spatula",5.0,,,1.0,1.0,0.0,0.00,6.0,37400,37400,0,1.0,1.0,527.0,227.0,0.00,0.00,4.0,,,,2025-04-14 04:03:00,2025-04-14 04:03:00
+category_summary,"Mangkok, Nampan / Tray",2.0,,,1.0,1.0,0.0,0.00,4.0,37400,37400,0,1.0,1.0,527.0,227.0,0.00,0.00,4.0,,,,2025-03-23 13:41:00,2025-03-23 13:41:00
 category_summary,"Celengan, Plastik / Wadah Plastik, Tempat Nasi",3.0,,,1.0,1.0,0.0,0.00,3.0,37192,37192,0,1.0,1.0,529.0,227.0,0.00,0.00,4.0,,,,2025-01-31 08:21:00,2025-01-31 08:21:00
-category_summary,"Keranjang, Peralatan Kamar Mandi, Pisau / Alat Potong",3.0,,,1.0,1.0,0.0,0.00,5.0,37000,37000,0,1.0,1.0,530.0,227.0,0.00,0.00,4.0,,,,2024-03-03 12:14:00,2024-03-03 12:14:00
 category_summary,"Celengan, Mangkok",2.0,,,2.0,1.0,1.0,50.00,3.0,37000,37000,0,2.0,1.0,530.0,142.0,0.00,0.01,4.0,,,,2025-04-21 00:25:00,2025-04-30 09:47:00
+category_summary,"Keranjang, Peralatan Kamar Mandi, Pisau / Alat Potong",3.0,,,1.0,1.0,0.0,0.00,5.0,37000,37000,0,1.0,1.0,530.0,227.0,0.00,0.00,4.0,,,,2024-03-03 12:14:00,2024-03-03 12:14:00
 category_summary,"Bangku / Kursi Kecil, Mangkok Sambal / Saus",2.0,,,1.0,1.0,0.0,0.00,2.0,36900,36900,0,1.0,1.0,532.0,227.0,0.00,0.00,4.0,,,,2025-10-24 17:14:00,2025-10-24 17:14:00
 category_summary,"Other, Piring",2.0,,,1.0,1.0,0.0,0.00,2.0,36589,36589,0,1.0,1.0,533.0,227.0,0.00,0.00,4.0,,,,2025-03-11 00:21:00,2025-03-11 00:21:00
 category_summary,"Keranjang, Other, Pisau / Alat Potong",3.0,,,1.0,1.0,0.0,0.00,3.0,36400,36400,0,1.0,1.0,534.0,227.0,0.00,0.00,4.0,,,,2025-04-18 06:42:00,2025-04-18 06:42:00
 category_summary,"Nampan / Tray, Saringan / Strainer, Tempat Nasi",3.0,,,1.0,1.0,0.0,0.00,3.0,36342,36342,0,1.0,1.0,535.0,227.0,0.00,0.00,4.0,,,,2024-07-08 03:09:00,2024-07-08 03:09:00
 category_summary,"Botol / Gelas / Mug, Mangkok",2.0,,,2.0,2.0,0.0,0.00,7.0,35560,17780,0,2.0,2.0,536.0,142.0,0.00,0.01,4.0,,,,2024-07-07 06:08:00,2024-12-01 00:00:00
-category_summary,"Plastik / Wadah Plastik, Seal / Baut / Roof",2.0,,,1.0,1.0,0.0,0.00,5.0,35500,35500,0,1.0,1.0,537.0,227.0,0.00,0.00,4.0,,,,2025-10-11 11:09:00,2025-10-11 11:09:00
 category_summary,"Mangkok Sambal / Saus, Nampan / Tray, Plastik / Wadah Plastik",3.0,,,1.0,1.0,0.0,0.00,5.0,35500,35500,0,1.0,1.0,537.0,227.0,0.00,0.00,4.0,,,,2024-06-03 22:31:00,2024-06-03 22:31:00
+category_summary,"Plastik / Wadah Plastik, Seal / Baut / Roof",2.0,,,1.0,1.0,0.0,0.00,5.0,35500,35500,0,1.0,1.0,537.0,227.0,0.00,0.00,4.0,,,,2025-10-11 11:09:00,2025-10-11 11:09:00
 category_summary,"Mangkok Sambal / Saus, Nampan / Tray, Sikat / Pembersih",3.0,,,1.0,1.0,0.0,0.00,4.0,35400,35400,0,1.0,1.0,539.0,227.0,0.00,0.00,4.0,,,,2025-01-18 14:24:00,2025-01-18 14:24:00
 category_summary,"Aksesoris Mandi, Celengan, Peralatan Kamar Mandi, Sapu / Pembersih Lantai",4.0,,,1.0,1.0,0.0,0.00,4.0,35382,35382,0,1.0,1.0,540.0,227.0,0.00,0.00,4.0,,,,2024-08-04 14:15:00,2024-08-04 14:15:00
 category_summary,"Peralatan Kamar Mandi, Rak / Rak Serbaguna",2.0,,,1.0,1.0,0.0,0.00,3.0,35320,35320,0,1.0,1.0,541.0,227.0,0.00,0.00,4.0,,,,2025-02-27 10:50:00,2025-02-27 10:50:00
@@ -981,13 +981,13 @@ category_summary,"Perlengkapan Packing, Teko / Jug, Tempat Nasi",3.0,,,1.0,1.0,0
 category_summary,"Celengan, Piring",2.0,,,1.0,1.0,0.0,0.00,2.0,34400,34400,0,1.0,1.0,548.0,227.0,0.00,0.00,4.0,,,,2025-09-10 21:09:00,2025-09-10 21:09:00
 category_summary,"Gantungan Baju / Hanger, Peralatan Kamar Mandi",2.0,,,1.0,1.0,0.0,0.00,2.0,34383,34383,0,1.0,1.0,549.0,227.0,0.00,0.00,4.0,,,,2024-10-20 00:29:00,2024-10-20 00:29:00
 category_summary,"Celengan, Nampan / Tray, Sikat / Pembersih",3.0,,,1.0,1.0,0.0,0.00,3.0,34350,34350,0,1.0,1.0,550.0,227.0,0.00,0.00,4.0,,,,2024-02-23 15:12:00,2024-02-23 15:12:00
-category_summary,"Botol / Gelas / Mug, Celengan, Sapu / Pembersih Lantai",3.0,,,1.0,1.0,0.0,0.00,3.0,34300,34300,0,1.0,1.0,551.0,227.0,0.00,0.00,4.0,,,,2024-12-01 00:00:00,2024-12-01 00:00:00
 category_summary,"Aksesoris Pintu, Peralatan Kamar Mandi, Peralatan Makan, Pisau / Alat Potong",4.0,,,2.0,1.0,1.0,50.00,4.0,34300,34300,0,1.0,1.0,551.0,142.0,0.00,0.01,4.0,,,,2025-05-18 19:38:00,2025-05-23 16:27:00
+category_summary,"Botol / Gelas / Mug, Celengan, Sapu / Pembersih Lantai",3.0,,,1.0,1.0,0.0,0.00,3.0,34300,34300,0,1.0,1.0,551.0,227.0,0.00,0.00,4.0,,,,2024-12-01 00:00:00,2024-12-01 00:00:00
 category_summary,"Bangku / Kursi Kecil, Nampan / Tray",2.0,,,2.0,1.0,1.0,50.00,2.0,34256,34256,0,2.0,1.0,553.0,142.0,0.00,0.01,4.0,,,,2025-04-08 19:51:00,2025-04-27 19:05:00
 category_summary,"Aksesoris Pintu, Botol / Gelas / Mug, Sapu / Pembersih Lantai",3.0,,,1.0,1.0,0.0,0.00,4.0,33800,33800,0,1.0,1.0,554.0,227.0,0.00,0.00,4.0,,,,2024-07-30 17:18:00,2024-07-30 17:18:00
 category_summary,"Bangku / Kursi Kecil, Perlengkapan Packing, Spatula",3.0,,,1.0,1.0,0.0,0.00,4.0,33739,33739,0,1.0,1.0,555.0,227.0,0.00,0.00,4.0,,,,2025-05-11 17:40:00,2025-05-11 17:40:00
-category_summary,"Nampan / Tray, Peralatan Makan",2.0,,,1.0,1.0,0.0,0.00,3.0,33500,33500,0,1.0,1.0,556.0,227.0,0.00,0.00,4.0,,,,2025-08-15 05:15:00,2025-08-15 05:15:00
 category_summary,"Keranjang, Mangkok",2.0,,,1.0,1.0,0.0,0.00,3.0,33500,33500,0,1.0,1.0,556.0,227.0,0.00,0.00,4.0,,,,2024-02-10 08:44:00,2024-02-10 08:44:00
+category_summary,"Nampan / Tray, Peralatan Makan",2.0,,,1.0,1.0,0.0,0.00,3.0,33500,33500,0,1.0,1.0,556.0,227.0,0.00,0.00,4.0,,,,2025-08-15 05:15:00,2025-08-15 05:15:00
 category_summary,"Baskom / Mangkok Besar, Plastik / Wadah Plastik, Talenan",3.0,,,1.0,1.0,0.0,0.00,4.0,33448,33448,0,1.0,1.0,558.0,227.0,0.00,0.00,4.0,,,,2025-01-21 08:44:00,2025-01-21 08:44:00
 category_summary,"Mangkok Sambal / Saus, Other, Pisau / Alat Potong",3.0,,,1.0,1.0,0.0,0.00,3.0,33240,33240,0,1.0,1.0,559.0,227.0,0.00,0.00,4.0,,,,2024-07-15 20:08:00,2024-07-15 20:08:00
 category_summary,"Celengan, Piring, Plastik / Wadah Plastik",3.0,,,1.0,1.0,0.0,0.00,5.0,33000,33000,0,1.0,1.0,560.0,227.0,0.00,0.00,4.0,,,,2024-10-19 07:45:00,2024-10-19 07:45:00
@@ -1053,60 +1053,60 @@ category_summary,"Gayung, Keranjang",2.0,,,1.0,1.0,0.0,0.00,2.0,11400,11400,0,1.
 category_summary,"Botol / Gelas / Mug, Spatula",2.0,,,1.0,1.0,0.0,0.00,2.0,9140,9140,0,1.0,1.0,620.0,227.0,0.00,0.00,4.0,,,,2024-12-01 00:00:00,2024-12-01 00:00:00
 category_summary,"Cobek / Ulekan, Other",2.0,,,1.0,1.0,0.0,0.00,2.0,9112,9112,0,1.0,1.0,621.0,227.0,0.00,0.00,4.0,,,,2024-05-05 05:02:00,2024-05-05 05:02:00
 category_summary,"Other, Plastik / Wadah Plastik, Seal / Baut / Roof",3.0,,,1.0,1.0,0.0,0.00,3.0,6616,6616,0,1.0,1.0,622.0,227.0,0.00,0.00,4.0,,,,2025-02-12 07:53:00,2025-02-12 07:53:00
-category_summary,"Other, Pengolah Bumbu / Sayur, Peralatan Makan, Pisau / Alat Potong, Saringan / Strainer, Spatula",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-10-23 23:44:00,2024-10-23 23:44:00
-category_summary,"Bangku / Kursi Kecil, Keranjang, Sapu / Pembersih Lantai, Tempat Nasi",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-07-11 10:18:00,2024-07-11 10:18:00
-category_summary,"Mangkok Sambal / Saus, Peralatan Makan, Piring",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-11-18 21:17:00,2024-11-18 21:17:00
-category_summary,"Nampan / Tray, Sapu / Pembersih Lantai, Teko / Jug",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-05-24 08:06:00,2025-05-24 08:06:00
-category_summary,"Celengan, Other, Pisau / Alat Potong",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-03-21 11:17:00,2025-03-21 11:17:00
-category_summary,"Mangkok Sambal / Saus, Peralatan Kamar Mandi, Saringan / Strainer",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-12-01 00:00:00,2024-12-01 00:00:00
-category_summary,"Botol / Gelas / Mug, Mangkok Sambal / Saus, Other, Peralatan Makan, Pisau / Alat Potong, Saringan / Strainer",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-06 06:00:00,2024-01-06 06:00:00
-category_summary,"Keranjang, Peralatan Makan, Piring, Pisau / Alat Potong",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-09-22 08:29:00,2024-09-22 08:29:00
-category_summary,"Mangkok Sambal / Saus, Pisau / Alat Potong, Plastik / Wadah Plastik, Toples / Sealware",4.0,,,1.0,1.0,0.0,0.00,5.0,0,0,0,1.0,1.0,623.0,227.0,0.00,0.00,4.0,,,,2025-05-12 19:55:00,2025-05-12 19:55:00
-category_summary,"Baskom / Mangkok Besar, Botol / Gelas / Mug, Keranjang, Other, Pengolah Bumbu / Sayur, Pisau / Alat Potong",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-03-15 11:37:00,2025-03-15 11:37:00
-category_summary,"Perlengkapan Packing, Stempel / Alat Kantor",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-11-26 12:06:00,2025-11-26 12:06:00
-category_summary,"Celengan, Nampan / Tray, Pisau / Alat Potong",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-10 06:45:00,2024-01-10 06:45:00
-category_summary,"Peralatan Makan, Toples / Sealware",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2023-12-04 15:37:00,2023-12-04 15:37:00
-category_summary,"Aksesoris Pintu, Botol / Gelas / Mug, Seal / Baut / Roof",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-03-09 00:46:00,2025-03-09 00:46:00
-category_summary,"Aksesoris Mandi, Keranjang, Rak / Rak Serbaguna, Toples / Sealware",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-04 07:38:00,2024-01-04 07:38:00
-category_summary,"Mangkok, Mangkok Sambal / Saus, Nampan / Tray, Other, Piring",5.0,,,1.0,0.0,0.0,0.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-11-23 13:45:00,2025-11-23 13:45:00
-category_summary,"Aksesoris Pintu, Nampan / Tray, Other, Peralatan Kamar Mandi",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-03-26 11:35:00,2025-03-26 11:35:00
-category_summary,"Keranjang, Peralatan Makan, Plastik / Wadah Plastik, Rak / Rak Serbaguna, Talenan, Tempat Nasi",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-05-09 15:43:00,2024-05-09 15:43:00
-category_summary,"Aksesoris Mandi, Botol / Gelas / Mug, Celengan, Gantungan Baju / Hanger, Gayung",5.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-03-09 12:39:00,2024-03-09 12:39:00
-category_summary,"Mangkok Sambal / Saus, Other, Rak / Rak Serbaguna",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-01-15 05:19:00,2025-01-15 05:19:00
-category_summary,"Other, Peralatan Makan, Pisau / Alat Potong, Saringan / Strainer",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-10-23 23:48:00,2024-10-23 23:48:00
-category_summary,"Bangku / Kursi Kecil, Botol / Gelas / Mug, Nampan / Tray, Peralatan Makan, Perlengkapan Packing, Plastik / Wadah Plastik, Saringan / Strainer, Talenan, Toples / Sealware",9.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-04-13 07:30:00,2024-04-13 07:30:00
-category_summary,"Mangkok Sambal / Saus, Spatula",2.0,,,1.0,0.0,0.0,0.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-11-23 22:44:00,2025-11-23 22:44:00
-category_summary,"Celengan, Other, Peralatan Makan, Toples / Sealware",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2023-12-10 14:51:00,2023-12-10 14:51:00
-category_summary,"Bangku / Kursi Kecil, Botol / Gelas / Mug, Plastik / Wadah Plastik",3.0,,,1.0,0.0,0.0,0.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-11-28 10:38:00,2025-11-28 10:38:00
-category_summary,"Keranjang, Other, Peralatan Makan, Pisau / Alat Potong, Plastik / Wadah Plastik, Spatula",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-01 13:52:00,2024-01-01 13:52:00
-category_summary,"Keranjang, Nampan / Tray, Peralatan Makan, Piring, Pisau / Alat Potong, Plastik / Wadah Plastik",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-09-22 08:23:00,2024-09-22 08:23:00
-category_summary,"Aksesoris ID Card, Keranjang, Nampan / Tray, Other, Toples / Sealware",5.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-03-30 11:17:00,2025-03-30 11:17:00
-category_summary,"Cobek / Ulekan, Other, Plastik / Wadah Plastik",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-10-25 01:22:00,2024-10-25 01:22:00
-category_summary,"Bangku / Kursi Kecil, Seal / Baut / Roof",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-11-29 06:32:00,2024-11-29 06:32:00
-category_summary,"Aksesoris Pintu, Peralatan Makan, Sapu / Pembersih Lantai",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-07-04 05:46:00,2024-07-04 05:46:00
-category_summary,"Keranjang, Plastik / Wadah Plastik",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-01-18 09:28:00,2025-01-18 09:28:00
-category_summary,"Botol / Gelas / Mug, Keranjang, Plastik / Wadah Plastik",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-04-28 20:17:00,2024-04-28 20:17:00
-category_summary,"Pisau / Alat Potong, Sapu / Pembersih Lantai, Saringan / Strainer",3.0,,,2.0,0.0,2.0,100.00,0.0,0,,0,1.0,0.0,623.0,142.0,0.00,0.01,4.0,,,,2024-10-06 18:39:00,2024-10-06 18:42:00
-category_summary,"Keranjang, Perlengkapan Packing, Rak / Rak Serbaguna",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-13 12:51:00,2024-01-13 12:51:00
-category_summary,"Baskom / Mangkok Besar, Celengan, Nampan / Tray",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-01-02 10:12:00,2025-01-02 10:12:00
-category_summary,"Peralatan Makan, Rak / Rak Serbaguna, Toples / Sealware",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-15 20:57:00,2024-01-15 20:57:00
-category_summary,"Perlengkapan Packing, Piring",2.0,,,2.0,0.0,2.0,100.00,0.0,0,,0,1.0,0.0,623.0,142.0,0.00,0.01,4.0,,,,2025-03-05 11:28:00,2025-03-05 12:03:00
-category_summary,"Aksesoris Pintu, Other, Peralatan Kamar Mandi",3.0,,,2.0,0.0,2.0,100.00,0.0,0,,0,2.0,0.0,623.0,142.0,0.00,0.01,4.0,,,,2025-03-26 04:27:00,2025-09-03 11:06:00
 category_summary,"Aksesoris ID Card, Bangku / Kursi Kecil, Botol / Gelas / Mug, Mangkok Sambal / Saus, Nampan / Tray, Peralatan Makan, Perlengkapan Packing, Plastik / Wadah Plastik, Saringan / Strainer, Talenan, Toples / Sealware",11.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-04-12 05:44:00,2024-04-12 05:44:00
-category_summary,"Baskom / Mangkok Besar, Gayung, Pisau / Alat Potong",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-07-01 00:00:00,2025-07-01 00:00:00
-category_summary,"Other, Pisau / Alat Potong, Saringan / Strainer, Tempat Nasi",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-07-11 03:22:00,2024-07-11 03:22:00
-category_summary,"Celengan, Perlengkapan Packing, Pisau / Alat Potong",3.0,,,2.0,0.0,2.0,100.00,0.0,0,,0,1.0,0.0,623.0,142.0,0.00,0.01,4.0,,,,2025-04-05 07:47:00,2025-04-06 08:59:00
-category_summary,"Nampan / Tray, Seal / Baut / Roof",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-05-05 00:49:00,2025-05-05 00:49:00
-category_summary,"Lunch Box / Rantang, Tempat Nasi",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-07-05 13:24:00,2024-07-05 13:24:00
-category_summary,"Botol / Gelas / Mug, Mangkok Sambal / Saus, Nampan / Tray, Other",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-08-18 13:00:00,2024-08-18 13:00:00
-category_summary,"Gayung, Mangkok Sambal / Saus, Saringan / Strainer",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-07-08 15:37:00,2024-07-08 15:37:00
-category_summary,"Baskom / Mangkok Besar, Mangkok, Nampan / Tray, Other, Rak / Rak Serbaguna, Saringan / Strainer, Tempat Nasi",7.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-01-02 01:09:00,2025-01-02 01:09:00
-category_summary,"Other, Perlengkapan Packing, Rak / Rak Serbaguna",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-10-11 10:00:00,2024-10-11 10:00:00
-category_summary,"Keranjang, Other, Tempat Nasi",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-04-01 06:12:00,2024-04-01 06:12:00
-category_summary,"Keranjang, Pisau / Alat Potong",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-05-01 16:51:00,2025-05-01 16:51:00
-category_summary,"Peralatan Makan, Saringan / Strainer, Sikat / Pembersih, Teko / Jug",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2023-12-13 11:07:00,2023-12-13 11:07:00
+category_summary,"Aksesoris ID Card, Keranjang, Nampan / Tray, Other, Toples / Sealware",5.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-03-30 11:17:00,2025-03-30 11:17:00
+category_summary,"Aksesoris Mandi, Botol / Gelas / Mug, Celengan, Gantungan Baju / Hanger, Gayung",5.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-03-09 12:39:00,2024-03-09 12:39:00
 category_summary,"Aksesoris Mandi, Botol / Gelas / Mug, Celengan, Gayung, Mangkok",5.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-03-09 12:57:00,2024-03-09 12:57:00
+category_summary,"Aksesoris Mandi, Keranjang, Rak / Rak Serbaguna, Toples / Sealware",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-04 07:38:00,2024-01-04 07:38:00
+category_summary,"Aksesoris Pintu, Botol / Gelas / Mug, Seal / Baut / Roof",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-03-09 00:46:00,2025-03-09 00:46:00
+category_summary,"Aksesoris Pintu, Nampan / Tray, Other, Peralatan Kamar Mandi",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-03-26 11:35:00,2025-03-26 11:35:00
+category_summary,"Aksesoris Pintu, Other, Peralatan Kamar Mandi",3.0,,,2.0,0.0,2.0,100.00,0.0,0,,0,2.0,0.0,623.0,142.0,0.00,0.01,4.0,,,,2025-03-26 04:27:00,2025-09-03 11:06:00
+category_summary,"Aksesoris Pintu, Peralatan Makan, Sapu / Pembersih Lantai",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-07-04 05:46:00,2024-07-04 05:46:00
+category_summary,"Bangku / Kursi Kecil, Botol / Gelas / Mug, Nampan / Tray, Peralatan Makan, Perlengkapan Packing, Plastik / Wadah Plastik, Saringan / Strainer, Talenan, Toples / Sealware",9.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-04-13 07:30:00,2024-04-13 07:30:00
+category_summary,"Bangku / Kursi Kecil, Botol / Gelas / Mug, Plastik / Wadah Plastik",3.0,,,1.0,0.0,0.0,0.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-11-28 10:38:00,2025-11-28 10:38:00
+category_summary,"Bangku / Kursi Kecil, Keranjang, Sapu / Pembersih Lantai, Tempat Nasi",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-07-11 10:18:00,2024-07-11 10:18:00
+category_summary,"Bangku / Kursi Kecil, Seal / Baut / Roof",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-11-29 06:32:00,2024-11-29 06:32:00
+category_summary,"Baskom / Mangkok Besar, Botol / Gelas / Mug, Keranjang, Other, Pengolah Bumbu / Sayur, Pisau / Alat Potong",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-03-15 11:37:00,2025-03-15 11:37:00
+category_summary,"Baskom / Mangkok Besar, Celengan, Nampan / Tray",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-01-02 10:12:00,2025-01-02 10:12:00
+category_summary,"Baskom / Mangkok Besar, Gayung, Pisau / Alat Potong",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-07-01 00:00:00,2025-07-01 00:00:00
+category_summary,"Baskom / Mangkok Besar, Mangkok, Nampan / Tray, Other, Rak / Rak Serbaguna, Saringan / Strainer, Tempat Nasi",7.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-01-02 01:09:00,2025-01-02 01:09:00
 category_summary,"Baskom / Mangkok Besar, Other, Peralatan Makan, Pisau / Alat Potong",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-04-17 09:36:00,2025-04-17 09:36:00
+category_summary,"Botol / Gelas / Mug, Keranjang, Plastik / Wadah Plastik",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-04-28 20:17:00,2024-04-28 20:17:00
+category_summary,"Botol / Gelas / Mug, Mangkok Sambal / Saus, Nampan / Tray, Other",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-08-18 13:00:00,2024-08-18 13:00:00
+category_summary,"Botol / Gelas / Mug, Mangkok Sambal / Saus, Other, Peralatan Makan, Pisau / Alat Potong, Saringan / Strainer",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-06 06:00:00,2024-01-06 06:00:00
+category_summary,"Celengan, Nampan / Tray, Pisau / Alat Potong",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-10 06:45:00,2024-01-10 06:45:00
+category_summary,"Celengan, Other, Peralatan Makan, Toples / Sealware",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2023-12-10 14:51:00,2023-12-10 14:51:00
+category_summary,"Celengan, Other, Pisau / Alat Potong",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-03-21 11:17:00,2025-03-21 11:17:00
+category_summary,"Celengan, Perlengkapan Packing, Pisau / Alat Potong",3.0,,,2.0,0.0,2.0,100.00,0.0,0,,0,1.0,0.0,623.0,142.0,0.00,0.01,4.0,,,,2025-04-05 07:47:00,2025-04-06 08:59:00
+category_summary,"Cobek / Ulekan, Other, Plastik / Wadah Plastik",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-10-25 01:22:00,2024-10-25 01:22:00
+category_summary,"Gayung, Mangkok Sambal / Saus, Saringan / Strainer",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-07-08 15:37:00,2024-07-08 15:37:00
+category_summary,"Keranjang, Nampan / Tray, Peralatan Makan, Piring, Pisau / Alat Potong, Plastik / Wadah Plastik",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-09-22 08:23:00,2024-09-22 08:23:00
+category_summary,"Keranjang, Other, Peralatan Makan, Pisau / Alat Potong, Plastik / Wadah Plastik, Spatula",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-01 13:52:00,2024-01-01 13:52:00
+category_summary,"Keranjang, Other, Tempat Nasi",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-04-01 06:12:00,2024-04-01 06:12:00
+category_summary,"Keranjang, Peralatan Makan, Piring, Pisau / Alat Potong",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-09-22 08:29:00,2024-09-22 08:29:00
 category_summary,"Keranjang, Peralatan Makan, Pisau / Alat Potong",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-09-20 17:26:00,2024-09-20 17:26:00
-category_summary,"Peralatan Makan, Plastik / Wadah Plastik",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-08-17 18:55:00,2024-08-17 18:55:00
+category_summary,"Keranjang, Peralatan Makan, Plastik / Wadah Plastik, Rak / Rak Serbaguna, Talenan, Tempat Nasi",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-05-09 15:43:00,2024-05-09 15:43:00
+category_summary,"Keranjang, Perlengkapan Packing, Rak / Rak Serbaguna",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-13 12:51:00,2024-01-13 12:51:00
+category_summary,"Keranjang, Pisau / Alat Potong",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-05-01 16:51:00,2025-05-01 16:51:00
+category_summary,"Keranjang, Plastik / Wadah Plastik",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-01-18 09:28:00,2025-01-18 09:28:00
+category_summary,"Lunch Box / Rantang, Tempat Nasi",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-07-05 13:24:00,2024-07-05 13:24:00
+category_summary,"Mangkok Sambal / Saus, Other, Rak / Rak Serbaguna",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-01-15 05:19:00,2025-01-15 05:19:00
+category_summary,"Mangkok Sambal / Saus, Peralatan Kamar Mandi, Saringan / Strainer",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-12-01 00:00:00,2024-12-01 00:00:00
+category_summary,"Mangkok Sambal / Saus, Peralatan Makan, Piring",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-11-18 21:17:00,2024-11-18 21:17:00
+category_summary,"Mangkok Sambal / Saus, Pisau / Alat Potong, Plastik / Wadah Plastik, Toples / Sealware",4.0,,,1.0,1.0,0.0,0.00,5.0,0,0,0,1.0,1.0,623.0,227.0,0.00,0.00,4.0,,,,2025-05-12 19:55:00,2025-05-12 19:55:00
+category_summary,"Mangkok Sambal / Saus, Spatula",2.0,,,1.0,0.0,0.0,0.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-11-23 22:44:00,2025-11-23 22:44:00
+category_summary,"Mangkok, Mangkok Sambal / Saus, Nampan / Tray, Other, Piring",5.0,,,1.0,0.0,0.0,0.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-11-23 13:45:00,2025-11-23 13:45:00
+category_summary,"Nampan / Tray, Sapu / Pembersih Lantai, Teko / Jug",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-05-24 08:06:00,2025-05-24 08:06:00
+category_summary,"Nampan / Tray, Seal / Baut / Roof",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-05-05 00:49:00,2025-05-05 00:49:00
+category_summary,"Other, Pengolah Bumbu / Sayur, Peralatan Makan, Pisau / Alat Potong, Saringan / Strainer, Spatula",6.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-10-23 23:44:00,2024-10-23 23:44:00
+category_summary,"Other, Peralatan Makan, Pisau / Alat Potong, Saringan / Strainer",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-10-23 23:48:00,2024-10-23 23:48:00
+category_summary,"Other, Perlengkapan Packing, Rak / Rak Serbaguna",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-10-11 10:00:00,2024-10-11 10:00:00
+category_summary,"Other, Pisau / Alat Potong, Saringan / Strainer, Tempat Nasi",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-07-11 03:22:00,2024-07-11 03:22:00
 category_summary,"Other, Rak / Rak Serbaguna, Sapu / Pembersih Lantai",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-07-01 12:45:00,2024-07-01 12:45:00
+category_summary,"Peralatan Makan, Plastik / Wadah Plastik",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-08-17 18:55:00,2024-08-17 18:55:00
+category_summary,"Peralatan Makan, Rak / Rak Serbaguna, Toples / Sealware",3.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2024-01-15 20:57:00,2024-01-15 20:57:00
+category_summary,"Peralatan Makan, Saringan / Strainer, Sikat / Pembersih, Teko / Jug",4.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2023-12-13 11:07:00,2023-12-13 11:07:00
+category_summary,"Peralatan Makan, Toples / Sealware",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2023-12-04 15:37:00,2023-12-04 15:37:00
+category_summary,"Perlengkapan Packing, Piring",2.0,,,2.0,0.0,2.0,100.00,0.0,0,,0,1.0,0.0,623.0,142.0,0.00,0.01,4.0,,,,2025-03-05 11:28:00,2025-03-05 12:03:00
+category_summary,"Perlengkapan Packing, Stempel / Alat Kantor",2.0,,,1.0,0.0,1.0,100.00,0.0,0,,0,1.0,0.0,623.0,227.0,0.00,0.00,4.0,,,,2025-11-26 12:06:00,2025-11-26 12:06:00
+category_summary,"Pisau / Alat Potong, Sapu / Pembersih Lantai, Saringan / Strainer",3.0,,,2.0,0.0,2.0,100.00,0.0,0,,0,1.0,0.0,623.0,142.0,0.00,0.01,4.0,,,,2024-10-06 18:39:00,2024-10-06 18:42:00

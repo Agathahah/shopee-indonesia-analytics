@@ -30,13 +30,13 @@ Do not edit by hand.
 
 | Segment | Locations | Share of locations | Share of revenue |
 |---|---:|---:|---:|
-| Champions | 88 | 21.5% | 71.3% |
-| Loyal Customers | 58 | 14.2% | 14.8% |
-| At Risk | 33 | 8.1% | 6.3% |
-| Hibernating | 67 | 16.4% | 2.2% |
-| Need Attention | 44 | 10.8% | 2.1% |
-| Potential Loyalists | 39 | 9.5% | 1.8% |
+| Champions | 88 | 21.5% | 71.4% |
+| Loyal Customers | 56 | 13.7% | 14.2% |
+| At Risk | 35 | 8.6% | 6.6% |
+| Hibernating | 66 | 16.1% | 2.3% |
+| Need Attention | 43 | 10.5% | 2.1% |
+| Potential Loyalists | 40 | 9.8% | 2.1% |
 | Lost | 55 | 13.4% | 0.6% |
 | Cannot Lose Them | 6 | 1.5% | 0.6% |
-| Promising | 17 | 4.2% | 0.2% |
-| New Customers | 2 | 0.5% | 0.1% |
+| Promising | 18 | 4.4% | 0.2% |
+| New Customers | 2 | 0.5% | 0.0% |

@@ -104,4 +104,4 @@ WHERE ct.category_name IN (
     SELECT category_name FROM category_ranked WHERE revenue_rank <= 20
 )
 
-ORDER BY analysis_level, revenue_rank NULLS LAST, order_month NULLS FIRST;
+ORDER BY analysis_level, revenue_rank NULLS LAST, order_month NULLS FIRST, category_name;

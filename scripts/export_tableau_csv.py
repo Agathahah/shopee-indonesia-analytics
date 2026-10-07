@@ -17,8 +17,8 @@ TABLEAU_DIR = PROJECT_ROOT / "data" / "tableau"
 
 EXPORTS = {
     "dashboard_executive": "SELECT * FROM vw_dashboard_orders ORDER BY order_timestamp, order_id",
-    "rfm_summary": "SELECT * FROM vw_rfm_summary",
-    "revenue_monthly": "SELECT * FROM vw_revenue_monthly",
+    "rfm_summary": "SELECT * FROM vw_rfm_summary ORDER BY total_monetary DESC, segment",
+    "revenue_monthly": "SELECT * FROM vw_revenue_monthly ORDER BY order_month",
 }
 
 
