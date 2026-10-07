@@ -15,6 +15,14 @@ SQL-first analytics on a public seller export: Python loads the data into Postgr
 | Executive | Tableau Public | [View](https://public.tableau.com/app/profile/agatha.silalahi/viz/NusaCommerceExecutiveDashboard/Dashboard1) | Needs refresh with `data/tableau/dashboard_executive_clean.csv` (see Audit) |
 | Operational | Looker Studio | [View](https://datastudio.google.com/reporting/617f29b4-3925-4943-8729-68fd4bfff227) | Needs refresh with `data/sheets/*.csv` |
 
+**Refreshing them.** The files in `data/sheets/` and `data/tableau/` keep the column names and order the published dashboards were built on (`vw_revenue_monthly_province`, `vw_rfm_locations`, `vw_dashboard_orders` in `sql/07`), so replacing the data does not break any chart; only the values change. Each tab of the Google Sheet behind the Looker Studio report can read its file straight from this repository, so the report follows `main`:
+
+```
+=IMPORTDATA("https://raw.githubusercontent.com/Agathahah/shopee-indonesia-analytics/main/data/sheets/01_revenue_monthly.csv", ",", "en_US")
+```
+
+For Tableau Public, open the workbook in the Tableau Public app, replace the data source with `data/tableau/dashboard_executive_clean.csv`, and save it back to Tableau Public. In both dashboards, "customers" are buyer locations (see below).
+
 ## Unit of analysis: buyer locations, not customers
 
 The seller export has **no buyer identifier**. The pipeline therefore groups orders by city/regency + province. The `customers` table keeps its name for compatibility, but each of its 424 rows is a location. RFM segments, "churn" and "champions" below describe locations, not individual people. Reading them as customers would overstate what the data can say.
@@ -53,6 +61,7 @@ These are hypotheses for experiments. The data cannot show causal effects.
 | 6 | **Database password committed** in three scripts. | Credential in a public repo. | Read from environment variables (`.env.example`). |
 | 7 | **`requirements.txt` was a 120-line `pip freeze`** including Jupyter. | Slow, fragile installs. | Four direct dependencies. |
 | 8 | **Results depended on row order and database locale.** RFM scores used `NTILE(4)` over columns with many ties, so which tied location landed in which quartile was arbitrary; exports sorted text by the database collation and left ties unordered. A re-run on another laptop reordered rows, and a different tie order can move locations between segments (here: Loyal 58 → 56, At Risk 33 → 35). | Segment counts were not strictly reproducible; every re-run produced git diffs. | `customer_id` as tie-breaker inside `NTILE`, explicit tie-breakers in every final `ORDER BY`, the database created with `--locale=C`. Shuffling the input file now gives byte-identical exports. |
+| 9 | **The first audit changed the dashboard files' columns.** `data/sheets/` and `data/tableau/` were regenerated from summary views with different columns (national instead of month × province revenue; a segment summary instead of one row per location), which would have broken the published charts on refresh. | Refreshing the dashboards would have failed. | Dedicated views reproduce the original columns with corrected values; new fields are appended at the end. Headers are checked against the published versions. |
 
 ## Pipeline
 
