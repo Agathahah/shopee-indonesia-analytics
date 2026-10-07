@@ -10,6 +10,8 @@ DROP VIEW IF EXISTS vw_shipping_summary CASCADE;
 DROP VIEW IF EXISTS vw_payment_summary CASCADE;
 DROP VIEW IF EXISTS vw_category_summary CASCADE;
 DROP VIEW IF EXISTS vw_province_summary CASCADE;
+DROP VIEW IF EXISTS vw_revenue_monthly_province CASCADE;
+DROP VIEW IF EXISTS vw_rfm_locations CASCADE;
 
 -- 1. Executive Dashboard View
 CREATE VIEW vw_dashboard_executive AS
@@ -195,7 +197,6 @@ SELECT
     EXTRACT(YEAR FROM o.order_timestamp)::INT              AS order_year,
     EXTRACT(MONTH FROM o.order_timestamp)::INT             AS order_month_num,
     EXTRACT(QUARTER FROM o.order_timestamp)::INT           AS order_quarter,
-    o.timestamp_is_estimated,
     c.city                                                 AS kota,
     c.province                                             AS provinsi,
     COALESCE(sm.courier_name, 'Unknown')                   AS courier,
@@ -211,9 +212,94 @@ SELECT
     o.total_returned_qty,
     (py.discount_amount > 0)::INT                          AS has_discount,
     (py.total_payment >= 500000)::INT                      AS is_high_value,
-    o.customer_id                                          AS buyer_location_id
+    o.customer_id,                                         -- buyer location (city + province), kept under the v1 name
+    o.timestamp_is_estimated                               -- new column, appended so v1 fields keep their position
 FROM orders o
 JOIN payments py ON o.order_id = py.order_id
 JOIN customers c ON o.customer_id = c.customer_id
 JOIN shipping_methods sm ON o.shipping_id = sm.shipping_id
 WHERE o.status = 'Selesai';
+
+
+-- 9. Views for the published dashboards (Looker Studio sheet tabs, Tableau Public).
+-- Their column names and order match the files the live dashboards were built on,
+-- so replacing the data does not break any chart. Only the values are corrected.
+
+-- 9a. Completed orders by month and province (Looker tab "revenue_monthly", Tableau revenue_monthly)
+CREATE VIEW vw_revenue_monthly_province AS
+SELECT
+    DATE_TRUNC('month', o.order_timestamp)::DATE                 AS order_month,
+    TO_CHAR(o.order_timestamp, 'YYYY-MM')                        AS year_month,
+    EXTRACT(YEAR FROM o.order_timestamp)::INT                    AS order_year,
+    EXTRACT(MONTH FROM o.order_timestamp)::INT                   AS order_month_num,
+    c.province                                                   AS provinsi,
+    COUNT(DISTINCT o.order_id)                                   AS total_orders,      -- completed orders
+    SUM(py.total_payment)                                        AS total_revenue,
+    ROUND(AVG(py.total_payment), 0)                              AS avg_order_value,
+    SUM(o.total_qty)                                             AS total_items,
+    COUNT(DISTINCT o.customer_id)                                AS unique_customers,  -- buyer locations
+    SUM(py.discount_amount)                                      AS total_discount,
+    SUM((py.discount_amount > 0)::INT)                           AS discounted_orders
+FROM orders o
+JOIN payments py ON o.order_id = py.order_id
+JOIN customers c ON o.customer_id = c.customer_id
+WHERE o.status = 'Selesai'
+GROUP BY 1, 2, 3, 4, 5;
+
+-- 9b. RFM per buyer location (Looker tab "rfm_summary", Tableau rfm_summary).
+-- Same scoring and tie-breakers as vw_rfm_summary, so segment counts agree.
+CREATE VIEW vw_rfm_locations AS
+WITH reference_date AS (
+    SELECT MAX(order_timestamp)::DATE AS max_date FROM orders WHERE status = 'Selesai'
+),
+customer_rfm AS (
+    SELECT
+        o.customer_id,
+        c.city,
+        c.province,
+        (SELECT max_date FROM reference_date) - MAX(o.order_timestamp)::DATE AS recency_days,
+        COUNT(DISTINCT o.order_id) AS frequency,
+        SUM(py.total_payment) AS monetary,
+        AVG(py.total_payment) AS avg_order_value,
+        SUM(o.total_qty) AS total_items_purchased,
+        MIN(o.order_timestamp)::DATE AS first_order_date,
+        MAX(o.order_timestamp)::DATE AS last_order_date
+    FROM orders o
+    JOIN payments py ON o.order_id = py.order_id
+    JOIN customers c ON o.customer_id = c.customer_id
+    WHERE o.status = 'Selesai'
+    GROUP BY o.customer_id, c.city, c.province
+),
+rfm_scored AS (
+    SELECT *,
+        NTILE(4) OVER (ORDER BY recency_days DESC, customer_id) AS r_score,
+        NTILE(4) OVER (ORDER BY frequency ASC, customer_id) AS f_score,
+        NTILE(4) OVER (ORDER BY monetary ASC, customer_id) AS m_score
+    FROM customer_rfm
+)
+SELECT
+    customer_id,
+    city                                  AS kota,
+    province                              AS provinsi,
+    recency_days,
+    frequency,
+    ROUND(monetary, 0)                    AS monetary,
+    ROUND(avg_order_value, 0)             AS avg_order_value,
+    total_items_purchased,
+    first_order_date,
+    last_order_date,
+    r_score, f_score, m_score,
+    r_score + f_score + m_score           AS rfm_total,
+    CASE
+        WHEN r_score = 4 AND f_score >= 3 AND m_score >= 3 THEN 'Champions'
+        WHEN r_score >= 3 AND f_score >= 3 AND m_score >= 3 THEN 'Loyal Customers'
+        WHEN r_score >= 3 AND f_score >= 2 AND m_score >= 2 THEN 'Potential Loyalists'
+        WHEN r_score = 4 AND f_score <= 2 THEN 'New Customers'
+        WHEN r_score = 3 AND f_score <= 2 AND m_score <= 2 THEN 'Promising'
+        WHEN r_score = 2 AND f_score >= 3 AND m_score >= 3 THEN 'At Risk'
+        WHEN r_score = 2 AND f_score >= 2 THEN 'Need Attention'
+        WHEN r_score = 1 AND f_score >= 3 THEN 'Cannot Lose Them'
+        WHEN r_score = 1 AND f_score = 1 AND m_score = 1 THEN 'Lost'
+        ELSE 'Hibernating'
+    END                                   AS segment
+FROM rfm_scored;

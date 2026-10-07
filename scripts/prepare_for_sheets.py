@@ -6,9 +6,11 @@ Prepare CSV files for manual upload to Google Sheets / Looker Studio.
 import shutil
 from pathlib import Path
 
+# The four tabs of the Google Sheet behind the Looker Studio report. Columns match the
+# tabs the report was built on (month x province revenue, RFM per buyer location).
 SOURCE_FILES = {
-    "data/exports/dashboard_revenue_monthly.csv": "data/sheets/01_revenue_monthly.csv",
-    "data/exports/dashboard_rfm_summary.csv": "data/sheets/02_rfm_summary.csv",
+    "data/exports/dashboard_revenue_monthly_province.csv": "data/sheets/01_revenue_monthly.csv",
+    "data/exports/dashboard_rfm_locations.csv": "data/sheets/02_rfm_summary.csv",
     "data/exports/dashboard_shipping_summary.csv": "data/sheets/03_shipping_summary.csv",
     "data/exports/category_analysis.csv": "data/sheets/04_category_analysis.csv",
 }
