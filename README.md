@@ -27,7 +27,7 @@ All numbers come from [`data/insights/key_metrics.md`](data/insights/key_metrics
 
 **COD dominates order count but not revenue.** 55.3% of all orders are paid by COD, but COD orders bring 38.5% of completed revenue: COD orders are smaller on average. Shifting buyers to digital payment is therefore mostly about cancellations and cash handling, not about revenue size.
 
-**A few locations carry the business.** 88 of 409 buyer locations with completed orders (21.5%) are "Champions" and generate 71.3% of revenue. 122 locations (29.8%) are "Hibernating" or "Lost" and generate 2.8%.
+**A few locations carry the business.** 88 of 409 buyer locations with completed orders (21.5%) are "Champions" and generate 71.4% of revenue. 121 locations (29.6%) are "Hibernating" or "Lost" and generate 2.9%.
 
 **Cancellations:** 2,830 of 20,848 orders (13.6%) were cancelled.
 
@@ -37,7 +37,7 @@ All numbers come from [`data/insights/key_metrics.md`](data/insights/key_metrics
 |---|---|---|
 | High | Protect delivery quality in Jawa Barat, Banten and DKI Jakarta | 56% of revenue; a courier problem there hits the whole business |
 | Medium | Test a small cashless incentive and measure cancellation rate by payment method | COD is 55% of orders; the effect on cancellations must be measured, not assumed |
-| Medium | Test location-targeted promotions in "At Risk" locations (33 locations, 6.3% of revenue) | Cheaper to keep active areas than to reactivate dormant ones |
+| Medium | Test location-targeted promotions in "At Risk" locations (35 locations, 6.6% of revenue) | Cheaper to keep active areas than to reactivate dormant ones |
 
 These are hypotheses for experiments. The data cannot show causal effects.
 
@@ -52,6 +52,7 @@ These are hypotheses for experiments. The data cannot show causal effects.
 | 5 | **README SQL snippet differed from the real query** (it used `CURRENT_DATE` and ranked recency in the wrong direction). | Misleading for readers checking the logic. | Snippet removed; see `sql/03_rfm_segmentation.sql` and `sql/07_views_dashboard_prep.sql`. |
 | 6 | **Database password committed** in three scripts. | Credential in a public repo. | Read from environment variables (`.env.example`). |
 | 7 | **`requirements.txt` was a 120-line `pip freeze`** including Jupyter. | Slow, fragile installs. | Four direct dependencies. |
+| 8 | **Results depended on row order and database locale.** RFM scores used `NTILE(4)` over columns with many ties, so which tied location landed in which quartile was arbitrary; exports sorted text by the database collation and left ties unordered. A re-run on another laptop reordered rows, and a different tie order can move locations between segments (here: Loyal 58 → 56, At Risk 33 → 35). | Segment counts were not strictly reproducible; every re-run produced git diffs. | `customer_id` as tie-breaker inside `NTILE`, explicit tie-breakers in every final `ORDER BY`, the database created with `--locale=C`. Shuffling the input file now gives byte-identical exports. |
 
 ## Pipeline
 
@@ -78,8 +79,9 @@ pip install -r requirements.txt
 
 # PostgreSQL (macOS example)
 brew install postgresql@16 && brew services start postgresql@16
-createdb nusacommerce
 cp .env.example .env && set -a && source .env && set +a   # edit PGUSER/PGPASSWORD first
+# C locale: text sorts the same on every machine, so exports are byte-identical
+createdb -T template0 --locale=C -O "$PGUSER" nusacommerce   # run as a superuser (e.g. -U $(whoami))
 psql -d nusacommerce -f sql/01_schema.sql
 
 # Data

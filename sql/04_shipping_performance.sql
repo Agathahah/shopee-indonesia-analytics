@@ -92,4 +92,4 @@ SELECT 'province_courier_matrix', pc.courier, NULL::VARCHAR, pc.province,
     pc.province_rank_per_courier, NULL::NUMERIC, NULL::NUMERIC
 FROM province_courier pc
 WHERE pc.province_rank_per_courier <= 10
-ORDER BY analysis_level, courier, total_orders DESC;
+ORDER BY analysis_level, courier, total_orders DESC, service_type, province;

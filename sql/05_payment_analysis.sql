@@ -130,4 +130,4 @@ SELECT 'monthly_trend',
     NULL::BIGINT, NULL::NUMERIC,
     mt.mom_growth_pct, mt.monthly_revenue_share_pct, NULL::INT
 FROM monthly_trend mt
-ORDER BY analysis_level, order_month NULLS FIRST, total_revenue DESC;
+ORDER BY analysis_level, order_month NULLS FIRST, total_revenue DESC, payment_method, payment_category_detail;

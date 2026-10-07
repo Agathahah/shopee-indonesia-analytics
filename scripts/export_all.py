@@ -40,6 +40,14 @@ VIEW_EXPORTS = {
     "vw_rfm_summary": "dashboard_rfm_summary.csv",
     "vw_shipping_summary": "dashboard_shipping_summary.csv",
 }
+# A view's own ORDER BY is not guaranteed to survive SELECT * FROM view, and the
+# order-level view has none. Exports are sorted explicitly so re-runs are identical.
+VIEW_ORDER = {
+    "vw_dashboard_orders": "order_timestamp, order_id",
+    "vw_revenue_monthly": "order_month",
+    "vw_rfm_summary": "total_monetary DESC, segment",
+    "vw_shipping_summary": "total_orders DESC, courier, service_type",
+}
 
 KEY_METRICS_SQL = """
 WITH o AS (
@@ -88,7 +96,7 @@ def write_key_metrics(conn) -> None:
     k = query(conn, KEY_METRICS_SQL).iloc[0]
     prov = query(conn, PROVINCE_SQL)
     prov["share"] = prov["revenue"].astype(float) / float(prov["revenue"].sum())
-    rfm = query(conn, "SELECT * FROM vw_rfm_summary")
+    rfm = query(conn, "SELECT * FROM vw_rfm_summary ORDER BY total_monetary DESC, segment")
     lines = [
         "# Key metrics (generated)",
         "",
@@ -134,7 +142,8 @@ def main() -> None:
         with conn.cursor() as cur:
             cur.execute((SQL / "07_views_dashboard_prep.sql").read_text(encoding="utf-8"))
         for view, csv_name in VIEW_EXPORTS.items():
-            df = query(conn, f"SELECT * FROM {view}")
+            order = f" ORDER BY {VIEW_ORDER[view]}" if view in VIEW_ORDER else ""
+            df = query(conn, f"SELECT * FROM {view}{order}")
             df.to_csv(EXPORTS / csv_name, index=False)
             print(f"{view:<32} -> {csv_name:<32} {len(df):>6} rows")
         write_key_metrics(conn)

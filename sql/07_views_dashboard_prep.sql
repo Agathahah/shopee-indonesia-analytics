@@ -72,9 +72,9 @@ customer_rfm AS (
 ),
 rfm_scored AS (
     SELECT *,
-        NTILE(4) OVER (ORDER BY recency_days DESC) AS r_score,
-        NTILE(4) OVER (ORDER BY frequency ASC) AS f_score,
-        NTILE(4) OVER (ORDER BY monetary ASC) AS m_score
+        NTILE(4) OVER (ORDER BY recency_days DESC, customer_id) AS r_score,
+        NTILE(4) OVER (ORDER BY frequency ASC, customer_id) AS f_score,
+        NTILE(4) OVER (ORDER BY monetary ASC, customer_id) AS m_score
     FROM customer_rfm
 ),
 rfm_segmented AS (
@@ -104,7 +104,7 @@ SELECT
     ROUND(SUM(monetary) * 100.0 / SUM(SUM(monetary)) OVER (), 2) AS revenue_pct
 FROM rfm_segmented
 GROUP BY segment
-ORDER BY total_monetary DESC;
+ORDER BY total_monetary DESC, segment;
 
 -- 4. Shipping Summary View
 CREATE VIEW vw_shipping_summary AS
@@ -123,7 +123,7 @@ FROM orders o
 JOIN payments py ON o.order_id = py.order_id
 LEFT JOIN shipping_methods sm ON o.shipping_id = sm.shipping_id
 GROUP BY sm.courier_name, sm.service_type
-ORDER BY total_orders DESC;
+ORDER BY total_orders DESC, courier, service_type;
 
 -- 5. Payment Summary View
 CREATE VIEW vw_payment_summary AS
@@ -141,7 +141,7 @@ SELECT
 FROM orders o
 JOIN payments py ON o.order_id = py.order_id
 GROUP BY py.payment_method
-ORDER BY total_revenue DESC;
+ORDER BY total_revenue DESC, py.payment_method;
 
 -- 6. Category Summary View
 CREATE VIEW vw_category_summary AS
@@ -158,7 +158,7 @@ FROM products p
 JOIN orders o ON p.product_id = o.product_id
 JOIN payments py ON o.order_id = py.order_id
 GROUP BY p.category_name
-ORDER BY total_revenue DESC;
+ORDER BY total_revenue DESC, p.category_name;
 
 -- 7. Province Summary View
 CREATE VIEW vw_province_summary AS
