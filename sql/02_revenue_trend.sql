@@ -103,4 +103,4 @@ SELECT
     pm.province_revenue_share_pct
 FROM national_with_growth ng
 LEFT JOIN province_monthly pm ON ng.order_month = pm.order_month
-ORDER BY ng.order_month, pm.revenue_rank;
+ORDER BY ng.order_month, pm.revenue_rank, pm.province;
