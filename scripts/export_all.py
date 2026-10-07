@@ -39,6 +39,8 @@ VIEW_EXPORTS = {
     "vw_revenue_monthly": "dashboard_revenue_monthly.csv",
     "vw_rfm_summary": "dashboard_rfm_summary.csv",
     "vw_shipping_summary": "dashboard_shipping_summary.csv",
+    "vw_revenue_monthly_province": "dashboard_revenue_monthly_province.csv",
+    "vw_rfm_locations": "dashboard_rfm_locations.csv",
 }
 # A view's own ORDER BY is not guaranteed to survive SELECT * FROM view, and the
 # order-level view has none. Exports are sorted explicitly so re-runs are identical.
@@ -47,6 +49,8 @@ VIEW_ORDER = {
     "vw_revenue_monthly": "order_month",
     "vw_rfm_summary": "total_monetary DESC, segment",
     "vw_shipping_summary": "total_orders DESC, courier, service_type",
+    "vw_revenue_monthly_province": "order_month, provinsi",
+    "vw_rfm_locations": "customer_id",
 }
 
 KEY_METRICS_SQL = """
