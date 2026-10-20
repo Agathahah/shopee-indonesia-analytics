@@ -12,8 +12,8 @@ SQL-first analytics on a public seller export: Python loads the data into Postgr
 
 | Dashboard | Platform | Link | Data status |
 |---|---|---|---|
-| Executive | Tableau Public | [View](https://public.tableau.com/app/profile/agatha.silalahi/viz/NusaCommerceExecutiveDashboard/Dashboard1) | Needs refresh with `data/tableau/dashboard_executive_clean.csv` (see Audit) |
-| Operational | Looker Studio | [View](https://datastudio.google.com/reporting/617f29b4-3925-4943-8729-68fd4bfff227) | Needs refresh with `data/sheets/*.csv` |
+| Executive | Tableau Public | [View](https://public.tableau.com/app/profile/agatha.silalahi/viz/NusaCommerceExecutiveDashboard/Dashboard1) | Refreshed October 2026 from `data/tableau/dashboard_executive_clean.csv` and `rfm_summary_clean.csv` |
+| Operational | Looker Studio | [View](https://datastudio.google.com/reporting/617f29b4-3925-4943-8729-68fd4bfff227) | Up to date: the Google Sheet reads `data/sheets/*.csv` from `main` |
 
 **Refreshing them.** The files in `data/sheets/` and `data/tableau/` keep the column names and order the published dashboards were built on (`vw_revenue_monthly_province`, `vw_rfm_locations`, `vw_dashboard_orders` in `sql/07`), so replacing the data does not break any chart; only the values change. Each tab of the Google Sheet behind the Looker Studio report can read its file straight from this repository, so the report follows `main`:
 
